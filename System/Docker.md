@@ -104,7 +104,6 @@
 - [https://github.com/coreos](https://github.com/coreos)
 - [https://github.com/cri-o/cri-o](https://github.com/cri-o/cri-o)
 - [https://github.com/kata-containers](https://github.com/kata-containers)
-    - [https://www.katacoda.com](https://www.katacoda.com)
     - [https://github.com/hyperhq](https://github.com/hyperhq)
         - [https://www.hyperhq.com](https://www.hyperhq.com)
     - [https://github.com/clearcontainers](https://github.com/clearcontainers)
