@@ -5,44 +5,39 @@
 
 ## Flag
 
++ [https://gitlab.eclipse.org](https://gitlab.eclipse.org)
 + [https://github.com/eclipse/eclipse](https://github.com/eclipse/eclipse)
+   + [https://github.com/eclipse-platform](https://github.com/eclipse-platform)
    + [https://github.com/eclipse-jdt](https://github.com/eclipse-jdt)
+   + [https://github.com/eclipse-cdt](https://github.com/eclipse-cdt)
+   + [https://github.com/eclipse-pde](https://github.com/eclipse-pde)
+   + [https://github.com/eclipse-m2e](https://github.com/eclipse-m2e)
+   + [https://github.com/eclipse-tycho](https://github.com/eclipse-tycho)
+   + [https://github.com/eclipse-windowbuilder](https://github.com/eclipse-windowbuilder)
+   + [https://github.com/eclipse-wildwebdeveloper](https://github.com/eclipse-wildwebdeveloper)
+   + [https://github.com/eclipse-linuxtools](https://github.com/eclipse-linuxtools)
+   + [https://github.com/eclipse-oomph](https://github.com/eclipse-oomph)
+   + [https://github.com/eclipse-cbi](https://github.com/eclipse-cbi)
+   + [https://github.com/eclipse-simrel](https://github.com/eclipse-simrel)
    + [https://www.eclipse.org/ide](https://www.eclipse.org/ide)
    + [https://www.eclipse.org/downloads/packages](https://www.eclipse.org/downloads/packages)
 + 设置 [https://github.com/vorburger/opendaylight-eclipse-setup](https://github.com/vorburger/opendaylight-eclipse-setup)
 + Spring Tools[https://github.com/spring-projects/sts4](https://github.com/spring-projects/sts4)
    + [https://spring.io/tools](https://spring.io/tools)
-+ [https://github.com/eclipse-ditto](https://github.com/eclipse-ditto)
 
 
 * [单行注释自动靠左](https://blog.csdn.net/mp9105/article/details/93343403)
 * [Eclipse的Debug各种视图介绍](https://www.cnblogs.com/ZeGod/p/10114049.html)
 * [STS(eclipse)中文注释错位、缩进、被放大BUG解决](https://blog.csdn.net/u013600314/article/details/85262257)
-
-
-- `Windows` -> `Preference` -> `General` -> `Workspace`
-   -> `Build`
-      - `Save automatically before manual build` 在手动构建之前自动保存
-      - `Build automatically`（同`Project`菜单下的按钮） 自动编译
-   -> `Refresh using native hooks or polling` 自动刷新文件
+* [Eclipse的设置、调优、使用（解决启动卡顿等问题）](https://lexsaints.blog.csdn.net/article/details/80661377)
+* [多模块打包后，扫描不到@controller和@service](https://www.cnblogs.com/antis/p/6138331.html)
+   * [https://stackoverflow.com/a/47378392](https://stackoverflow.com/a/47378392)
+   * [spring注解在自定义jar包中无法被扫描问题](https://www.jianshu.com/p/2f088388783d)
+   * [spring 扫描不到jar中class文件的原因和解决方法](https://blog.csdn.net/xlxxcc/article/details/51142585)
 
 
 > 创建`Dynamic Web Project`项目结构静态资源目录为：`WebContent`/`WebRoot`，idea创建的为`web`
 > 导入的项目没有正确自动识别：在项目上右键选择`Properties`然后检查`Project Facets`和`Project Natures`
-
-
-**查看类图及继承关系**
-
-+ 选中类，右键然后有以下选项
-   + `Open Declaration` <kdb>F3</kdb>
-   + `Open Type Hierarchy` <kdb>F4</kdb> 打开类层次结构查看窗口，显示包括它的父类和子类
-      + `Show the Subtype Hierarchy` 只查看子类
-      + `Show the Supertype Hierarchy` 只查看父类
-   + `Open Call Hierarchy` <kdb>Ctrl</kdb>+<kdb>Alt</kdb>+<kdb>H</kdb>
-   + `Show in Breadcrumb` <kdb>Alt</kdb>+<kdb>Shift</kdb>+<kdb>B</kdb> 面包屑导航
-   + `Quick Outline` <kdb>Ctrl</kdb>+<kdb>O</kdb>
-   + `Quick Type Hierarchy` <kdb>Ctrl</kdb>+<kdb>T</kdb>  打开类层次结构查看弹窗，显示包括它的父类和子类
-
 
 
 
@@ -61,26 +56,6 @@
 > 文件路径为`%USERPROFILE%\.lemminx\cache\http\mybatis.org\dtd\mybatis-3-config.dtd`
 
 
-**Clean Up、Format、Clean**
-
-- 顶部菜单 -> `Source` -> `Clean Up` 针对代码的内容进行整理，比如去除无用代码或者引用包。
-- 顶部菜单 -> `Source` -> `Organize Imports` 去除单个类中无用的引用包信息<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>
-- 顶部菜单 -> `Source` -> `Format` 对代码的格式进行整理，比如设置了`Table`为4个空格，那么将会转换。
-- 顶部菜单 -> `Project` -> `Clean` 根据项目`.classpath`文件，清除编译信息，重新部署到`Java Build Path`下的`Default output folder`中。
-- `Servers` -> `Clean` 是指原先编译到tomcat服务器上的程序，先清除掉，然后再重新编译。
-- `Servers` -> `Clean Tomcat Work Directory...` 将已发布项目中存放jsp转译后的class文件的work目录删除
-
-
-**项目显示结构**
-
-- `Windows` -> `Show View` -> `Other` -> 搜索 `Package Exploer`
-- `Windows` -> `Show View` -> `Other` -> 搜索 `Tasks` 查看待办任务
-
-+ `Window` -> `Preferences` -> `Java` -> `Compiler` -> `Task tags` 定义任务标签
-   + `// TODO` 表示尚未完成的待办事项。
-   + `// XXX` 表示被注释的代码虽然实现了功能，但是实现方案有待商榷，希望将来能改进。
-   + `// FIXME` 表示被注释的代码需要被修正。
-
 
 **WebStorm保存后跳过Eclipse自动同步到Tomcat**
 
@@ -94,6 +69,14 @@
 - 点击顶部菜单 `Tools` -> `Deployment` -> 选择 `Automatic Upload(always)` 自动构建
 
 > 其实原理很简单：就是在保存源码文件的同时，实时编译构建同步的时候跳过Eclipse，直接同步到Tomcat部署的当前项目目录
+
+
+
+## 右键菜单
+
+- `Window` -> `Perspective` -> `Customize Perspective`
+   - `Shortcuts` 新建选项
+
 
 
 ## 安装Java EE开发插件
@@ -115,6 +98,11 @@
 ## 代码格式化
 
 * [General > Editors > Text Editors](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-texteditorprefs.htm)
+
+
+- 顶部菜单 -> `Source` -> `Clean Up` 针对代码的内容进行整理，比如去除无用代码或者引用包。
+- 顶部菜单 -> `Source` -> `Format` 对代码的格式进行整理，比如设置了`Table`为4个空格，那么将会转换。
+- 顶部菜单 -> `Source` -> `Organize Imports` 去除单个类中无用的引用包信息<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>
 
 
 **垂直标尺**
@@ -205,16 +193,68 @@
 * [Eclipse 开启代码提示与关闭变量命名补全](https://xienaoban.github.io/posts/32764)
 
 - `Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist`
-    - `Auto Activation` 下的` Auto Activation triggers for java` 填入 `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
-    - 解决输入`=`或`;`变量自动补全问题：勾选 `Disable insertion triggers except 'Enter'` (按<kbd>Enter</kbd>键才自动补全)
-    - 展开后选中`Advanced` 勾选所有，其中最重要的是`Java Proposals`
-- XML自动补全 `Windows` -> `preferance` -> `XML` -> `XML Files` -> `Editor` -> `Content Assist` -> `Auto Activation`下面的
-`Prompt when these characters are inserted` 填入 `<=:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
+   - `Auto Activation`
+      - `Auto activation delay(ms)` 提示的延迟时间
+      - ` Auto Activation triggers for java` 填入 `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,'"@`
+   - `Advanced`
+      - 勾选`Java Proposals (Task-Focused)`
+      - 勾选`Template Proposals`
+   - 解决输入`=`或`;`变量自动补全问题：勾选 `Disable insertion triggers except 'Enter'` (按<kbd>Enter</kbd>键才自动补全)
+- XML自动补全 `Windows` -> `preferance` -> `XML` -> `XML Files` -> `Editor` -> `Content Assist`
+   - `Auto Activation`下面的`Prompt when these characters are inserted` 填入 `<=:.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
+- 按`@`不提示注解：`Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist`
+   - `Advanced` 下把`java Proposals`勾上
+   - `Enable non-blocking completion(does not affect open editors)` 启用非阻塞完成（不影响打开的编辑器）
+- 高亮显示 `Window` -> `Preferences` -> `Java` -> `Editor` -> `Mark Occurences`
+   - `Mark occurrences of the selected element in the current file.` 高亮显示选中的相同变量
 
-* 解决按下`@`不提示注解：`Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist` -> `Advanced` 下把`java Proposals`勾上
-* `Enable non-blocking completion(does not affect open editors)` 启用非阻塞完成（不影响打开的编辑器）
 
 
+## 清除缓存
+
+
+- 顶部菜单 -> `Project` -> `Clean` 根据项目`.classpath`文件，清除编译信息，重新部署到`Java Build Path`下的`Default output folder`中。
+- `Servers` -> `Clean` 是指原先编译到tomcat服务器上的程序，先清除掉，然后再重新编译。
+- `Servers` -> `Clean Tomcat Work Directory...` 将已发布项目中存放jsp转译后的class文件的work目录删除
+
+
+## 自动刷新
+
+- `Windows` -> `Preference` -> `General`
+   - `Workspace`
+      - `Build`
+         - `Save automatically before manual build` 在手动构建之前自动保存
+         - `Build automatically`（同`Project`菜单下的按钮） 自动编译
+      - `Refresh using native hooks or polling` 自动刷新文件
+      - `Refresh on access` 访问时刷新
+      - `Always close unrelated projects without prompt` 总是在不提示的情况下关闭不相关项目
+      - `Workspace save interval (in minutes)` 工作区保存时间间隔(分钟)
+   - `Startup and Shutdown`
+      - `Refresh workspace on startup` 启动时刷新工作空间
+
+
+## 查看类图及继承关系
+
++ 选中类，右键然后有以下选项
+   + `Open Declaration` <kdb>F3</kdb>
+   + `Open Type Hierarchy` <kdb>F4</kdb> 打开类层次结构查看窗口，显示包括它的父类和子类
+      + `Show the Subtype Hierarchy` 只查看子类
+      + `Show the Supertype Hierarchy` 只查看父类
+   + `Open Call Hierarchy` <kdb>Ctrl</kdb>+<kdb>Alt</kdb>+<kdb>H</kdb>
+   + `Show in Breadcrumb` <kdb>Alt</kdb>+<kdb>Shift</kdb>+<kdb>B</kdb> 面包屑导航
+   + `Quick Outline` <kdb>Ctrl</kdb>+<kdb>O</kdb>
+   + `Quick Type Hierarchy` <kdb>Ctrl</kdb>+<kdb>T</kdb>  打开类层次结构查看弹窗，显示包括它的父类和子类
+
+
+## 项目显示结构
+
+- `Windows` -> `Show View` -> `Other` -> 搜索 `Package Exploer`
+- `Windows` -> `Show View` -> `Other` -> 搜索 `Tasks` 查看待办任务
+
++ `Window` -> `Preferences` -> `Java` -> `Compiler` -> `Task tags` 定义任务标签
+   + `// TODO` 表示尚未完成的待办事项。
+   + `// XXX` 表示被注释的代码虽然实现了功能，但是实现方案有待商榷，希望将来能改进。
+   + `// FIXME` 表示被注释的代码需要被修正。
 
 
 ## 显示内存
@@ -303,6 +343,7 @@
 
 ## 注释模板
 
++ `Help` -> `Help Contents` -> 搜索`Java Editor Template Variables`
 + `Window` -> `Preference` -> `Java` -> `Code Style` -> `Code Templates`
    + 展开`Comments` -> 点击选中子项（`files`、`Types`） -> `Pattern`填入注释模板
    + 勾选 `Automatically add comments for new methods and types` 自动为新方法和类型添加注释
@@ -313,34 +354,30 @@
 
 ```java
 /**
- * @Title: ${file_name}
+ * @Title ${file_name}
  * @Package ${package_name}
- * @Description: 
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @Description 
+ * @author bajins.com
+ * @date ${date} ${time}
  * @version V1.0
- * @Copyright: ${year} bajins.com Inc. All rights reserved.
+ * @Copyright ${year} bajins.com Inc. All rights reserved.
  */
 ```
 
 - 字段(Fields)注释标签
 
 ```java
- /**
-  * @Fields ${field} : 
-  * @author: bajins.com
-  * @date: ${date} ${time}
-  */
+ /** ${field} */
 ```
 
 - 构造函数(Constructors)标签
 
 ```java
 /**
- * @Title: ${enclosing_type}
+ * @Title ${enclosing_type}
  * ${tags}
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
@@ -350,8 +387,8 @@
 /**
  * 
  * ${tags} ${return_type}
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
@@ -359,12 +396,12 @@
 
 ```java
 /**
- * <p>Title: ${enclosing_method}</p>
- * <p>Description: </p>
+ * @Title ${enclosing_method}
+ * @Description
  * ${tags}
  * ${see_to_overridden}
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
@@ -374,8 +411,8 @@
 /**
  * ${tags}
  * ${see_to_target}
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
@@ -383,11 +420,11 @@
 
 ```java
 /**
- * @Title: ${enclosing_method} <BR>
- * @Description: please write your description <BR>
- * @return: ${field_type} <BR>
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @Title ${enclosing_method}
+ * @Description 获取字段“${bare_field_name}”的值
+ * @return ${field_type}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
@@ -395,14 +432,78 @@
 
 ```java
 /**
- * @Title: ${enclosing_method} <BR>
- * @Description: please write your description <BR>
- * @return: ${field_type} <BR>
- * @author: bajins.com
- * @date: ${date} ${time}
+ * @Title ${enclosing_method}
+ * @Description 设置字段“${bare_field_name}”的值
+ * @param ${param}
+ * @author bajins.com
+ * @date ${date} ${time}
  */
 ```
 
+
+## 命令执行
+
+
+**eclipsec应用程序**
+
+- `org.eclipse.jdt.core.JavaCodeFormatter` 格式化 Java 代码
+   - `-config`
+- `org.eclipse.jdt.core.JavaCompiler` 编译 Java 代码
+   - `-sourcepath`
+   - `-classpath`
+- `org.eclipse.equinox.p2.director` 安装、更新或卸载 Eclipse 插件
+   - `-repository`
+   - `-installIU`
+   - `-`
+   - `-`
+- `org.eclipse.ant.core.antRunner` 运行 Apache Ant 构建脚本
+   - `-buildfile`
+- `org.eclipse.ui.ide.workbench` 启动 Eclipse IDE 工作台
+- `org.eclipse.jdt.apt.core.aptBuild` 运行 Java 注解处理器（Annotation Processing Tool）
+   - `-sourcepath`
+   - `-classpath`
+- `org.eclipse.jdt.core.JavaIndexer` 索引 Java 项目
+   - `-sourcepath`
+- `org.eclipse.jdt.core.JavaModelManager` 管理 Java 模型
+   - `-sourcepath`
+- `org.eclipse.update.core.standaloneUpdate` 更新 Eclipse 安装
+   - `-command install`
+   - `-featureId org.eclipse.platform`
+- `org.eclipse.core.launcher.Main` 启动 Eclipse 主应用程序
+
+
+**启动**
+
+- `eclipse -consoleLog -nosplash -data <workspace>`
+
+
+**格式化代码**
+
+- ` eclipsec -data <workspace> -application org.eclipse.jdt.core.JavaCodeFormatter [ OPTIONS: -help、-quiet、-verbose ] -config <configFile> <files>`
+- `Window` -> `Preferences` -> `Java` -> `Code Style` -> `Formatter` -> `Export All` 导出格式化代码的配置XML文件
+
+
+**编译构建**
+
+- `eclipsec -nosplash -data <workspace> -application org.eclipse.ant.core.antRunner -buildfile <buildFile>`
+
+```xml
+<!-- build xml 格式化代码，使用ant format命令 -->
+<project name="FormatCode" default="format" basedir=".">
+    <property name="eclipse.home" value="eclipse文件夹" />
+    <property name="src.dir" value="src" />
+
+    <target name="format">
+        <java classname="org.eclipse.jdt.core.formatter.CodeFormatter" fork="true">
+            <classpath>
+                <pathelement location="${eclipse.home}/plugins/org.eclipse.jdt.core_*.jar"/>
+            </classpath>
+            <arg value="-process"/>
+            <arg value="${src.dir}"/>
+        </java>
+    </target>
+</project>
+```
 
 
 
@@ -412,15 +513,14 @@
 > 一般插件都有`plugins`和`features`两个文件夹，复制到eclipse安装目录即可
 
 * [Eclipse插件开发](https://blog.csdn.net/chenhangx/article/details/119863089)
+* [https://github.com/open-archetypes](https://github.com/open-archetypes)
 
 + `-vmargs -DproxySet=true -DproxyHost=aProxyAddress -DproxyPort=aProxyPort` 启动代理参数
-
++ `Eclipse Web Developer Tools`
 
 - [https://marketplace.eclipse.org/metrics/successful_installs/last30days](https://marketplace.eclipse.org/metrics/successful_installs/last30days)
 - [https://github.com/de-jcup](https://github.com/de-jcup)
-- [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
-   - Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
-   - [https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0](https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0)
+- [https://github.com/eclipse-mylyn](https://github.com/eclipse-mylyn)
 - SVN [https://www.eclipse.org/subversive](https://www.eclipse.org/subversive)
    - [https://polarion.plm.automation.siemens.com/products/svn](https://polarion.plm.automation.siemens.com/products/svn)
 - [https://github.com/subclipse](https://github.com/subclipse)
@@ -428,6 +528,7 @@
    - [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html)
    - Subversion for Java [https://svnkit.com](https://svnkit.com)
 - 代码覆盖率 [https://github.com/eclipse/eclemma](https://github.com/eclipse/eclemma)
+   - [https://sourceforge.net/projects/eclemma](https://sourceforge.net/projects/eclemma)
 - 数据库 [https://dbeaver.io/download](https://dbeaver.io/download)
 - 折叠代码块 [https://github.com/stefaneidelloth/EclipseFolding](https://github.com/stefaneidelloth/EclipseFolding)
    - [https://sourceforge.net/projects/coffeeby1](https://sourceforge.net/projects/coffeeby1)
@@ -443,9 +544,14 @@
 - [https://www.esito.no/en/promo-g9](https://www.esito.no/en/promo-g9)
 - 文本编辑器 [https://github.com/fabioz/LiClipseText](https://github.com/fabioz/LiClipseText)
 - GUI设计 [https://github.com/eclipse/windowbuilder](https://github.com/eclipse/windowbuilder)
-- [https://community.jaspersoft.com/project/jaspersoft-studio](https://community.jaspersoft.com/project/jaspersoft-studio)
 - 开发风格 [https://www.genuitec.com/products/devstyle](https://www.genuitec.com/products/devstyle)
-
+- [http://kurucz-grafika.de/fatjar](http://kurucz-grafika.de/fatjar)
+   - [eclipse中将项目打包成jar的两种方法，及其问题与解决方法](https://www.cnblogs.com/tianyanzhi/p/8067239.html)
+- [https://sourceforge.net/projects/eclipsetidy](https://sourceforge.net/projects/eclipsetidy)
+- [https://sourceforge.net/projects/eclipse-tools](https://sourceforge.net/projects/eclipse-tools)
+- [https://github.com/sebthom/findview-eclipse-plugin](https://github.com/sebthom/findview-eclipse-plugin)
+- Prettier [https://github.com/TheGreatGooo/EclipsePrettierPlugin](https://github.com/TheGreatGooo/EclipsePrettierPlugin)
+- [https://github.com/AObuchow/Eclipse-Spectrum-Theme](https://github.com/AObuchow/Eclipse-Spectrum-Theme)
 
 
 
@@ -465,6 +571,8 @@
 - [https://github.com/iloveeclipse/plugins/wiki](https://github.com/iloveeclipse/plugins/wiki)
 - [https://github.com/java-decompiler/jd-eclipse](https://github.com/java-decompiler/jd-eclipse)
 - [https://github.com/cnfree/Eclipse-Class-Decompiler](https://github.com/cnfree/Eclipse-Class-Decompiler)
+- [https://github.com/helospark/import-jar-as-project](https://github.com/helospark/import-jar-as-project)
+- [https://sourceforge.net/projects/drgarbagetools](https://sourceforge.net/projects/drgarbagetools)
 - [https://github.com/helospark/import-jar-as-project](https://github.com/helospark/import-jar-as-project)
 - 测试 [https://github.com/ot4i/perf-harness](https://github.com/ot4i/perf-harness)
 

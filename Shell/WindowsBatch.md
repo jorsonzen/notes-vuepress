@@ -276,7 +276,16 @@ nslookup 域名
 > `C:\Windows\System32\drivers\etc\hosts`
 
 ```batch
+netsh int ip reset
+netsh int ipv6 reset
+netsh winsock reset
+netsh winhttp reset proxy
+ipconfig /release
+ipconfig /renew
 ipconfig /flushdns
+ipconfig /registerdns
+inetcpl.cpl
+ncpa.cpl
 ```
 
 
@@ -303,6 +312,9 @@ for /f %%i in ('tasklist ^| findstr /i "程序名"') do set reslut=%%i
 
 :: 只输出PID编号
 for /f "skip=3 tokens=2" %a in ('tasklist /fi "imagename eq 程序名*"') do @echo %a
+
+tasklist | findstr "java"
+wmic process where "name like '%java%'" get ProcessId,CommandLine
 ```
 
 **查看被占用端口的`pid`**
@@ -314,8 +326,9 @@ netstat -ano | findstr 80
 ### 结束进程
 
 ```batch
-taskkill /pid 进程号 /f
+taskkill /f /pid 进程号
 taskkill /f /im 程序名
+wmic process where "ProcessId=pid" delete
 ```
 
 
@@ -335,10 +348,8 @@ timeout /T -1 /NOBREAK
 ### 任务计划
 
 * [Schtasks命令详解](https://www.cnblogs.com/daimaxuejia/p/12957644.html)
-* [任务计划程序参考](https://docs.microsoft.com/zh-cn/windows/win32/taskschd/task-scheduler-reference)
 
-+ [https://github.com/dahall/TaskScheduler](https://github.com/dahall/TaskScheduler)
-+ [https://github.com/fireeye/SharPersist](https://github.com/fireeye/SharPersist)
+
 
 **更高级用法见[创建任务计划](/Shell/WindowsJScript.md#创建任务计划)**
 
@@ -378,10 +389,6 @@ SCHTASKS /run /TN 任务名称
 
 
 ### 事件
-
-* [https://docs.microsoft.com/zh-cn/windows/win32/events/windows-events](https://docs.microsoft.com/zh-cn/windows/win32/events/windows-events)
-* [https://docs.microsoft.com/zh-cn/previous-versions//aa385231(v=vs.85)]( https://docs.microsoft.com/zh-cn/previous-versions//aa385231(v=vs.85))
-* [https://docs.microsoft.com/zh-cn/windows/win32/wes/windows-event-log](https://docs.microsoft.com/zh-cn/windows/win32/wes/windows-event-log)
 
 - `eventvwr` 打开事件查看器
     - 打开eventvwr -> Windows 日志 -> 系统 右键打开菜单 -> 将所有事件另存为(E) -> 选择保存类型为xml
@@ -824,20 +831,6 @@ RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 /d %0 /f
 ```
 
-- 替换默认记事本
-
-```batch
-REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" ^
- /v "Debugger" /t REG_SZ /d "\"记事本程序路径\" -z" /f
-```
-
-- 恢复系统默认记事本
-
-```batch
-REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
-REG DELETE "HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
-REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /f
-```
 
 - Windows Defender
 

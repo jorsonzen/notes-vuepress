@@ -1,15 +1,39 @@
+# https://docs.github.com/zh/actions
 name: blog deploy
 
 on:
+  workflow_dispatch: # 启用手动触发工作流
   push:
     branches:
       - master
+  pull_request:
+
+
+permissions: # 操作权限
+  contents: read
+  pull-requests: read
+
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - name: Encoding
+        run: |
+          # git config --global i18n.logoutputencoding utf-8
+          # git config --global i18n.commitencoding utf-8
+          # git config --global core.quotepath false
+          # git config --global http.version HTTP/1.1
+          # git config --global http.postBuffer 524288000
+          git config --global user.email "admin@bajins.com"
+          git config --global user.name "bajins"
+          # export LESSCHARSET=utf-8
+          # https://github.com/vuejs/vuepress/issues/3136
+          # https://stackoverflow.com/questions/74797727/error-error0308010cdigital-envelope-routinesunsupported
+          # export NODE_OPTIONS=--openssl-legacy-provider
+
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           # Whether to checkout submodules: `true` to checkout submodules or `recursive` to
           # recursively checkout submodules.
@@ -18,27 +42,76 @@ jobs:
           # `git@github.com:` are converted to HTTPS.
           #
           # Default: false
-          submodules: 'true'
+          submodules: true
 
+      # https://github.com/Borales/actions-yarn
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: '12.x'
+          node-version: 'latest'
 
-#      - run: npm ci
+      # - run: npm ci
       - run: npm install
       - run: npm run build
 
-# https://github.com/peaceiris/actions-gh-pages
+      # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3.7.3
+        uses: peaceiris/actions-gh-pages@v4
         with: # 为预定义变量赋值
-#          DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-          EXTERNAL_REPOSITORY: bajins/bajins.github.io
-          PUBLISH_BRANCH: master
-          PUBLISH_DIR: ./docs
-          FORCE_ORPHAN: true
-          USER_NAME: bajins
-          USER_EMAIL: admin@bajins.com
-#        env: # 设置环境变量并赋值
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
+          # DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: bajins/bajins.github.io
+          publish_branch: master
+          publish_dir: ./docs
+          force_orphan: true
+          user_name: bajins
+          user_email: admin@bajins.com
+          # env: # 设置环境变量并赋值
+
+  sync-repository: # 同步文件到其他库
+    runs-on: ubuntu-latest
+    steps:
+      - name: Global
+        run: |
+          git config --global user.email "admin@bajins.com"
+          git config --global user.name "bajins"
+        # env:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # /home/runner/work/notes-vuepress/notes-vuepress
+          path: ''
+
+      - name: Checkout notes-docsify repo
+        uses: actions/checkout@v4
+        with:
+          repository: bajins/notes-docsify
+          # /home/runner/work/notes-vuepress/notes-vuepress/notes-docsify
+          path: notes-docsify
+          token: ${{ secrets.PERSONAL_TOKEN }}
+
+      - name: Sync
+        run: |
+          cd notes-docsify
+          find . -maxdepth 1 -printf '%P\n' \
+            | grep -Ev ".git.*|.nojekyll|CNAME|README.*|index.*|push.*|wercker.*" \
+            | xargs rm -rf
+          cd ../
+          ls -lh
+          cp -r `ls -A | grep -Ev \
+            ".git|.github|.vuepress|.gitattributes|.gitignore|.gitmodules\
+            |package.json|README.md|index.html|notes-docsify"`\
+            notes-docsify
+          cp -r .vuepress/public/images .vuepress/public/files notes-docsify
+          # echo "-------------------------------------------------------------"
+          # find $GITHUB_WORKSPACE
+          # echo "-------------------------------------------------------------"
+          cd notes-docsify
+          echo -e '#!/bin/bash\n\n./push.sh'>.git/hooks/pre-commit
+          chmod +x ./push.sh
+          chmod +x .git/hooks/pre-commit
+          git add -A
+          git commit -m "sync"
+          git push

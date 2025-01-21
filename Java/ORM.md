@@ -8,6 +8,9 @@
 > 对象关系映射（Object Relational Mapping，简称ORM）是通过使用描述对象和数据库之间映射的元数据，
 > 将面向对象语言程序中的对象自动持久化到关系数据库中。
 
++ [https://github.com/topics/jdbc](https://github.com/topics/jdbc)
++ [https://github.com/topics/orm](https://github.com/topics/orm)
+
 
 * [https://sourceforge.net/projects/jpox](https://sourceforge.net/projects/jpox)
 * [Java，JDBC和MySQL对应数据类型](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-type-conversions.html)
@@ -24,26 +27,16 @@
 * [https://github.com/apache/openjpa](https://github.com/apache/openjpa)
 * [https://github.com/spring-projects/spring-data-jdbc](https://github.com/spring-projects/spring-data-jdbc)
 * [https://github.com/apache/commons-dbutils](https://github.com/apache/commons-dbutils)
+* [https://github.com/sagframe/sagacity-sqltoy](https://github.com/sagframe/sagacity-sqltoy)
+* 元数据操作 [https://github.com/schemacrawler/SchemaCrawler](https://github.com/schemacrawler/SchemaCrawler)
+    * [https://sourceforge.net/projects/schemacrawler.mirror](https://sourceforge.net/projects/schemacrawler.mirror)
 * 只读查询 [https://github.com/ejlchina/bean-searcher](https://github.com/ejlchina/bean-searcher)
 * [https://github.com/speedment](https://github.com/speedment)
 * [https://github.com/troyzhxu/bean-searcher](https://github.com/troyzhxu/bean-searcher)
 * [https://github.com/MyCATApache/Mycat2](https://github.com/MyCATApache/Mycat2)
-* SQL解析和验证器 [https://github.com/apache/calcite](https://github.com/apache/calcite)
-    * [https://github.com/ieugen/calcite-clj](https://github.com/ieugen/calcite-clj)
-    * [如何实现一个SQL解析器](https://zhuanlan.zhihu.com/p/575800132)
-* [https://github.com/JSQLParser/JSqlParser](https://github.com/JSQLParser/JSqlParser)
-    * [https://github.com/braisdom/ObjectiveSql](https://github.com/braisdom/ObjectiveSql)
-* [https://github.com/prestodb/presto](https://github.com/prestodb/presto)
-* [https://github.com/liweihua274/druid-sqlparser](https://github.com/liweihua274/druid-sqlparser)
-    * [https://github.com/alibaba/druid/wiki/Druid_SQL_AST#24-sqlselect--sqlselectquery](https://github.com/alibaba/druid/wiki/Druid_SQL_AST#24-sqlselect--sqlselectquery)
-    * [https://github.com/alibaba/druid/wiki/SQL-Parser](https://github.com/alibaba/druid/wiki/SQL-Parser)
-    * [https://github.com/alibaba/druid/wiki/SQL_Parser_Demo_visitor](https://github.com/alibaba/druid/wiki/SQL_Parser_Demo_visitor)
-* [https://github.com/camertron/SQLParser](https://github.com/camertron/SQLParser)
-* [https://github.com/iByteCoding/M-SQLParser](https://github.com/iByteCoding/M-SQLParser)
-* [https://github.com/jparsec/jparsec](https://github.com/jparsec/jparsec)
 
 
-- [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
+
 - CRUD生成器 [https://github.com/SanjinKurelic/MVCGenerator](https://github.com/SanjinKurelic/MVCGenerator)
 - [https://github.com/jeddict/jeddict](https://github.com/jeddict/jeddict)
 - [https://codverter.com/src/sqltoclass](https://codverter.com/src/sqltoclass)
@@ -56,14 +49,68 @@
 - 表结构文档生成 [https://github.com/pingfangushi/screw](https://github.com/pingfangushi/screw)
 - 数据库中间件 [https://github.com/apache/shardingsphere](https://github.com/apache/shardingsphere)
     - [https://github.com/apache/shardingsphere-elasticjob](https://github.com/apache/shardingsphere-elasticjob)
-- 连接池 [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
+- 数据库动态监控 [https://github.com/p6spy/p6spy](https://github.com/p6spy/p6spy)
+- [https://github.com/jdbc-observations](https://github.com/jdbc-observations)
+
+
+
+**SQL解析和验证器**
+
++ [https://github.com/search?q=sql+parser](https://github.com/search?q=sql+parser)
+
+
+* [https://github.com/apache/calcite](https://github.com/apache/calcite)
+    * [https://github.com/ieugen/calcite-clj](https://github.com/ieugen/calcite-clj)
+    * [如何实现一个SQL解析器](https://zhuanlan.zhihu.com/p/575800132)
+* [https://github.com/JSQLParser/JSqlParser](https://github.com/JSQLParser/JSqlParser)
+    * [https://github.com/manticore-projects](https://github.com/manticore-projects)
+        * [https://manticore-projects.com/JSQLParser/index.html](https://manticore-projects.com/JSQLParser/index.html)
+    * [https://sourceforge.net/projects/jsqlparser](https://sourceforge.net/projects/jsqlparser)
+    * [https://github.com/braisdom/ObjectiveSql](https://github.com/braisdom/ObjectiveSql)
+* [https://github.com/prestodb/presto](https://github.com/prestodb/presto)
+* [https://github.com/camertron/SQLParser](https://github.com/camertron/SQLParser)
+* [https://github.com/iByteCoding/M-SQLParser](https://github.com/iByteCoding/M-SQLParser)
+* [https://github.com/jparsec/jparsec](https://github.com/jparsec/jparsec)
+* [https://github.com/manasesjesus/fdbs-and-sql-parser](https://github.com/manasesjesus/fdbs-and-sql-parser)
+* [https://github.com/liweihua274/druid-sqlparser](https://github.com/liweihua274/druid-sqlparser)
+    * [https://github.com/alibaba/druid/wiki/SQL-Parser](https://github.com/alibaba/druid/wiki/SQL-Parser)
+    * [Java工具篇之Druid SQL语法解析树](https://developer.aliyun.com/article/1000273)
+
+
+
+
+**连接池**
+
++ [https://github.com/topics/connection-pool](https://github.com/topics/connection-pool)
+
+
+-  [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
 - [https://github.com/alibaba/druid](https://github.com/alibaba/druid)
-    - [Java工具篇之Druid SQL语法解析树](https://developer.aliyun.com/article/1000273)
+    - [https://alphahinex.github.io/2022/05/15/use-druid-to-transform-sql](https://alphahinex.github.io/2022/05/15/use-druid-to-transform-sql)
+    - [记一次 Druid 超时配置的问题 → 引发对 Druid 时间配置项的探究](https://www.cnblogs.com/youzhibing/p/16458860.html)
+    - [真的会用removeAbandoned吗](https://blog.csdn.net/qq_42590394/article/details/134982378)
+    - [druid双刃剑参数之removeAbandoned](https://www.cnblogs.com/tiancai/p/17651907.html)
+- [https://github.com/apache/tomcat/tree/main/modules/jdbc-pool](https://github.com/apache/tomcat/tree/main/modules/jdbc-pool)
+    - [https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html](https://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html)
+- [https://github.com/apache/commons-dbcp](https://github.com/apache/commons-dbcp)
+- [https://github.com/apache/commons-pool](https://github.com/apache/commons-pool)
+- [https://github.com/agroal/agroal](https://github.com/agroal/agroal)
+- [https://github.com/vibur](https://github.com/vibur)
+- [https://github.com/Chris2018998/BeeCP](https://github.com/Chris2018998/BeeCP)
+- [https://sourceforge.net/projects/proxool](https://sourceforge.net/projects/proxool)
+- [https://github.com/swaldman/c3p0](https://github.com/swaldman/c3p0)
+    - [https://sourceforge.net/projects/c3p0](https://sourceforge.net/projects/c3p0)
+- [https://github.com/wwadge/bonecp](https://github.com/wwadge/bonecp)
+
+
+* [https://github.com/vladmihalcea/flexy-pool](https://github.com/vladmihalcea/flexy-pool)
 
 
 
 **Transaction**
 
+* [https://github.com/atomikos/transactions-essentials](https://github.com/atomikos/transactions-essentials)
+    * [Atomikos开源版本的事务管理器实现TransactionEssentials](https://blog.csdn.net/dengjili/article/details/88203047)
 * [https://github.com/codingapi/tx-lcn](https://github.com/codingapi/tx-lcn)
 * [https://github.com/seata/seata](https://github.com/seata/seata)
 * [https://github.com/changmingxie/tcc-transaction](https://github.com/changmingxie/tcc-transaction)
@@ -71,19 +118,24 @@
 * [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
 * [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
 * [https://github.com/atomikos/transactions-essentials](https://github.com/atomikos/transactions-essentials)
+* [https://github.com/bitronix/btm](https://github.com/bitronix/btm)
 
 
 
+- [分布式事务 XA 两段式事务 X/open CAP BASE 一次分清](https://zhuanlan.zhihu.com/p/516844092)
+- X/Open [https://publications.opengroup.org/s243](https://publications.opengroup.org/s243)
 
 
 ## JDBC驱动
 
-**注意使用的JDBC驱动**
 
-- `com.mysql.jdbc.Driver`是`mysql-connector-java 5`中的，不再推荐使用
-- `com.mysql.cj.jdbc.Driver`是`mysql-connector-java 6`中的
+**注意使用的MySQL Connector/J驱动**
 
-> 如果`mysql-connector-java`用的`6.0`以上的，但是你的`driver`用的还是`com.mysql.jdbc.Driver`，就会报错
+- `org.gjt.mm.mysql.Driver` 用于`3.x`版本之前，在`5.1.47`以上版本不存在该类，由一个名为MM (Monty's MySQL) 的项目开发的，该项目后来被Sun Microsystems收购
+- `com.mysql.jdbc.Driver` 用于`5.1.6`版本之前，在MySQL AB（后被Oracle Corporation收购）接手并继续开发JDBC驱动之后使用的
+- `com.mysql.cj.jdbc.Driver` 用于`5.1.6`版本之后
+
+> 从Java 6 `JDBC 4.0`开始，显式加载驱动类的步骤`Class.forName(…)`通常是不必要的，因为JDBC服务提供者机制会自动加载驱动
 
 
 
@@ -121,12 +173,20 @@
 ## Mybatis
 
 * [https://github.com/mybatis](https://github.com/mybatis)
-* [https://mybatis.org/mybatis-3/zh/dynamic-sql.html](https://mybatis.org/mybatis-3/zh/dynamic-sql.html)
+    * [https://mybatis.org/mybatis-3/zh/dynamic-sql.html](https://mybatis.org/mybatis-3/zh/dynamic-sql.html)
+    * [http://www.mybatis.cn](http://www.mybatis.cn)
 * [https://github.com/pagehelper/Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
 * [https://github.com/baomidou/mybatis-plus](https://github.com/baomidou/mybatis-plus)
-* [https://github.com/davidfantasy/mybatis-plus-generator-ui](https://github.com/davidfantasy/mybatis-plus-generator-ui)
+    * [https://github.com/davidfantasy/mybatis-plus-generator-ui](https://github.com/davidfantasy/mybatis-plus-generator-ui)
+    * [https://github.com/baomidou/awesome-mybatis-plus](https://github.com/baomidou/awesome-mybatis-plus)
+* [https://github.com/mybatis-mapper](https://github.com/mybatis-mapper)
+* [https://github.com/abel533/Mapper](https://github.com/abel533/Mapper)
+
 
 - [https://github.com/alexdyysp/MybatisHandBook](https://github.com/alexdyysp/MybatisHandBook)
+- [https://github.com/fengwenyi/mybatis-plus-code-generator](https://github.com/fengwenyi/mybatis-plus-code-generator)
+- [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
+
 
 * [干掉mapper.xml！MyBatis新特性动态SQL](https://cloud.tencent.com/developer/article/1769767)
 * [Mybatis 源码分析 (一) Mapper扫描及代理](https://cofcool.github.io/tech/2018/06/20/mybatis-sourcecode-1)
@@ -230,6 +290,7 @@ for (List<String> partition : partitions) {
 * [https://github.com/hibernate](https://github.com/hibernate)
 * [https://github.com/vladmihalcea/hypersistence-optimizer](https://github.com/vladmihalcea/hypersistence-optimizer)
 * [https://github.com/jeecgboot/MiniDao](https://github.com/jeecgboot/MiniDao)
+* [https://github.com/AnghelLeonard/Hibernate-SpringBoot](https://github.com/AnghelLeonard/Hibernate-SpringBoot)
 
 
 ### 返回结果接收方式

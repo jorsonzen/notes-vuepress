@@ -1,4 +1,4 @@
-# SVN安装使用
+# Subversion
 
 [[toc]]
 
@@ -10,7 +10,12 @@
 - [https://github.com/apache/subversion](https://github.com/apache/subversion)
     - [https://subversion.apache.org](https://subversion.apache.org)
     - windows服务端 [https://www.visualsvn.com](https://www.visualsvn.com)
-    - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
+    - [https://sourceforge.net/projects/tortoisesvn](https://sourceforge.net/projects/tortoisesvn)
+        - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
+        - [https://osdn.net/projects/tortoisesvn](https://osdn.net/projects/tortoisesvn)
+- [https://sourceforge.net/projects/svnbook](https://sourceforge.net/projects/svnbook)
+    - [https://svnbook.red-bean.com](https://svnbook.red-bean.com)
+- [https://github.com/mhagger/cvs2svn](https://github.com/mhagger/cvs2svn)
 
 > 按装`VisualSVN`后客户端使用报错：`执行上下文错误: 由于目标计算机积极拒绝，无法连接。`，需要在`服务`列表中找到相关服务 -> 
 > 右键打开属性 -> 点击登录页签修改`登录身份`为`本地系统账户` -> 点击常规页签修改`启动类型`为`自启动`，再点击启动
@@ -21,6 +26,7 @@
 - [https://www.wandisco.com/source-code-management/subversion](https://www.wandisco.com/source-code-management/subversion)
 - [https://sliksvn.com/pub](https://sliksvn.com/pub)
 - [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
+- [https://bitnami.com/stack/subversion](https://bitnami.com/stack/subversion)
 
 
 * SVN教程 [https://svnbucket.com/posts](https://svnbucket.com/posts)

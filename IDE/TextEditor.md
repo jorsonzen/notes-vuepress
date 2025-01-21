@@ -1,18 +1,17 @@
-# TextTditor
+# TextEditor
 
 [[toc]]
 
 
 ## Flag
 
-+ [https://github.com/topics/notepad?l=c%23](https://github.com/topics/notepad?l=c%23)
-+ [https://github.com/topics/notepad?l=c%2B%2B](https://github.com/topics/notepad?l=c%2B%2B)
-
++ [https://github.com/topics/notepad](https://github.com/topics/notepad)
 
 
 * [https://github.com/GNOME/gedit](https://github.com/GNOME/gedit)
 * [https://github.com/emacs-tw/awesome-emacs](https://github.com/emacs-tw/awesome-emacs)
     * [http://www.gnu.org/software/emacs](http://www.gnu.org/software/emacs)
+    * [https://github.com/mhayashi1120/Emacs-wgrep](https://github.com/mhayashi1120/Emacs-wgrep)
 * [https://github.com/geany/geany](https://github.com/geany/geany)
 * [https://www.nano-editor.org](https://www.nano-editor.org)
 * [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
@@ -27,20 +26,29 @@
     * [https://github.com/neovide/neovide](https://github.com/neovide/neovide)
     * [https://github.com/nshen/learn-neovim-lua](https://github.com/nshen/learn-neovim-lua)
     * [https://github.com/LazyVim/LazyVim](https://github.com/LazyVim/LazyVim)
+    * [https://github.com/ervandew/eclim](https://github.com/ervandew/eclim)
+    * [https://github.com/pit-ray/win-vind](https://github.com/pit-ray/win-vind)
+    * [https://github.com/AstroNvim/AstroNvim](https://github.com/AstroNvim/AstroNvim)
 * [https://github.com/helix-editor/helix](https://github.com/helix-editor/helix)
 * [https://github.com/file-acomplaint/kyun](https://github.com/file-acomplaint/kyun)
 * [https://github.com/rizonesoft/Notepad3](https://github.com/rizonesoft/Notepad3)
 * [https://github.com/zufuliu/notepad2](https://github.com/zufuliu/notepad2)
-* [https://www.scintilla.org](https://www.scintilla.org)
+* [https://github.com/dail8859/NotepadNext](https://github.com/dail8859/NotepadNext)
+* [https://github.com/0x7c13/Notepads](https://github.com/0x7c13/Notepads)
+* 源代码编辑控件 [https://sourceforge.net/projects/scintilla](https://sourceforge.net/projects/scintilla)
+    * [https://www.scintilla.org](https://www.scintilla.org)
+    * [https://github.com/ScintillaOrg/lexilla](https://github.com/ScintillaOrg/lexilla)
 * [http://www.pnotepad.org](http://www.pnotepad.org)
 * [https://github.com/brackets-cont/brackets](https://github.com/brackets-cont/brackets)
     * [https://github.com/adobe/brackets](https://github.com/adobe/brackets)
 * [https://github.com/bobbylight](https://github.com/bobbylight)
 * [https://github.com/textmate](https://github.com/textmate)
 * [https://github.com/Komodo/KomodoEdit](https://github.com/Komodo/KomodoEdit)
+    * [https://github.com/ActiveState/OpenKomodoIDE](https://github.com/ActiveState/OpenKomodoIDE)
 * [https://github.com/lite-xl/lite-xl](https://github.com/lite-xl/lite-xl)
 * [https://github.com/Alexey-T/CudaText](https://github.com/Alexey-T/CudaText)
 * [https://sourceforge.net/projects/bluefish](https://sourceforge.net/projects/bluefish)
+* [https://github.com/steven-tey/novel](https://github.com/steven-tey/novel)
 
 
 - [https://www.texmacs.org](https://www.texmacs.org)
@@ -48,13 +56,37 @@
 
 
 
+
+**替换默认记事本**
+
+```batch
+REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" ^
+ /v "Debugger" /t REG_SZ /d "\"记事本程序路径\" -z" /f
+```
+
+- 恢复系统默认记事本
+
+```batch
+REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
+REG DELETE "HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
+REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /f
+```
+
+
 ## Notepad++
 
 * [https://github.com/notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)
+* [https://github.com/cxasm/notepad--](https://github.com/cxasm/notepad--)
 * [替换默认记事本](https://npp-user-manual.org/docs/other-resources/#notepad-replacement)
 * 插件 [https://github.com/notepad-plus-plus/nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)
+* [https://github.com/npp-plugins](https://github.com/npp-plugins)
+* [https://github.com/JetNpp](https://github.com/JetNpp)
+* [https://github.com/chcg](https://github.com/chcg)
 * [https://github.com/pnedev/comparePlus](https://github.com/pnedev/comparePlus)
+* [https://github.com/chcg/NPP_HexEdit](https://github.com/chcg/NPP_HexEdit)
 * 比较 [https://github.com/pnedev/compare-plugin](https://github.com/pnedev/compare-plugin)
+* JSON [https://github.com/kapilratnani/JSON-Viewer](https://github.com/kapilratnani/JSON-Viewer)
+* [https://github.com/molsonkiko/JsonToolsNppPlugin](https://github.com/molsonkiko/JsonToolsNppPlugin)
 
 - 查看快捷键：`设置` –> `管理快捷键` -> `Scintilla命令`
     - `SCI_SELECTIONDUPLICATE` 复制当前行
@@ -117,6 +149,7 @@
 * 本地化菜单 [https://github.com/zam1024t/LocalizedMenu](https://github.com/zam1024t/LocalizedMenu)
 * 侧边栏右键增强 [https://github.com/52fisher/SideBarEnhancements](https://github.com/52fisher/SideBarEnhancements)
 * 插件管理器 [https://github.com/wbond/package_control](https://github.com/wbond/package_control)
+* [https://github.com/bathos/Ecmascript-Sublime](https://github.com/bathos/Ecmascript-Sublime)
 
 - ChineseLocalizations
 

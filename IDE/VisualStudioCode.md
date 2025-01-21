@@ -22,6 +22,7 @@
 * [https://github.com/coder](https://github.com/coder)
 * [https://github.com/flathub/com.vscodium.codium](https://github.com/flathub/com.vscodium.codium)
     * [https://vscodium.com](https://vscodium.com)
+* 元素定位源代码 [https://github.com/zh-lx/code-inspector](https://github.com/zh-lx/code-inspector)
 
 
 
@@ -268,6 +269,7 @@
 ## VSCode插件
 
 + [https://github.com/eclipse/openvsx](https://github.com/eclipse/openvsx)
++ [https://github.com/EclipseFdn/open-vsx.org](https://github.com/EclipseFdn/open-vsx.org)
 
 
 * [https://github.com/redhat-developer](https://github.com/redhat-developer)
@@ -276,6 +278,16 @@
 * [https://github.com/Axosoft/vscode-gitlens](https://github.com/Axosoft/vscode-gitlens)
 * 协作 [https://github.com/MicrosoftDocs/live-share](https://github.com/MicrosoftDocs/live-share)
 * [https://github.com/njpanderson/push](https://github.com/njpanderson/push) 类似于jet brains的`Deployment Automatic Upload`
+* AI [https://github.com/timkmecl/chatgpt-vscode](https://github.com/timkmecl/chatgpt-vscode)
+* [https://github.com/mpociot/chatgpt-vscode](https://github.com/mpociot/chatgpt-vscode)
+* [https://github.com/tzmartin/stablecode-vscode](https://github.com/tzmartin/stablecode-vscode)
+* [https://github.com/continuedev/continue](https://github.com/continuedev/continue)
+* [https://github.com/cline/cline](https://github.com/cline/cline)
+* 配色 [https://github.com/nealmckee/penumbra](https://github.com/nealmckee/penumbra)
+* 禁用规则 [https://github.com/lvjiaxuan/vscode-eslint-disable](https://github.com/lvjiaxuan/vscode-eslint-disable)
+* 前端提示 [https://github.com/Simon-He95/vscode-common-intellisense](https://github.com/Simon-He95/vscode-common-intellisense)
+* 生成注释 [https://github.com/OBKoro1/koro1FileHeader](https://github.com/OBKoro1/koro1FileHeader)
+* [https://github.com/Simon-He95/common-intellisense](https://github.com/Simon-He95/common-intellisense)
 
 
 

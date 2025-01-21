@@ -5,13 +5,6 @@
 
 ## Flag
 
-- [Michael Redlich-Java近期新闻](https://www.infoq.cn/profile/416A67CDBAA4DC)
-- [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
-- [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
-
-> [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
-> 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
-
 + [https://github.com/topics/java](https://github.com/topics/java)
 + [https://github.com/jcp-org](https://github.com/jcp-org)
 + [https://docs.oracle.com](https://docs.oracle.com)
@@ -22,23 +15,34 @@
     + [https://docs.oracle.com/javase/7/docs](https://docs.oracle.com/javase/7/docs)
     + [JavaBeans 规范](https://www.oracle.com/cn/java/technologies/javase/javabeans-spec.html)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
+    + [https://projects.eclipse.org/list-of-projects](https://projects.eclipse.org/list-of-projects)
+    + [https://github.com/eclipse-ditto](https://github.com/eclipse-ditto)
++ [https://github.com/jakartaee](https://github.com/jakartaee)
     + [https://github.com/javaee](https://github.com/javaee)
     + [https://projects.eclipse.org/jakartaee](https://projects.eclipse.org/jakartaee)
-    + [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
-+ [https://github.com/jakartaee](https://github.com/jakartaee)
+    + [https://jakarta.ee/zh/specifications](https://jakarta.ee/zh/specifications)
+    + [https://github.com/OmniFish-EE](https://github.com/OmniFish-EE)
+
+
+- [Michael Redlich-Java近期新闻](https://www.infoq.cn/profile/416A67CDBAA4DC)
+- [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
+- [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
+- [Java 速查手册](https://bbs.csdn.net/topics/609815996)
+- [https://docland.io](https://docland.io)
+- [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
+
+
+> [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
+> 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
+
 * [https://github.com/javaee-samples](https://github.com/javaee-samples)
 * 生成代码 [https://github.com/moshowgame/SpringBootCodeGenerator](https://github.com/moshowgame/SpringBootCodeGenerator)
-* 序列化基准测试 [https://github.com/eishay/jvm-serializers](https://github.com/eishay/jvm-serializers)
 * Java Web安全 [https://github.com/javaweb-sec/javaweb-sec](https://github.com/javaweb-sec/javaweb-sec)
 * [https://github.com/su18](https://github.com/su18)
 * [https://github.com/phith0n](https://github.com/phith0n)
 * [https://github.com/vulhub](https://github.com/vulhub)
+* [开源教程、开发者工具、编程网站和技术资源](https://www.zhihu.com/people/46-36-54-51-89/posts)
 
-
-**Windows隐藏窗口后台运行jar包（推荐vbs可设置JVM参数）**
-
-* [hidden_run_jar.bat](/files/hidden_run_jar.bat)
-* [hidden_run_jar.vbs](/files/hidden_run_jar.vbs)
 
 
 
@@ -53,12 +57,12 @@
 + [https://github.com/search?q=Interview](https://github.com/search?q=Interview)
 
 
-- Java新功能 [https://github.com/wesleyegberto/java-new-features](https://github.com/wesleyegberto/java-new-features)
-    - [https://github.com/rokon12/project-loom-slides-and-demo-code](https://github.com/rokon12/project-loom-slides-and-demo-code)
-    - [https://github.com/nipafx](https://github.com/nipafx)
-- [https://github.com/hepengju/java-new-features](https://github.com/hepengju/java-new-features)
-- [https://github.com/GreyZeng/java_new_features](https://github.com/GreyZeng/java_new_features)
-- [https://github.com/javamultiplex/java-new-features](https://github.com/javamultiplex/java-new-features)
+* Java新功能 [https://github.com/wesleyegberto/java-new-features](https://github.com/wesleyegberto/java-new-features)
+    * [https://github.com/rokon12/project-loom-slides-and-demo-code](https://github.com/rokon12/project-loom-slides-and-demo-code)
+    * [https://github.com/nipafx](https://github.com/nipafx)
+* [https://github.com/hepengju/java-new-features](https://github.com/hepengju/java-new-features)
+* [https://github.com/GreyZeng/java_new_features](https://github.com/GreyZeng/java_new_features)
+* [https://github.com/javamultiplex/java-new-features](https://github.com/javamultiplex/java-new-features)
 * Java8函数式编程 [https://github.com/glen9527/Java-8-Lambdas-zh](https://github.com/glen9527/Java-8-Lambdas-zh)
 * [https://www.manning.com/books/java-8-in-action](https://www.manning.com/books/java-8-in-action)
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
@@ -72,8 +76,9 @@
 * 《Java编程思想》 第5版  [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
 * [https://github.com/Syasuker/OnJava8-zh](https://github.com/Syasuker/OnJava8-zh)
 * [https://github.com/Knn120/OnJava8-PDF](https://github.com/Knn120/OnJava8-PDF)
-* Java Tutorials 中文版 [https://github.com/pingfangx/java-tutorials-in-chinese](https://github.com/pingfangx/java-tutorials-in-chinese)
+* Java Tutorials [https://github.com/pingfangx/java-tutorials-in-chinese](https://github.com/pingfangx/java-tutorials-in-chinese)
 * [https://github.com/jast90/The-Java-Tutorials-CN](https://github.com/jast90/The-Java-Tutorials-CN)
+* [https://jenkov.com](https://jenkov.com)
 * Java Servlet 3.1 规范 [https://github.com/waylau/servlet-3.1-specification](https://github.com/waylau/servlet-3.1-specification)
 * [https://github.com/flance/java-servlet-specification-4.0](https://github.com/flance/java-servlet-specification-4.0)
 * Effective Java [https://github.com/search?q=effective-java](https://github.com/search?q=effective-java)
@@ -90,8 +95,10 @@
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
 * [https://github.com/javagrowing/JGrowing](https://github.com/javagrowing/JGrowing)
 * [https://github.com/dunwu/java-tutorial](https://github.com/dunwu/java-tutorial)
-* 面试题 [https://github.com/souyunku/DevBooks](https://github.com/souyunku/DevBooks)
-* [https://github.com/4ra1n/JavaSecInterview](https://github.com/4ra1n/JavaSecInterview)
+* [https://github.com/zszdevelop/java-study-gitbook](https://github.com/zszdevelop/java-study-gitbook)
+* 面试题 [https://gitee.com/souyunku/DevBooks](https://gitee.com/souyunku/DevBooks)
+* [https://github.com/Tyson0314/Java-learning](https://github.com/Tyson0314/Java-learning)
+* [https://github.com/xbox1994/Java-Interview](https://github.com/xbox1994/Java-Interview)
 * Java服务端知识技能图谱 [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)
 * [https://yun.itheima.com/subject/javamap/index.html](https://yun.itheima.com/subject/javamap/index.html)
 * JAVA书籍存放库 [https://github.com/singgel/JAVA](https://github.com/singgel/JAVA)
@@ -122,6 +129,7 @@
 * [https://github.com/ninghuang00/githubio](https://github.com/ninghuang00/githubio)
 * [https://github.com/DuHouAn/Java](https://github.com/DuHouAn/Java)
 * [https://github.com/innnky/netlify](https://github.com/innnky/netlify)
+* [https://github.com/binghe001/BingheGuide](https://github.com/binghe001/BingheGuide)
 * Java源码分析【源码笔记】 [https://github.com/yuanmabiji/Java-SourceCode-Blogs](https://github.com/yuanmabiji/Java-SourceCode-Blogs)
     * [https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis](https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis)
 * [http://github.com/CarpenterLee/JavaLambdaInternals](http://github.com/CarpenterLee/JavaLambdaInternals)
@@ -130,7 +138,7 @@
 * [https://github.com/fenixsoft/awesome-fenix](https://github.com/fenixsoft/awesome-fenix)
 * [https://github.com/AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily)
 * JDK源码阅读笔记 [https://github.com/kangjianwei/LearningJDK](https://github.com/kangjianwei/LearningJDK)
-* JDK源码阅读笔记 [https://github.com/seaswalker/jdk-sourcecode-analysis](https://github.com/seaswalker/jdk-sourcecode-analysis)
+* [https://github.com/seaswalker/jdk-sourcecode-analysis](https://github.com/seaswalker/jdk-sourcecode-analysis)
 * [https://github.com/wupeixuan/JDKSourceCode1.8](https://github.com/wupeixuan/JDKSourceCode1.8)
 * JDK8 实现 JVM [https://github.com/guxingke/mini-jvm](https://github.com/guxingke/mini-jvm)
 * [https://github.com/diguage/jdk-source-analysis](https://github.com/diguage/jdk-source-analysis)
@@ -156,7 +164,7 @@
 * [https://github.com/guang19/framework-learning](https://github.com/guang19/framework-learning)
 * Java多线程编程核心技术 [https://github.com/loveincode/java-multi-thread-programming](https://github.com/loveincode/java-multi-thread-programming)
 * 项目实践讲解 [https://github.com/RudeCrab/rude-java](https://github.com/RudeCrab/rude-java)
-* Java OpenTelemetry 测试指南 [https://github.com/chenmudu/open-telemetry-java-guides](https://github.com/chenmudu/open-telemetry-java-guides)
+* Java OpenTelemetry测试指南 [https://github.com/chenmudu/open-telemetry-java-guides](https://github.com/chenmudu/open-telemetry-java-guides)
 * [https://github.com/spring2go/staffjoy](https://github.com/spring2go/staffjoy)
 * [https://github.com/lenve/javaboy-code-samples](https://github.com/lenve/javaboy-code-samples)
 * [https://github.com/0voice/expert_readed_books](https://github.com/0voice/expert_readed_books)
@@ -167,6 +175,7 @@
 * 常用框架源码赏析 [https://github.com/doocs/source-code-hunter](https://github.com/doocs/source-code-hunter)
 * [https://github.com/RichardWarburton/java-8-lambdas-exercises](https://github.com/RichardWarburton/java-8-lambdas-exercises)
 * [https://github.com/ameizi/DevArticles](https://github.com/ameizi/DevArticles)
+* [https://github.com/bage2014/study](https://github.com/bage2014/study)
 * demo [https://github.com/brucevsked/vskeddemolist](https://github.com/brucevsked/vskeddemolist)
 * [https://github.com/biezhi/30-seconds-of-java8](https://github.com/biezhi/30-seconds-of-java8)
 * [https://github.com/jufeng98/java-master](https://github.com/jufeng98/java-master)
@@ -178,13 +187,10 @@
 * [https://space.bilibili.com/435498550](https://space.bilibili.com/435498550)
 
 
-+ [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)
-+ 程序员考公务员 [https://github.com/coder2gwy/coder2gwy](https://github.com/coder2gwy/coder2gwy)
+- [https://ddkk.com](https://ddkk.com)
 
 
-
-
-## 各种好的项目
+## 示例项目
 
 + [https://gitee.com/renrenio](https://gitee.com/renrenio)
     + [https://github.com/renrenio](https://github.com/renrenio)
@@ -199,50 +205,58 @@
 + [https://gitee.com/Thinkingcao/projects](https://gitee.com/Thinkingcao/projects)
 
 
-* [MyBatis-Plus整合项目](http://mp.baomidou.com/guide/#%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B)
-* [king-admin是一个基础权限管理后台，前端：angularJs+bootstrap+gulp，后端：spring-boot+mybatis-plus(分java版和kotlin版)](https://github.com/oukingtim/king-admin)
-* [Guns基于SpringBoot,致力于做更简洁的后台管理系统,完美整合springmvc + shiro + mybatis-plus + beetl + flowable!](https://gitee.com/naan1993/guns)
-* [springboot-plus一个基于SpringBoot 2的管理后台系统](https://gitee.com/xiandafu/springboot-plus)
-* [SpringWind-SSM架构 mybatis-plus kisso 实战项目](https://gitee.com/baomidou/SpringWind)
-* [AdminLTE+Spring+Shiro开发的后台基础系统](https://gitee.com/zhougaojun/KangarooAdmin)
-* [iBase4J-JAVA分布式快速开发平台](https://gitee.com/iBase4J/iBase4J)
-* [framework-后台管理框架，采用springboot+springsecurity+mybatis-plus+bootstrap](https://gitee.com/sunhan521/framework)
+* 后台管理模板 [https://github.com/oukingtim/king-admin](https://github.com/oukingtim/king-admin)
+* [https://gitee.com/naan1993/guns](https://gitee.com/naan1993/guns)
+* [https://gitee.com/xiandafu/springboot-plus](https://gitee.com/xiandafu/springboot-plus)
+* [https://gitee.com/baomidou/SpringWind](https://gitee.com/baomidou/SpringWind)
+* [https://gitee.com/zhougaojun/KangarooAdmin](https://gitee.com/zhougaojun/KangarooAdmin)
+* [https://github.com/honghuangdc/soybean-admin](https://github.com/honghuangdc/soybean-admin)
+* [https://github.com/lenve/vhr](https://github.com/lenve/vhr)
+* [https://github.com/YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro)
+* [https://github.com/yudaocode](https://github.com/yudaocode)
+* [https://github.com/soybeanjs/soybean-admin](https://github.com/soybeanjs/soybean-admin)
+* [https://github.com/yuxintao6/koi-ui](https://github.com/yuxintao6/koi-ui)
+* [https://github.com/chuzhixin/vue-admin-better](https://github.com/chuzhixin/vue-admin-better)
+* [https://gitee.com/iBase4J/iBase4J](https://gitee.com/iBase4J/iBase4J)
+* [https://gitee.com/sunhan521/framework](https://gitee.com/sunhan521/framework)
 * [https://gitee.com/Morning_/Morning](https://gitee.com/Morning_/Morning)
 * [https://gitee.com/shuzheng/zheng](https://gitee.com/shuzheng/zheng)
-* [基础权限开发框架 BMS = Spring boot + Mybatis plus + Shiro](https://gitee.com/eric.xu/BMS)
-* [spring-shiro-training=基于Maven构建的springmvc、spring、mybatis-plus、shiro、log4j2、easyui简单实用的权限脚手架。](https://gitee.com/wangzhixuan/spring-shiro-training)
-* [center=使用kisso、mybatis-plus做的系统管理中心系统](https://gitee.com/willenfoo/center)
-* [skeleton=springboot+mybatis+Shiro 脚手架](https://github.com/fengchangsheng/skeleton)
-* [springboot_mybatisplus=springboot+mybatisplus+springmvc+jsp+shiro+redis+jqgrid美女图片爬虫](https://gitee.com/z77z/springboot_mybatisplus)
+* [https://gitee.com/eric.xu/BMS](https://gitee.com/eric.xu/BMS)
+* [https://gitee.com/wangzhixuan/spring-shiro-training](https://gitee.com/wangzhixuan/spring-shiro-training)
+* [https://gitee.com/willenfoo/center](https://gitee.com/willenfoo/center)
+* [https://github.com/fengchangsheng/skeleton](https://github.com/fengchangsheng/skeleton)
+* [https://gitee.com/z77z/springboot_mybatisplus](https://gitee.com/z77z/springboot_mybatisplus)
 * [https://gitee.com/blind/maple](https://gitee.com/blind/maple)
-* [JEEWEB Mybatis版本是一款基于SpringMVC+Spring+Mybatis+Mybatis Plus的JAVA WEB敏捷开发系统](https://gitee.com/dataact/jeeweb-mybatis)
+* [https://gitee.com/dataact/jeeweb-mybatis](https://gitee.com/dataact/jeeweb-mybatis)
 * [https://gitee.com/fumiao/youngcms](https://gitee.com/fumiao/youngcms)
-* [JeeFast 基于SpringBoot+Mybatis-Plus+Bootstrap+Vue](https://gitee.com/theodo/jeefast)
-* [bing-upms=Spring Boot + Mybatis-Plus + Apache Shiro + FreeMarker 制作的通用权限管理](https://gitee.com/xiaobingby/bing-upms)
-* [slife=Spring Boot+MySQL+Freemark+SiteMesh+Shiro+Bootstrap+mybatis+mybatisPlus+redis+Activiti](https://gitee.com/jamen/slife)
-* [pig 基于Spring Cloud、oAuth2.0开发基于Vue前后分离的开发平台，支持账号、短信、SSO等多种登录](https://gitee.com/log4j/pig)
-* [MSFM权限管理系统是基于springBoot开发的一套轻量级的系统脚手架](https://gitee.com/wanglingxiao/mysiteforme)
+* [https://gitee.com/theodo/jeefast](https://gitee.com/theodo/jeefast)
+* [https://gitee.com/xiaobingby/bing-upms](https://gitee.com/xiaobingby/bing-upms)
+* [https://gitee.com/jamen/slife](https://gitee.com/jamen/slife)
+* [https://gitee.com/log4j/pig](https://gitee.com/log4j/pig)
+* [https://gitee.com/wanglingxiao/mysiteforme](https://gitee.com/wanglingxiao/mysiteforme)
 * [https://github.com/watchdog-framework/watchdog-framework](https://github.com/watchdog-framework/watchdog-framework)
-* [iartisan-admin-template=spring-boot+shiro+sitemesh+mybatis-plus+layui+layuiCMS2.0](https://gitee.com/iartisan/iartisan-admin-template)
-* [qiqiim=springmvc mybatis netty4在线IM，可用于公司内网、外网通讯，客服系统等](https://gitee.com/qiqiim/qiqiim-server)
+* [https://gitee.com/iartisan/iartisan-admin-template](https://gitee.com/iartisan/iartisan-admin-template)
+* [https://gitee.com/qiqiim/qiqiim-server](https://gitee.com/qiqiim/qiqiim-server)
 * [https://github.com/Exrick/x-boot](https://github.com/Exrick/x-boot)
 * [https://gitee.com/stylefeng/guns](https://gitee.com/stylefeng/guns)
 * [https://github.com/yangzongzhuan/RuoYi](https://github.com/yangzongzhuan/RuoYi)
-* [mall-swarm是一套微服务商城系统](https://github.com/macrozheng/mall-swarm)
-* [mall项目是一套电商系统，包括前台商城系统及后台管理系统](https://github.com/macrozheng/mall)
-* [基于SpringBoot2.x、SpringCloud并采用前后端分离的多租户系统架构微服务开发平台](https://gitee.com/ibyte/M-Pass)
+* [https://github.com/macrozheng/mall-swarm](https://github.com/macrozheng/mall-swarm)
+* [https://github.com/macrozheng/mall](https://github.com/macrozheng/mall)
+* [https://gitee.com/ibyte/M-Pass](https://gitee.com/ibyte/M-Pass)
 * [https://github.com/techa03/goodsKill](https://github.com/techa03/goodsKill)
-* [Hasor是一套基于 Java 语言的开发框架](https://github.com/zycgit/hasor)
+* [https://github.com/zycgit/hasor](https://github.com/zycgit/hasor)
+* [https://github.com/enilu/web-flash](https://github.com/enilu/web-flash)
+* 商城 [https://github.com/crmeb/crmeb_java](https://github.com/crmeb/crmeb_java)
 * 行为验证码 [https://github.com/anji-plus/captcha](https://github.com/anji-plus/captcha)
 * EL-ADMIN 后台管理系统 [https://github.com/elunez/eladmin](https://github.com/elunez/eladmin)
-* SpringBlade SaaS多租户微服务开发平台 [https://github.com/chillzhuang/SpringBlade](https://github.com/chillzhuang/SpringBlade)
+* SaaS多租户微服务开发平台 [https://github.com/chillzhuang/SpringBlade](https://github.com/chillzhuang/SpringBlade)
 * 基于springboot的一款纯净脚手架 [https://github.com/fuce1314/Springboot_v2](https://github.com/fuce1314/Springboot_v2)
 * [https://gitee.com/lovetime/WeAdmin](https://gitee.com/lovetime/WeAdmin)
 * [https://github.com/ssssssss-team/magic-api](https://github.com/ssssssss-team/magic-api)
 * 停车场管理 [https://github.com/981011512/--](https://github.com/981011512/--)
 * [https://github.com/smart-cloud/smart-cloud](https://github.com/smart-cloud/smart-cloud)
 * [https://github.com/shuzheng/zheng](https://github.com/shuzheng/zheng)
-* [https://github.com/kekingcn/kkFileView](https://github.com/kekingcn/kkFileView)
+* 文件管理 [https://github.com/kekingcn/kkFileView](https://github.com/kekingcn/kkFileView)
     * Windows `http://kkfileview.keking.cn/kkFileView-4.1.0.zip`
     * Linux `http://kkfileview.keking.cn/kkFileView-4.1.0.tar.gz`
     * Docker `http://kkfileview.keking.cn/kkFileView-4.1.0-docker.tar`
@@ -259,4 +273,6 @@
 * [https://github.com/KouShenhai/KCloud-Platform-Alibaba](https://github.com/KouShenhai/KCloud-Platform-Alibaba)
 * [https://github.com/shiyindaxiaojie/eden-demo-cola](https://github.com/shiyindaxiaojie/eden-demo-cola)
 * [https://github.com/argouml-tigris-org](https://github.com/argouml-tigris-org)
-
+* 数据中台 [https://github.com/birdLark/LarkMidTable](https://github.com/birdLark/LarkMidTable)
+* 消息推送 [https://github.com/ZhongFuCheng3y/austin](https://github.com/ZhongFuCheng3y/austin)
+* IM [https://gitee.com/howcode/aq-chat-server](https://gitee.com/howcode/aq-chat-server)

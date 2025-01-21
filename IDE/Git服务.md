@@ -5,52 +5,40 @@
 
 ## Flag
 
++ [https://github.com/harness/gitness](https://github.com/harness/gitness)
 + [https://github.com/semantic-release](https://github.com/semantic-release)
 + [https://github.com/GerritCodeReview/git-repo](https://github.com/GerritCodeReview/git-repo)
++ [https://github.com/gitonomy/gitlib](https://github.com/gitonomy/gitlib)
++ [https://github.com/gitbucket/gitbucket](https://github.com/gitbucket/gitbucket)
 
 
-* 忽略提交 [https://github.com/github/gitignore](https://github.com/github/gitignore)
-* [https://github.com/toptal/gitignore.io](https://github.com/toptal/gitignore.io)
-* 编辑版本控制存储库的历史 [http://www.catb.org/esr/reposurgeon](http://www.catb.org/esr/reposurgeon)
-* GUI [https://github.com/git-cola/git-cola](https://github.com/git-cola/git-cola)
-* [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
-* [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
-    * [https://gitlab.com/tortoisegit/tortoisegit](https://gitlab.com/tortoisegit/tortoisegit)
-    * [https://tortoisegit.org/download](https://tortoisegit.org/download)
-* [https://www.syntevo.com](https://www.syntevo.com)
-* [https://www.git-tower.com](https://www.git-tower.com)
-* 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
-* Git核心方法的可移植的纯C实现 [https://github.com/libgit2/libgit2](https://github.com/libgit2/libgit2)
-* 来自配置错误的网站的Git仓库泄漏 [https://github.com/liamg/gitjacker](https://github.com/liamg/gitjacker)
-* git加密 [https://github.com/AGWA/git-crypt](https://github.com/AGWA/git-crypt)
-* 自动补全 [https://github.com/dahlbyk/posh-git](https://github.com/dahlbyk/posh-git)
-* [https://github.com/JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
-* 依赖项更新 [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate)
-* Git工具 [https://github.com/GitTools](https://github.com/GitTools)
-* [https://github.com/sosedoff/gitkit](https://github.com/sosedoff/gitkit)
-* SmartGit 是一款优秀的图形化Git仓库管理工具
-* SmartSVN 是一款优秀的图形化SVN仓库管理工具
-* 根据日志生成Changelog [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
+
+* Git实现 [https://github.com/libgit2/libgit2](https://github.com/libgit2/libgit2)
+* [https://github.com/go-git](https://github.com/go-git)
 * Java实现 [https://github.com/eclipse/jgit](https://github.com/eclipse/jgit)
     * [https://github.com/centic9/jgit-cookbook](https://github.com/centic9/jgit-cookbook)
 * [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 *  [https://github.com/projectkudu/kudu](https://github.com/projectkudu/kudu)
+* 来自配置错误的网站的Git仓库泄漏 [https://github.com/liamg/gitjacker](https://github.com/liamg/gitjacker)
 
 
 
-
-**其他版本控制服务**
+**其他GIT服务**
 
 * [https://codeberg.org](https://codeberg.org)
 * [https://git.pleroma.social](https://git.pleroma.social)
 * [https://code.aliyun.com](https://code.aliyun.com)
 * [https://coding.net](https://coding.net)
 * [https://git.code.tencent.com](https://git.code.tencent.com)
-* [https://pagure.io](https://pagure.io)
 * [https://framagit.org](https://framagit.org)
 * [https://git.hit.edu.cn](https://git.hit.edu.cn)
 * [https://www.gitlink.org.cn](https://www.gitlink.org.cn)
+* [https://sourceforge.net](https://sourceforge.net)
+* [https://bitbucket.org](https://bitbucket.org)
+* [https://www.gitkraken.com](https://www.gitkraken.com)
+* [https://launchpad.net](https://launchpad.net)
+* [https://kolaente.dev](https://kolaente.dev)
 * 软件相似度比较 [https://copycat.gitee.com](https://copycat.gitee.com)
 
 
@@ -73,7 +61,6 @@
 
 ## GitLab
 
-
 > root用户登录，右上角头像，Settings -> Preferences -> Localization -> Language，选择“简体中文”即可。
 > 高版本的GitLab自带了中文语言包，可以通过上述方式直接切换。如果找不到该选项，表示你的版本还不支持。只能通过安装中文插件进行汉化。
 
@@ -93,6 +80,7 @@
 * [https://crowdin.com/project/gitlab-ee](https://crowdin.com/project/gitlab-ee)
 * clone所有项目 [https://github.com/huchao1009/gitlab-projects-clone](https://github.com/huchao1009/gitlab-projects-clone)
 * [https://git.openldap.org](https://git.openldap.org)
+* [https://bitnami.com/stack/gitlab](https://bitnami.com/stack/gitlab)
 
 
 
@@ -141,6 +129,12 @@ volumes:
 ## GitHub
 
 + [https://github.com/github](https://github.com/github)
++ 预览项目HTML [https://github.com/htmlpreview/htmlpreview.github.com](https://github.com/htmlpreview/htmlpreview.github.com)
++ 嵌入到HTML [https://github.com/yusanshi/emgithub](https://github.com/yusanshi/emgithub)
++ 生成更新日志 [https://github.com/shipkit/shipkit-changelog](https://github.com/shipkit/shipkit-changelog)
++ [https://github.com/lowlighter/metrics](https://github.com/lowlighter/metrics)
++ [https://github.com/ryo-ma/github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
+
 
 * GitHub漫游指南 [https://github.com/phodal/github](https://github.com/phodal/github)
 * 首次贡献 [https://github.com/firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
@@ -151,6 +145,9 @@ volumes:
 * [https://codecov.io](https://codecov.io)
 * [目录 - P3TERX ZONE](https://p3terx.com/archives.html)
 * [https://github.com/tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet)
+* 发现造假stars [https://github.com/dagster-io/fake-star-detector](https://github.com/dagster-io/fake-star-detector)
+* 2FA身份验证 [https://github.com/Dolov/chrome-github-2fa](https://github.com/Dolov/chrome-github-2fa)
+
 
 - [https://github.com/zenodo/zenodo](https://github.com/zenodo/zenodo)
 - 手动同步fork [https://blog.blueskyclouds.com/jsfx/58.html](https://blog.blueskyclouds.com/jsfx/58.html)
@@ -160,6 +157,7 @@ volumes:
     - [https://github.com/apps/pull](https://github.com/apps/pull)
     - [https://github.com/BlueskyClouds/My-Actions/blob/master/backUp/gitSync.md](https://github.com/BlueskyClouds/My-Actions/blob/master/backUp/gitSync.md)
 - GitHub的Java API [https://github.com/hub4j/github-api](https://github.com/hub4j/github-api)
+- 自动拉取请求 [https://github.com/dependabot/dependabot-core](https://github.com/dependabot/dependabot-core)
 - 项目管理 [https://www.zenhub.com](https://www.zenhub.com)
 
 
@@ -167,22 +165,35 @@ volumes:
 **统计**
 
 
+- [https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars](https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars)
+- [https://github.com/trending](https://github.com/trending)
 - GitHub存档 [https://www.gharchive.org](https://www.gharchive.org)
 - [https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
-- GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
-- GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
+- [https://github.com/cfour-hi/gitstars](https://github.com/cfour-hi/gitstars)
+- 开源项目刊栏 [https://github.com/521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
+- [https://github.com/LeslieLeung/cat-fish-weekly](https://github.com/LeslieLeung/cat-fish-weekly)
+- GitHub趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
+- [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
 - [https://github.com/HelloGitHub-Team/Article](https://github.com/HelloGitHub-Team/Article)
 - [https://github.com/tophubs](https://github.com/tophubs)
+- [https://www.tkcnn.com](https://www.tkcnn.com)
+- [https://github.com/VulnTotal-Team/yarb](https://github.com/VulnTotal-Team/yarb)
+- [https://github.com/chainreactors/picker](https://github.com/chainreactors/picker)
 - 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
     - [https://github.oldjpg.com](https://github.oldjpg.com)
 - [https://github.com/GitHubDaily](https://github.com/GitHubDaily)
 - [https://github.com/techgaun/active-forks](https://github.com/techgaun/active-forks)
 - [https://giters.com](https://giters.com)
 - 技术周刊 [https://github.com/tw93/weekly](https://github.com/tw93/weekly)
+- [https://github.com/ruanyf/weekly](https://github.com/ruanyf/weekly)
+    - [https://www.ruanyifeng.com/blog/archives.html](https://www.ruanyifeng.com/blog/archives.html)
 - 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)
+- [https://github.com/dahezhiquan/Github-personal-homepage](https://github.com/dahezhiquan/Github-personal-homepage)
 - 获取动态生成的GitHub统计信息 [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+- [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
 - 获取访问统计 http://profile-counter.glitch.me/用户名/count.svg
 - 历史Star数 https://starchart.cc/用户名/My-Actions.svg
+- [https://github.com/star-history/star-history](https://github.com/star-history/star-history)
 - [你在 GitHub 上看到过的最有意思的项目是什么？ - 知乎](https://www.zhihu.com/question/23498424)
 
 
@@ -192,59 +203,41 @@ volumes:
 
 > 可以使用`git config --global url."github.com".insteadOf hub.fastgit.org`来替换url
 
-* php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)
-* go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
-* [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
-* [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
-* [https://myssl.com/dns_check.html](https://myssl.com/dns_check.html)
-* [http://tool.chinaz.com/dns](http://tool.chinaz.com/dns)
-* [https://www.ipaddress.com](https://www.ipaddress.com)
-* [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
-* [https://trli.coding.net/public](https://trli.coding.net/public)
-* [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
-
-
-- [https://gitee.com/organizations/mirrors_trending/projects](https://gitee.com/organizations/mirrors_trending/projects)
-- [https://gitee.com/docmirror/dev-sidecar](https://gitee.com/docmirror/dev-sidecar)
-    - [https://github.com/docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar)
-
-
-* [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
-* [https://gitee.com/mirrors](https://gitee.com/mirrors)
+* [https://github.com/ilanyu](https://github.com/ilanyu)
+* [https://gitee.com/docmirror/dev-sidecar](https://gitee.com/docmirror/dev-sidecar)
+    * [https://github.com/docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar)
 * [https://github.com/FastGitORG](https://github.com/FastGitORG)
-    * [https://hub.fastgit.org](https://hub.fastgit.org) 中国香港
     * [https://toolwa.com/github](https://toolwa.com/github)
+    * [https://github.ur1.fun](https://github.ur1.fun)
 * [https://github.com/dotnetcore/FastGithub](https://github.com/dotnetcore/FastGithub)
 * [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
-    * [https://ghproxy.com](https://ghproxy.com) 韩国首尔
-    * [http://git.aakkc.com](http://git.aakkc.com)
-    * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz) 美国
-    * [https://shrill-pond-3e81.hunsh.workers.dev](https://shrill-pond-3e81.hunsh.workers.dev)
-    * [https://github.91chifun.workers.dev](https://github.91chifun.workers.dev)
-* [https://d.serctl.com](https://d.serctl.com)
-* [https://github.xxyyzz.workers.dev](https://github.xxyyzz.workers.dev)
-* [https://gh.msx.workers.dev](https://gh.msx.workers.dev) 美国
-* [https://gh.xiu2.xyz](https://gh.xiu2.xyz) 美国（自建
-* [https://gh.argv.cc](https://gh.argv.cc) 美国
-* [https://git.yumenaka.net](https://git.yumenaka.net) 美国
-* [https://download.fastgit.org](https://download.fastgit.org) 日本
-* [https://gitclone.com	中国浙江](https://gitclone.com) 中国浙江
-* [https://github.com.cnpmjs.org](https://github.com.cnpmjs.org) 新加坡
+    * [https://gh.api.99988866.xyz](https://gh.api.99988866.xyz)
+    * [https://gh.ddlc.top](https://gh.ddlc.top)
+    * [https://ghps.cc](https://ghps.cc)
+* [https://github.com/git-cloner](https://github.com/git-cloner)
+    * [https://gitclone.com](https://gitclone.com) 中国浙江
+* [https://github.com/BaseMax/GitHubMirror](https://github.com/BaseMax/GitHubMirror)
+* [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
+* [https://githubfast.com](https://githubfast.com)
+* [https://github.com/7ednet/yard](https://github.com/7ednet/yard)
+    * [https://www.7ed.net/gitmirror/hub.html](https://www.7ed.net/gitmirror/hub.html)
+    * [https://gitmirror.com](https://gitmirror.com)
+    * [https://gh.con.sh](https://gh.con.sh)
+* [https://github.com/521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520)
 
 
-**Git Clone SSH 加速**
-
-* `git@git.zhlh6.cn` 中国北京
-* `git@hub.fastgit.org` 中国香港
+- [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
+- [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
+- [https://github.com/maxiaof/github-hosts](https://github.com/maxiaof/github-hosts)
+- [https://github.com/Potterli20/hosts](https://github.com/Potterli20/hosts)
+- [https://codechina.csdn.net/mirrors](https://codechina.csdn.net/mirrors)
 
 
 **Raw 文件加速**
 
 * [https://cdn.jsdelivr.net](https://cdn.jsdelivr.net) 中国国内
-* [https://raw.fastgit.org](https://raw.fastgit.org) 中国香港
+    * [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
 * [https://cdn.staticaly.com](https://cdn.staticaly.com) 日本东京
-
-
 
 
 **刷新DNS缓存**
@@ -262,22 +255,6 @@ sudo /etc/init.d/dns-clean start
 ```
 
 
-**克隆代理地址**
-
-* [https://github.com/BaseMax/GitHubMirror](https://github.com/BaseMax/GitHubMirror)
-* [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
-
-- 替换`github.com`为
-  - `github.com.cnpmjs.org`
-  - `jlytgs.com/github_`
-  - `github.dyf62976.workers.dev`
-  - `github.wuyanzheshui.workers.dev`
-  - `github.hsmw.workers.dev`
-  - `github.reycn.workers.dev`
-  - `github.itzmx.com`
-
-* [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
-
 
 
 
@@ -293,6 +270,7 @@ sudo /etc/init.d/dns-clean start
 
 + [https://github.com/actions](https://github.com/actions)
     + 检出项目 [https://github.com/actions/checkout](https://github.com/actions/checkout)
+    + [https://github.com/aws-actions](https://github.com/aws-actions)
 + [https://github.com/topics/github-pages](https://github.com/topics/github-pages)
 + [https://github.com/topics/gh-pages](https://github.com/topics/gh-pages)
 + [https://github.com/topics/deploy](https://github.com/topics/deploy)
