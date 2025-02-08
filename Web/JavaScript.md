@@ -7,19 +7,20 @@
 
 > 对网页行为进行编程，Vanilla JS 就是指JavaScript（ECMAscript）
 
-+ [https://www.w3.org](https://www.w3.org)
-+ [https://www.ecma-international.org](https://www.ecma-international.org)
-+ Ecma 国际，技术委员会 [https://github.com/tc39](https://github.com/tc39)
-+ [https://github.com/75team/tc39](https://github.com/75team/tc39)
-+ [https://github.com/JSCIG](https://github.com/JSCIG)
-+ WHATWG技术的标准 [https://github.com/whatwg](https://github.com/whatwg)
-    + [https://spec.whatwg.org](https://spec.whatwg.org)
 + ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
 + 检查JS文件中的ES版本 [https://github.com/dollarshaveclub/es-check](https://github.com/dollarshaveclub/es-check)
-+ ES6支持情况 [https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
++ ES6支持情况 [https://github.com/kangax/compat-table](https://github.com/kangax/compat-table)
+  + [https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
++ [https://github.com/financial-times/polyfill-service](https://github.com/financial-times/polyfill-service)
++ [https://github.com/taylorhakes/promise-polyfill](https://github.com/taylorhakes/promise-polyfill)
 
 
+> [Polyfill](https://developer.mozilla.org/zh-CN/docs/Glossary/Polyfill) 是一块代码（通常是 Web 上的 JavaScript）
+> ，用来为旧浏览器提供它没有原生支持的较新的功能
 
+
+* [服务器实时消息获取的技术方案](https://rxdb.info/articles/websockets-sse-polling-webrtc-webtransport.html)
+  * [https://github.com/Sh3b0/realtime-web](https://github.com/Sh3b0/realtime-web)
 * [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
 * [js keyup、keypress和keydown事件 详解](https://www.cnblogs.com/manongxiaobing/archive/2012/11/05/2755412.html)
 * [js中keyup-keypress-keydown以及oninput四个事件](https://blog.csdn.net/FGstudy/article/details/101854125)
@@ -27,29 +28,40 @@
 * [前端三大框架与 YUI 以及 EXT.js 这类组件化框架最大的区别是什么？](https://www.zhihu.com/question/336968422/answer/762705515)
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 * [KeyboardEvent.keyCode已弃用，MDN已经提供了一个解决方案](https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/keyCode)
-* [JS 获取内网 IP 地址（兼容谷歌浏览器）](https://jueee.github.io/2021/03/2021-03-01-JS%E8%8E%B7%E5%8F%96%E5%86%85%E7%BD%91IP%E5%9C%B0%E5%9D%80%EF%BC%88%E5%85%BC%E5%AE%B9%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%EF%BC%89)
-
-
-
-> [Polyfill](https://developer.mozilla.org/zh-CN/docs/Glossary/Polyfill) 是一块代码（通常是 Web 上的 JavaScript）
-> ，用来为旧浏览器提供它没有原生支持的较新的功能 [https://github.com/financial-times/polyfill-service](https://github.com/financial-times/polyfill-service)
-> [https://github.com/taylorhakes/promise-polyfill](https://github.com/taylorhakes/promise-polyfill)
+* [JS 获取内网 IP 地址（兼容谷歌浏览器）](https://jueee.github.io/2021/03/2021-03-01-JS获取内网IP地址（兼容谷歌浏览器）)
 
 
 - [https://github.com/wingscloud](https://github.com/wingscloud)
+- 部署同步 [https://github.com/Browsersync/browser-sync](https://github.com/Browsersync/browser-sync)
 
 
 **js运行时/js引擎/JavaScript运行时/JavaScript引擎**
+
++ [https://en.wikipedia.org/wiki/List_of_ECMAScript_engines](https://en.wikipedia.org/wiki/List_of_ECMAScript_engines)
 
 - 恶意软件分析 [https://github.com/HynekPetrak/malware-jail](https://github.com/HynekPetrak/malware-jail)
 - 物联网的超轻量级JavaScript引擎 [https://github.com/jerryscript-project/jerryscript](https://github.com/jerryscript-project/jerryscript)
 - 嵌入式系统的微型JS引擎 [https://github.com/cesanta/elk](https://github.com/cesanta/elk)
 - [https://github.com/boa-dev/boa](https://github.com/boa-dev/boa)
 - [https://github.com/denoland/deno](https://github.com/denoland/deno)
+    - [https://www.denojs.cn](https://www.denojs.cn)
+    - [https://github.com/denosaurs/deno_python](https://github.com/denosaurs/deno_python)
 - [https://github.com/servo/servo](https://github.com/servo/servo)
 - [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
 - [https://github.com/saghul/txiki.js](https://github.com/saghul/txiki.js)
 - [https://github.com/oven-sh/bun](https://github.com/oven-sh/bun)
+- [https://github.com/svaarala/duktape](https://github.com/svaarala/duktape)
+- [https://mujs.com](https://mujs.com)
+- [https://github.com/gfwilliams/tiny-js](https://github.com/gfwilliams/tiny-js)
+- [https://github.com/cesanta/v7](https://github.com/cesanta/v7)
+- [https://github.com/zurb/tribute](https://github.com/zurb/tribute)
+- [https://github.com/dop251/goja](https://github.com/dop251/goja)
+- [https://github.com/chakra-core/ChakraCore](https://github.com/chakra-core/ChakraCore)
+- [https://github.com/eclipsesource/J2V8](https://github.com/eclipsesource/J2V8)
+- [https://github.com/oracle/graaljs](https://github.com/oracle/graaljs)
+- [https://github.com/mozilla/rhino](https://github.com/mozilla/rhino)
+- [https://github.com/gwtproject/gwt](https://github.com/gwtproject/gwt)
+- [https://github.com/CanadaHonk/porffor](https://github.com/CanadaHonk/porffor)
 
 
 
@@ -63,20 +75,28 @@
 * [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
 * [https://github.com/revolunet/JSbooks](https://github.com/revolunet/JSbooks)
-* 面向程序员的JavaScript书籍 [https://exploringjs.com](https://exploringjs.com)
+* [https://exploringjs.com](https://exploringjs.com)
+    * [https://2ality.com](https://2ality.com)
+    * JavaScript 的历史和演变 [https://exploringjs.com/impatient-js/ch_history.html](https://exploringjs.com/impatient-js/ch_history.html)
+* [https://github.com/es5/es5.github.io](https://github.com/es5/es5.github.io)
 * ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
     * [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
-* [https://github.com/daumann/ECMAScript-new-features-list](https://github.com/daumann/ECMAScript-new-features-list)
+* [https://github.com/ericdouglas/ES6-Learning](https://github.com/ericdouglas/ES6-Learning)
+* [https://github.com/lukehoban/es6features](https://github.com/lukehoban/es6features)
+* [https://github.com/rse/es6-features](https://github.com/rse/es6-features)
+* 特性列表 [https://github.com/daumann/ECMAScript-new-features-list](https://github.com/daumann/ECMAScript-new-features-list)
 * [https://github.com/sudheerj/ECMAScript-features](https://github.com/sudheerj/ECMAScript-features)
 * [https://github.com/30-seconds](https://github.com/30-seconds)
-* [https://github.com/rse/es6-features](https://github.com/rse/es6-features)
 * [https://www.javascript.com](https://www.javascript.com)
 * 现代JavaScript教程 [https://github.com/javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info)
 * 浏览器脚本教程 [https://www.w3school.com.cn/b.asp](https://www.w3school.com.cn/b.asp)
 * 参考手册 [https://www.w3school.com.cn/r.asp](https://www.w3school.com.cn/r.asp)
+* JavaScript基础知识 [https://www.kancloud.cn/yangguangzhang/yangguangzhang--javascript](https://www.kancloud.cn/yangguangzhang/yangguangzhang--javascript)
+* [https://github.com/2xiao/leetcode-js](https://github.com/2xiao/leetcode-js)
 * 文档对象模型 (DOM) [https://developer.mozilla.org/zh-CN/docs/Glossary/DOM](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
 * [https://github.com/Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)
 * [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)
+* [https://gaohaoyang.github.io](https://gaohaoyang.github.io)
 * 答题 [https://github.com/lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)
 * [https://github.com/felipefialho/frontend-challenges](https://github.com/felipefialho/frontend-challenges)
 * [https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
@@ -87,6 +107,7 @@
 * 学习代码总结 [https://github.com/csxiaoyaojianxian/JavaScriptStudy](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
 * [https://github.com/comehope/front-end-daily-challenges](https://github.com/comehope/front-end-daily-challenges)
 * [https://github.com/gothinkster/realworld](https://github.com/gothinkster/realworld)
+* [https://github.com/tanpero/JavaScript-Art-Tour](https://github.com/tanpero/JavaScript-Art-Tour)
 * 前端面试手册 [https://github.com/yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
 * [https://github.com/loverajoel/jstips](https://github.com/loverajoel/jstips)
 * [https://www.javascriptcn.com](https://www.javascriptcn.com) 1212/1024
@@ -101,15 +122,31 @@
 
 **模块规范**
 
-- [https://github.com/umdjs/umd](https://github.com/umdjs/umd)
-- [https://github.com/amdjs](https://github.com/amdjs)
-    - [https://github.com/requirejs](https://github.com/requirejs)
-    - [RequireJS和AMD规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/requirejs.html)
-- [https://github.com/cmdjs](https://github.com/cmdjs)
+- UMD(Universal Module Definition) [https://github.com/umdjs/umd](https://github.com/umdjs/umd)
+- AMD(Asynchronous Module Definition) [https://github.com/amdjs](https://github.com/amdjs)
+  - [https://github.com/requirejs](https://github.com/requirejs)
+  - [RequireJS和AMD规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/requirejs.html)
+  - [https://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition](https://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition)
+- CMJ(CommonJS) [https://github.com/cmdjs](https://github.com/cmdjs)
+  - [https://wiki.commonjs.org/wiki/CommonJS](https://wiki.commonjs.org/wiki/CommonJS)
+  - [CommonJS规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/nodejs/module.html)
+- ESM(ECMAScript modules) [https://nodejs.org/api/esm.html](https://nodejs.org/api/esm.html)
 - [https://github.com/seajs](https://github.com/seajs)
-- [http://www.commonjs.org](http://www.commonjs.org)
-- [CommonJS规范 -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/nodejs/module.html)
+- [https://github.com/TorinoJS](https://github.com/TorinoJS)
+- [https://github.com/embedthis/ejscript](https://github.com/embedthis/ejscript)
+- [https://github.com/SynchronetBBS](https://github.com/SynchronetBBS)
+  - [https://gitlab.com/SynchronetBBS](https://gitlab.com/SynchronetBBS)
+  - [https://sourceforge.net/projects/synchronet](https://sourceforge.net/projects/synchronet)
+  - [https://synchro.net/docs/jsobjs.html](https://synchro.net/docs/jsobjs.html)
+- [https://github.com/iskitz/ajile](https://github.com/iskitz/ajile)
+  - [https://sourceforge.net/projects/ajile](https://sourceforge.net/projects/ajile)
+- [https://github.com/creately/modules-js](https://github.com/creately/modules-js)
+- [https://github.com/ringo/ringojs](https://github.com/ringo/ringojs)
+
+
 - [Module 的语法 - ECMAScript 6入门](https://es6.ruanyifeng.com/#docs/module)
+
+
 
 ```js
 /**
@@ -187,3 +224,20 @@ var express = require('express');
 
 
 
+
+## 微前端
+
+> Micro-frontends
+
+* [https://github.com/smapiot/piral](https://github.com/smapiot/piral)
+* [https://github.com/single-spa](https://github.com/single-spa)
+* [https://github.com/teambit/bit](https://github.com/teambit/bit)
+* [https://github.com/systemjs](https://github.com/systemjs)
+* [https://github.com/opencomponents](https://github.com/opencomponents)
+* [https://github.com/umijs/qiankun](https://github.com/umijs/qiankun)
+* [https://github.com/SAP/luigi](https://github.com/SAP/luigi)
+* [https://github.com/frintjs/frint](https://github.com/frintjs/frint)
+* [https://github.com/puzzle-js](https://github.com/puzzle-js)
+
+
+- [基于 Webpack Module Federation，这可能是一个比较优雅的微前端解决方案](https://juejin.cn/post/7020607552190677000)

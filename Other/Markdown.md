@@ -17,7 +17,9 @@
 * [https://github.com/guodongxiaren/README](https://github.com/guodongxiaren/README)
 * [markdown语法大全](https://www.rumosky.wiki/docs/markdown)
 * [https://github.com/mattcone/markdown-guide](https://github.com/mattcone/markdown-guide)
+    * [https://www.markdown.xyz](https://www.markdown.xyz)
 * [https://guides.github.com/features/mastering-markdown](https://guides.github.com/features/mastering-markdown)
+* [https://github.com/Olwiba/Kickass-markdown](https://github.com/Olwiba/Kickass-markdown)
 * Markdeep是Markdown的超集 [https://github.com/morgan3d/markdeep](https://github.com/morgan3d/markdeep)
 * CommonMark [https://github.com/commonmark](https://github.com/commonmark)
 * MultiMarkdown [https://github.com/fletcher/MultiMarkdown-6](https://github.com/fletcher/MultiMarkdown-6)
@@ -33,15 +35,17 @@
 * [https://github.com/numpy/numpydoc](https://github.com/numpy/numpydoc)
 * [https://github.com/pycco-docs/pycco](https://github.com/pycco-docs/pycco)
 * [https://github.com/Python-Markdown/markdown](https://github.com/Python-Markdown/markdown)
-* [https://github.com/doxygen/doxygen](https://github.com/doxygen/doxygen)
 * [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
+* [https://github.com/Awes0meM4n/Awes0meM4n.github.io](https://github.com/Awes0meM4n/Awes0meM4n.github.io)
 
 
 
 
 - 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
-- [https://github.com/topics/emoji](https://github.com/topics/emoji)
+- [https://github.com/VikParuchuri/marker](https://github.com/VikParuchuri/marker)
 - GitHub角落图标 [https://github.com/tholman/github-corners](https://github.com/tholman/github-corners)
+- [https://github.com/missive/emoji-mart](https://github.com/missive/emoji-mart)
+- [https://github.com/rickstaa/github-emoji-picker](https://github.com/rickstaa/github-emoji-picker)
 - SVG徽章 [https://github.com/badges/shields](https://github.com/badges/shields)
 - [https://github.com/WebpageFX/emoji-cheat-sheet.com](https://github.com/WebpageFX/emoji-cheat-sheet.com)
     - [http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
@@ -52,6 +56,7 @@
 - [https://github.com/afeld/emoji-css](https://github.com/afeld/emoji-css)
 - [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
 - [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
+- [https://www.github.com/VectorLogoZone/vectorlogozone](https://www.github.com/VectorLogoZone/vectorlogozone)
 - 转PDF [https://github.com/realdennis/md2pdf](https://github.com/realdennis/md2pdf)
 - [https://github.com/BlueHatbRit/mdpdf](https://github.com/BlueHatbRit/mdpdf)
 
@@ -383,7 +388,7 @@ string &operator+(const string& A,const string& B) //cpp
 
 - `<code></code>`
 - `<pre></pre>`
-- `<kdb></kdb>`
+- `<kdb></kdb>` 按钮效果
 - `<b></b>`
 - `<strong></strong>`
 - `<i></i>`
@@ -395,6 +400,10 @@ string &operator+(const string& A,const string& B) //cpp
 
 
 ## 工具
+
+* 跨平台博客同步 [https://github.com/LetTTGACO/elog](https://github.com/LetTTGACO/elog)
+
+
 
 ### 输出目录结构
 
@@ -446,6 +455,8 @@ string &operator+(const string& A,const string& B) //cpp
     * [https://wdd.js.org/m2w-transform](https://wdd.js.org/m2w-transform)
 * [https://github.com/lyricat/wechat-format](https://github.com/lyricat/wechat-format)
     * [https://lab.lyric.im/wxformat](https://lab.lyric.im/wxformat)
+* MAC桌面软件 [https://github.com/caol64/wenyan](https://github.com/caol64/wenyan)
+
 
 - [mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
 
@@ -507,7 +518,6 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/commonmark/commonmark.js](https://github.com/commonmark/commonmark.js)
 * [https://github.com/showdownjs/showdown](https://github.com/showdownjs/showdown)
 * [https://github.com/github/markup](https://github.com/github/markup)
-* [https://github.com/mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)
 
 
 
@@ -524,6 +534,7 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/JP1016/Markdown](https://github.com/JP1016/Markdown)
 * [https://github.com/aromalanil/markItDown](https://github.com/aromalanil/markItDown)
     * [https://markitdown.netlify.app](https://markitdown.netlify.app)
+* [https://github.com/davidfowl/TodoApi](https://github.com/davidfowl/TodoApi)
 
 
 
@@ -531,8 +542,8 @@ string &operator+(const string& A,const string& B) //cpp
 
 * ~~[https://github.com/typora](https://github.com/typora)~~
     * ~~[https://www.typora.io](https://www.typora.io)~~
+    * [https://github.com/DiamondHunters/NodeInject_Hook_example](https://github.com/DiamondHunters/NodeInject_Hook_example)
 * [https://github.com/Saul-Mirone/milkdown](https://github.com/Saul-Mirone/milkdown)
-* [https://github.com/laurent22/joplin](https://github.com/laurent22/joplin)
 * MarkPad [https://github.com/Code52/DownmarkerWPF](https://github.com/Code52/DownmarkerWPF)
 * [Haroopad](http://pad.haroopress.com/user.html)
 * [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
@@ -544,10 +555,24 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/notable/notable](https://github.com/notable/notable)
 * [https://github.com/nhn/tui.editor](https://github.com/nhn/tui.editor)
 * [https://github.com/aguang-xyz/aurora-editor](https://github.com/aguang-xyz/aurora-editor)
+* [https://github.com/1943time/bluestone](https://github.com/1943time/bluestone)
+* CLI [https://github.com/Textualize/frogmouth](https://github.com/Textualize/frogmouth)
 * 笔记 [https://github.com/laurent22/joplin](https://github.com/laurent22/joplin)
 * [https://github.com/evernote](https://github.com/evernote)
+* [https://github.com/leanote](https://github.com/leanote)
 * [https://github.com/zadam/trilium](https://github.com/zadam/trilium)
 * [https://github.com/flxzt/rnote](https://github.com/flxzt/rnote)
 * [https://github.com/pbek/QOwnNotes](https://github.com/pbek/QOwnNotes)
 * [https://github.com/usememos/memos](https://github.com/usememos/memos)
 * [https://github.com/standardnotes](https://github.com/standardnotes)
+* [https://github.com/oleeskild/obsidian-digital-garden](https://github.com/oleeskild/obsidian-digital-garden)
+    * [https://github.com/obsidianmd](https://github.com/obsidianmd)
+* [https://github.com/yesmore/inke](https://github.com/yesmore/inke)
+* [https://github.com/streetwriters/notesnook](https://github.com/streetwriters/notesnook)
+* [https://github.com/docmost/docmost](https://github.com/docmost/docmost)
+* GitBook替代 [https://github.com/lindeer/dartbook](https://github.com/lindeer/dartbook)
+* 临时存储 [https://github.com/heyman/heynote](https://github.com/heyman/heynote)
+* 待办事项 [https://github.com/go-vikunja/vikunja](https://github.com/go-vikunja/vikunja)
+* [https://github.com/johannesjo/super-productivity](https://github.com/johannesjo/super-productivity)
+* 草图 [https://frame0.app](https://frame0.app)
+

@@ -5,33 +5,15 @@
 
 ## Flag
 
-+ [https://github.com/No-Github/Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
-+ [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
-+ [Photoshop快捷键大全](http://www.ip138.com/photoshop)
-+ [最详细的PS快捷键大全](http://www.360doc.com/content/19/0507/02/9060464_833889392.shtml)
-+ [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
-+ [如何选择开源许可证？](http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html)
-+ [如何选择开源许可证？](https://blog.csdn.net/wadefelix/article/details/6384317)
-+ License [https://app.fossa.com](https://app.fossa.com)
-+ 开源指南 [https://github.com/github/opensource.guide](https://github.com/github/opensource.guide)
-+ [https://creativecommons.org](https://creativecommons.org)
-+ [https://opensource.org/licenses](https://opensource.org/licenses)
-
-
-- 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
-- [https://github.com/dxcweb/watermark](https://github.com/dxcweb/watermark)
-- [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
-- [https://github.com/Atmosphere-NX/Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)
-- [https://github.com/switchbrew](https://github.com/switchbrew)
-- [https://github.com/skyline-emu/skyline](https://github.com/skyline-emu/skyline)
-
-
-
-* 编程语言排行 [https://www.tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index)
-* GitHub上的游戏项目 [https://github.com/leereilly/games](https://github.com/leereilly/games)
+* [https://github.com/No-Github/Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
 * IP库 [https://db-ip.com](https://db-ip.com)
 * 谷歌全球IP地址库 [https://github.com/justjavac/Google-IPs](https://github.com/justjavac/Google-IPs)
 * 教育目的网络钓鱼工具 [https://github.com/htr-tech/zphisher](https://github.com/htr-tech/zphisher)
+* 公共手册 [https://handbook.opencoreventures.com](https://handbook.opencoreventures.com)
+* [https://gitlab.com/gitlab-com/content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook)
+* [https://github.com/formbricks/formbricks](https://github.com/formbricks/formbricks)
+* 日程安排 [https://github.com/calcom/cal.com](https://github.com/calcom/cal.com)
+* 股票 [https://github.com/Rockyzsu/stock](https://github.com/Rockyzsu/stock)
 
 
 
@@ -61,20 +43,26 @@
 
 
 
-**消息通知/推送**
+**消息通知/消息推送**
 
 + [https://github.com/topics/push-notifications](https://github.com/topics/push-notifications)
 + [https://github.com/topics/notifications](https://github.com/topics/notifications)
 + [https://github.com/topics/push](https://github.com/topics/push)
 + [https://github.com/topics/mipush](https://github.com/topics/mipush)
 
+
 * [https://github.com/CaoMeiYouRen/push-all-in-one](https://github.com/CaoMeiYouRen/push-all-in-one)
+* [https://github.com/songquanpeng](https://github.com/songquanpeng)
 * [https://github.com/Finb/bark-server](https://github.com/Finb/bark-server)
 * [https://github.com/Finb/Bark](https://github.com/Finb/Bark)
 * [https://github.com/wahao/Bark-MP-helper](https://github.com/wahao/Bark-MP-helper)
+* [https://github.com/caronc/apprise](https://github.com/caronc/apprise)
+* [https://github.com/chanify/chanify](https://github.com/chanify/chanify)
+* [https://github.com/LeslieLeung/heimdallr](https://github.com/LeslieLeung/heimdallr)
 * [https://github.com/easychen](https://github.com/easychen)
     * [http://sc.ftqq.com](http://sc.ftqq.com)
     * [https://github.com/saucer-man/wepush](https://github.com/saucer-man/wepush)
+    * [https://www.indiehackers.com](https://www.indiehackers.com)
 * [https://ifttt.com/maker_webhooks](https://ifttt.com/maker_webhooks)
 * [https://www.pushplus.plus](https://www.pushplus.plus)
 * [https://pushplus.hxtrip.com](https://pushplus.hxtrip.com)
@@ -82,6 +70,8 @@
 * [https://github.com/MiPushFramework/MiPushFramework](https://github.com/MiPushFramework/MiPushFramework)
 * [https://github.com/chinuno-usami/server_tan](https://github.com/chinuno-usami/server_tan)
 * [https://github.com/OneSignal](https://github.com/OneSignal)
+* [https://github.com/novuhq/novu](https://github.com/novuhq/novu)
+* [https://github.com/binwiederhier/ntfy](https://github.com/binwiederhier/ntfy)
 
 
 - [https://github.com/guanguans/notify](https://github.com/guanguans/notify)
@@ -89,6 +79,7 @@
 - [https://github.com/Gomaxx/android-notification-forwarder](https://github.com/Gomaxx/android-notification-forwarder)
 
 
+* [https://github.com/engigu/Message-Push-Nest](https://github.com/engigu/Message-Push-Nest)
 * [https://github.com/DanceJJJ/go-dingtalk](https://github.com/DanceJJJ/go-dingtalk)
 * [https://github.com/goodking-bq/timing-clock-in-dingding](https://github.com/goodking-bq/timing-clock-in-dingding)
 * [https://github.com/zhaoyunxing92/dingtalk](https://github.com/zhaoyunxing92/dingtalk)
@@ -101,7 +92,9 @@
 ## 通用镜像
 
 * [https://developer.aliyun.com/mirror](https://developer.aliyun.com/mirror)
+    * [https://mirrors.aliyun.com](https://mirrors.aliyun.com)
 * [https://github.com/cnpm](https://github.com/cnpm)
+    * [https://npmmirror.com](https://npmmirror.com)
 * [https://mirrors.cloud.tencent.com](https://mirrors.cloud.tencent.com)
 * [https://mirrors.huaweicloud.com](https://mirrors.huaweicloud.com)
 * [https://github.com/kaiyuanshe](https://github.com/kaiyuanshe)
@@ -116,6 +109,9 @@
 * [https://github.com/zzh1996/USTC-Network-Resources](https://github.com/zzh1996/USTC-Network-Resources)
 * [https://github.com/ideal/mirror](https://github.com/ideal/mirror)
 * [https://github.com/opencas](https://github.com/opencas)
+* [https://github.com/mirrorz-org](https://github.com/mirrorz-org)
+    * [https://mirrors.cernet.edu.cn](https://mirrors.cernet.edu.cn)
+* [https://github.com/isrc-cas](https://github.com/isrc-cas)
 * [https://gdgshanghai.com](https://gdgshanghai.com)
 
 
@@ -203,14 +199,59 @@
 * [https://github.com/cqumirror](https://github.com/cqumirror)
 * IPv4 [https://mirrors.cqu.edu.cn](https://mirrors.cqu.edu.cn)
 
+**重庆邮电大学**
+
+* [https://github.com/CQUPTMirror](https://github.com/CQUPTMirror)
+
 
 **南阳理工学院开源镜像站**
 
-* [https://github.com/NYIST-OSUG](https://github.com/NYIST-OSUG)
+* [https://github.com/NYIST-CIPS](https://github.com/NYIST-CIPS)
 * IPv4&IPv6 [https://mirror.nyist.edu.cn](https://mirror.nyist.edu.cn)
 * IPv4 [https://mirror4.nyist.edu.cn](https://mirror4.nyist.edu.cn)
 * IPv6 [https://mirror6.nyist.edu.cn](https://mirror6.nyist.edu.cn)
 
+**南方科技大学**
+
+* [https://github.com/sustech-cra](https://github.com/sustech-cra)
+
+**山东大学**
+
+* [https://github.com/SDU-Mirrors](https://github.com/SDU-Mirrors)
+
+**齐鲁工业大学**
+
+* [https://github.com/qlu-mirrors](https://github.com/qlu-mirrors)
+
+**浙江大学**
+
+* [https://github.com/zjusct](https://github.com/zjusct)
+
+**吉林大学**
+
+* [https://github.com/JLULUG](https://github.com/JLULUG)
+
+**北京邮电大学**
+
+* [https://github.com/BYRIO](https://github.com/BYRIO)
+
+**荆楚理工学院**
+
+* [https://github.com/JCIOTeam](https://github.com/JCIOTeam)
+
+**北京大学**
+
+* [https://github.com/PKUOSC](https://github.com/PKUOSC)
+
+**上海交通大学/上海科技大学**
+
+* [https://github.com/sjtug](https://github.com/sjtug)
+* [https://github.com/ShanghaitechGeekPie](https://github.com/ShanghaitechGeekPie)
+
+**电子科技大学**
+
+* [https://github.com/uestclug](https://github.com/uestclug)
+* [https://gitlab.com/uestclug](https://gitlab.com/uestclug)
 
 
 
@@ -232,13 +273,21 @@
 
 ## 临时邮箱
 
++ [https://smpp.org](https://smpp.org)
 + [https://github.com/topics/disposable-emails](https://github.com/topics/disposable-emails)
 + [https://github.com/topics/disposable-email](https://github.com/topics/disposable-email)
 + [https://github.com/topics/temporary-email](https://github.com/topics/temporary-email)
 + [https://github.com/topics/tempmail](https://github.com/topics/tempmail)
 + [https://github.com/topics/trashmail](https://github.com/topics/trashmail)
 + [https://github.com/topics/10minutemail](https://github.com/topics/10minutemail)
++ [https://github.com/resend/react-email](https://github.com/resend/react-email)
++ 一次性邮件列表 [https://github.com/Fcmam5/jelban-js](https://github.com/Fcmam5/jelban-js)
++ [https://github.com/CH563/fakemail](https://github.com/CH563/fakemail)
 + 发送邮件 [http://tool.chacuo.net/mailsend](http://tool.chacuo.net/mailsend)
++ 邮件测试 [https://github.com/axllent/mailpit](https://github.com/axllent/mailpit)
++ 电子邮件加密指南 [https://emailselfdefense.fsf.org/zh-hans](https://emailselfdefense.fsf.org/zh-hans)
+
+
 
 - [https://github.com/KevCui/1secmail](https://github.com/KevCui/1secmail)
     - [https://www.1secmail.com/api](https://www.1secmail.com/api)
@@ -246,7 +295,13 @@
     - [https://getnada.com](https://getnada.com)
 - [https://github.com/KevCui/tempmail](https://github.com/KevCui/tempmail)
     - [https://temp-mail.org/zh](https://temp-mail.org/zh)
+- [https://github.com/ccbikai](https://github.com/ccbikai)
+    - [https://email.ml](https://email.ml)
+- [https://github.com/beilunyang/moemail](https://github.com/beilunyang/moemail)
 
+
+
+* [https://inboxes.com](https://inboxes.com)
 * [https://smailpro.com](https://smailpro.com)
 * [https://www.linshiyouxiang.net](https://www.linshiyouxiang.net)
 * [http://24mail.chacuo.net](http://24mail.chacuo.net)
@@ -281,6 +336,12 @@
 * [https://tempmail.net](https://tempmail.net)
 * [https://mailpoof.com](https://mailpoof.com)
 * [https://www.emailondeck.com](https://www.emailondeck.com)
+* [https://adguard.com/zh_cn/adguard-temp-mail/overview.html](https://adguard.com/zh_cn/adguard-temp-mail/overview.html)
+* [https://smailpro.com/temp-gmail](https://smailpro.com/temp-gmail)
+* [https://22.do](https://22.do)
+* [https://www.emailnator.com](https://www.emailnator.com)
+* [https://m.kuku.lu](https://m.kuku.lu)
+* [https://tempmail100.com](https://tempmail100.com)
 
 
 
@@ -441,7 +502,8 @@
 * [https://github.com/joke2k/faker](https://github.com/joke2k/faker)
     * [faker - 测试数据生成 | Tonny's Blog](https://codertang.com/2020/09/05/python-faker)
     * [faker_examples.py](https://github.com/bajins/scripts-python/blob/master/faker_examples.py)
-
+* [https://github.com/brianvoe/gofakeit](https://github.com/brianvoe/gofakeit)
+* 电话号码信息收集 [https://github.com/sundowndev/phoneinfoga](https://github.com/sundowndev/phoneinfoga)
 
 
 
@@ -474,9 +536,6 @@
 * [https://github.com/ptcms/RuleApi](https://github.com/ptcms/RuleApi)
 * [https://github.com/lzh-kf/novel](https://github.com/lzh-kf/novel)
 * [https://github.com/zhangweijiang/thinkphp-novel](https://github.com/zhangweijiang/thinkphp-novel)
-
-
-
 * [https://github.com/hiliqi/xiaoshuo](https://github.com/hiliqi/xiaoshuo)
 * [https://github.com/zhongyu911/novel](https://github.com/zhongyu911/novel)
 * [AnyView阅读-未开源](http://www.anyview.net)
@@ -486,6 +545,10 @@
 * [https://github.com/kovidgoyal/calibre](https://github.com/kovidgoyal/calibre)
     * [https://calibre-ebook.com](https://calibre-ebook.com)
     * [https://github.com/janeczku/calibre-web](https://github.com/janeczku/calibre-web)
+* [https://github.com/Librum-Reader/Librum](https://github.com/Librum-Reader/Librum)
+* [https://github.com/201206030/novel](https://github.com/201206030/novel)
+* Epub [https://github.com/pacexy/flow](https://github.com/pacexy/flow)
+
 
 
 ### vue
@@ -508,9 +571,11 @@
 ### Android
 
 
+* [https://github.com/hectorqin/reader](https://github.com/hectorqin/reader)
 * [https://github.com/huanxsd/flutter_shuqi](https://github.com/huanxsd/flutter_shuqi)
-* [https://github.com/gedoor/MyBookshelf](https://github.com/gedoor/MyBookshelf)
+* 阅读 [https://github.com/gedoor](https://github.com/gedoor)
     * [https://www.coolapk.com/apk/io.legado.app.release](https://www.coolapk.com/apk/io.legado.app.release)
+    * [https://shuyuan.yiove.com](https://shuyuan.yiove.com)
 * [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
 * [https://github.com/ZhangQinhao/MONKOVEL](https://github.com/ZhangQinhao/MONKOVEL)
 * [https://github.com/zas023/CocoBook](https://github.com/zas023/CocoBook)

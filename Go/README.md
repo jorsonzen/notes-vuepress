@@ -69,6 +69,7 @@
 * [Go 语言实战笔记](https://github.com/rujews/go-in-action-notes)
 * [Go 语言标准库](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
 * [Go 语言高级编程（Advanced Go Programming）](https://github.com/chai2010/advanced-go-programming-book)
+* [https://github.com/geektutu/high-performance-go](https://github.com/geektutu/high-performance-go)
 * [Go命令教程](https://github.com/hyper-carrot/go_command_tutorial)
 * [Go实战开发](https://github.com/astaxie/Go-in-Action)
 * [Go语言博客实践](https://github.com/achun/Go-Blog-In-Action)
@@ -84,9 +85,11 @@
 * [Go 编程实例 Go by Example](https://learnku.com/docs/gobyexample/2020)
 * [https://github.com/lexkong/apiserver_demos](https://github.com/lexkong/apiserver_demos)
 * [https://github.com/jiujuan/go-collection](https://github.com/jiujuan/go-collection)
+* [https://github.com/hwholiday/learning_tools](https://github.com/hwholiday/learning_tools)
 * 中文学习资料 [https://github.com/gwuhaolin/golang-book](https://github.com/gwuhaolin/golang-book)
 * [https://github.com/jincheng9/go-tutorial](https://github.com/jincheng9/go-tutorial)
 * [https://github.com/unknwon/go-study-index](https://github.com/unknwon/go-study-index)
+* [https://github.com/mao888/golang-guide](https://github.com/mao888/golang-guide)
 * 设计模式 [https://github.com/tmrts/go-patterns](https://github.com/tmrts/go-patterns)
 * [https://github.com/0voice/Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang)
 * [https://github.com/golang-design](https://github.com/golang-design)
@@ -97,9 +100,13 @@
 * [https://github.com/iswbm](https://github.com/iswbm)
     * [https://golang.iswbm.com](https://golang.iswbm.com)
     * [https://magic.iswbm.com](https://magic.iswbm.com)
+* [https://github.com/yangwenmai/learning-golang](https://github.com/yangwenmai/learning-golang)
+* [https://github.com/duanbiaowu/go-examples-for-beginners](https://github.com/duanbiaowu/go-examples-for-beginners)
+    * [https://dbwu.tech/posts/network/what-is-tcp-fast-open](https://dbwu.tech/posts/network/what-is-tcp-fast-open)
 * Go语法树入门 [https://github.com/chai2010/go-ast-book](https://github.com/chai2010/go-ast-book)
 * [https://github.com/halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go)
 * Go泛型入门 [https://github.com/akutz/go-generics-the-hard-way](https://github.com/akutz/go-generics-the-hard-way)
+* Golang开发手记 [https://github.com/kevinyan815/gocookbook](https://github.com/kevinyan815/gocookbook)
 * 周刊 [https://github.com/polaris1119/golangweekly](https://github.com/polaris1119/golangweekly)
 * [https://gobyexample.com](https://gobyexample.com)
 * [https://golang3.eddycjy.com](https://golang3.eddycjy.com)
@@ -108,6 +115,7 @@
 * [https://github.com/golang101/golang101](https://github.com/golang101/golang101)
 * [https://github.com/yongxinz/gopher](https://github.com/yongxinz/gopher)
 * [https://github.com/gocn](https://github.com/gocn)
+* [https://github.com/astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
 * 日报 [https://github.com/bigwhite/gopherdaily](https://github.com/bigwhite/gopherdaily)
 
 
@@ -168,6 +176,15 @@ go test -v -test.run 函数名
 | 压力测试的循环体   	| 使用test.B.N                                                                                  	|
 
 
+**关闭GC（垃圾回收器）**
+
+- 变量设置
+
+```bash
+go env -w GOGC=off
+```
+
+- 代码中调用 [`debug.SetGCPercent(-1)`](https://pkg.go.dev/runtime/debug#SetGCPercent)
 
 
 

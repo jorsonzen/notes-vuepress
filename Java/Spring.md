@@ -17,17 +17,22 @@
 * [https://github.com/spring-projects-experimental](https://github.com/spring-projects-experimental)
 * [https://github.com/spring-guides](https://github.com/spring-guides)
 * [https://github.com/fmarchioni/masterspringboot](https://github.com/fmarchioni/masterspringboot)
+* 启动分析器 [https://github.com/linyimin0812/spring-startup-analyzer](https://github.com/linyimin0812/spring-startup-analyzer)
+* 配置中心对比 [https://github.com/hxz393/ConfigCenterComparer](https://github.com/hxz393/ConfigCenterComparer)
 
 
 - [https://github.com/wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll)
     - [http://www.spring4all.com](http://www.spring4all.com)
 - [https://github.com/mingyang66/spring-parent](https://github.com/mingyang66/spring-parent)
+- [https://github.com/xuchengsheng/spring-reading](https://github.com/xuchengsheng/spring-reading)
 - Spring源码阅读 [https://github.com/seaswalker/spring-analysis](https://github.com/seaswalker/spring-analysis)
+- [https://github.com/DerekYRC/mini-spring](https://github.com/DerekYRC/mini-spring)
 - Spring 实战第五版中文翻译 [https://github.com/PotoYang/spring-in-action-v5-translate](https://github.com/PotoYang/spring-in-action-v5-translate)
 - [https://github.com/dunwu/spring-tutorial](https://github.com/dunwu/spring-tutorial)
 - [https://github.com/piomin](https://github.com/piomin)
 
 
+* [spring boot项目，需要写一个接口吗？](https://www.cnblogs.com/pickupmemories/p/16570511.html)
 * [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
 * [SpringCache自定义过期时间及自动刷新](https://www.cnblogs.com/top-housekeeper/p/11980973.html)
 * [Spring揭秘学习笔记](https://blog.csdn.net/qq_34626094/category_11731455.html)
@@ -98,10 +103,15 @@ Propagation.NESTED	如果当前存在事务，则创建一个事务作为当前�
 // REQUIRES_NEW 与 NESTED 前者是内层异常影响外层，外层不影响内层；后者正好相反，内层加try catch后 异常不影响外层，外层会影响内层
 @Transactional(rollbackFor = Exception.class, propagation = Propagation.REQUIRES_NEW)
 
+@Autowired
+private TransactionTemplate transactionTemplate;
+
 
 // 手动管理事务
 @Autowired
 private DataSourceTransactionManager transactionManager;
+/*@Autowired
+private PlatformTransactionManager platformTransactionManager;*/
 /*@Autowired
 private TransactionDefinition transactionDefinition;*/
 
@@ -289,7 +299,6 @@ try {
 
 + [https://start.aliyun.com](https://start.aliyun.com)
 
-* [https://github.com/pig-mesh/excel-spring-boot-starter](https://github.com/pig-mesh/excel-spring-boot-starter)
 * [https://github.com/mouzt/mzt-biz-log](https://github.com/mouzt/mzt-biz-log)
 * [https://github.com/ballcat-projects/ballcat](https://github.com/ballcat-projects/ballcat)
 
@@ -348,6 +357,10 @@ try {
 | spring-boot-starter-webflux                 	| 集成 Spring Reactive Web 构建 WebFlux 应用                                                              	|
 | spring-boot-starter-websocket               	| 集成 Spring WebSocket 构建 WebSocket 应用                                                               	|
 
+* 数据源 [https://github.com/baomidou/dynamic-datasource-spring-boot-starter](https://github.com/baomidou/dynamic-datasource-spring-boot-starter)
+
+
+
 
 **production starters**
 
@@ -394,6 +407,8 @@ try {
 + [https://github.com/chillzhuang/blade-tool](https://github.com/chillzhuang/blade-tool)
 + [https://gitee.com/smallc](https://gitee.com/smallc)
 
+
+> 微服务就是单个应用程序拆分成许多个小型服务的一种开发方法
 
 * [SpringCloud组件和概念介绍](https://zhuanlan.zhihu.com/p/72721025)
 * [springcloud核心组件介绍](http://muggle.javaboy.org/2019/04/26/springcloud-1)

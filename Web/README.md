@@ -5,15 +5,67 @@
 
 ## Flag
 
++ [https://www.iso.org](https://www.iso.org)
++ [https://www.itu.int](https://www.itu.int)
++ RFC [https://www.rfc-editor.org](https://www.rfc-editor.org)
++ IETF [https://tools.ietf.org](https://tools.ietf.org)
+    + [https://github.com/httpwg](https://github.com/httpwg)
++ IRTF [https://irtf.org](https://irtf.org)
++ [https://www.iab.org](https://www.iab.org)
++ [https://github.com/w3c](https://github.com/w3c)
+    + [https://www.w3.org](https://www.w3.org)
+    + [https://github.com/speced](https://github.com/speced)
+    + [https://github.com/w3ctag](https://github.com/w3ctag)
++ WHATWG技术的标准 [https://github.com/whatwg](https://github.com/whatwg)
+    + [https://spec.whatwg.org](https://spec.whatwg.org)
++ Web 孵化器 [https://github.com/WICG](https://github.com/WICG)
++ [https://github.com/immersive-web](https://github.com/immersive-web)
++ 规范测试套件 [https://github.com/web-platform-tests](https://github.com/web-platform-tests)
++ Ecma国际技术委员会 [https://github.com/search?q=ECMAScript](https://github.com/search?q=ECMAScript)
++ [https://www.ecma-international.org/technical-committees](https://www.ecma-international.org/technical-committees)
+    + [https://github.com/tc39](https://github.com/tc39)
+    + [https://github.com/75team/tc39](https://github.com/75team/tc39)
+    + [https://github.com/TimothyGu/es-howto](https://github.com/TimothyGu/es-howto)
+    + [https://github.com/sirisian/ecmascript-types](https://github.com/sirisian/ecmascript-types)
+    + [https://github.com/es-meta/esmeta](https://github.com/es-meta/esmeta)
+    + [https://github.com/ecmascript-daily](https://github.com/ecmascript-daily)
++ [https://github.com/JSCIG](https://github.com/JSCIG)
++ [https://github.com/es-shims](https://github.com/es-shims)
+    + [https://github.com/paulmillr/es6-shim](https://github.com/paulmillr/es6-shim)
++ Promises/A+规范 [https://github.com/promises-aplus](https://github.com/promises-aplus)
+    + [https://github.com/domenic/promises-unwrapping](https://github.com/domenic/promises-unwrapping)
+    + [https://github.com/liubin/promises-book](https://github.com/liubin/promises-book)
+    + [https://github.com/oldmanpushcart/jpromisor](https://github.com/oldmanpushcart/jpromisor)
 + Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
     + [https://github.com/roy-tian/learning-area](https://github.com/roy-tian/learning-area)
-+ Web API [https://developer.mozilla.org/zh-CN/docs/Web/API](https://developer.mozilla.org/zh-CN/docs/Web/API)
-+ [https://github.com/w3c](https://github.com/w3c)
-+ W3C网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
-+ [https://github.com/immersive-web](https://github.com/immersive-web)
-+ IETF [https://tools.ietf.org](https://tools.ietf.org)
+* [https://github.com/fedidcg/FedCM](https://github.com/fedidcg/FedCM)
++ HTTP标头分析 [https://github.com/rfc-st/humble](https://github.com/rfc-st/humble)
++ 跨域资源共享 [https://github.com/monsur/enable-cors.org](https://github.com/monsur/enable-cors.org)
++ [https://github.com/gpuweb](https://github.com/gpuweb)
++ [https://github.com/webgpu](https://github.com/webgpu)
+    + [https://github.com/austinEng/webgpu-samples](https://github.com/austinEng/webgpu-samples)
+    + [https://github.com/crowlKats/webgpu-examples](https://github.com/crowlKats/webgpu-examples)
++ [https://github.com/screen-share](https://github.com/screen-share)
++ [https://github.com/WebAudio](https://github.com/WebAudio)
++ [https://github.com/NOtherDev/whatwebcando](https://github.com/NOtherDev/whatwebcando)
++ [https://github.com/webrtc](https://github.com/webrtc)
+    + [https://webrtc.org.cn](https://webrtc.org.cn)
+    + [https://webrtc.googlesource.com](https://webrtc.googlesource.com)
+    + [https://github.com/godotengine/webrtc-native](https://github.com/godotengine/webrtc-native)
+    + [https://github.com/meetecho/janus-gateway](https://github.com/meetecho/janus-gateway)
++ [https://github.com/riju/WebCamera](https://github.com/riju/WebCamera)
++ [https://github.com/hughfenghen/WebAV](https://github.com/hughfenghen/WebAV)
++ [https://github.com/webusb](https://github.com/webusb)
++ OpenGL/WebGL/Vulkan [https://github.com/KhronosGroup](https://github.com/KhronosGroup)
+    + [https://github.com/gfxfundamentals/webgl-fundamentals](https://github.com/gfxfundamentals/webgl-fundamentals)
++ 时区数据库 [https://www.iana.org/time-zones](https://www.iana.org/time-zones)
 
 
+
+* [https://webdevelopmenthistory.com](https://webdevelopmenthistory.com)
+* [https://github.com/HTTPArchive](https://github.com/HTTPArchive)
+* 浏览器功能支持情况 [https://github.com/Fyrd/caniuse](https://github.com/Fyrd/caniuse)
+* 电量情况 [https://github.com/deepesh-01/battery_indicator](https://github.com/deepesh-01/battery_indicator)
 * 代码提示 [https://github.com/webhintio](https://github.com/webhintio)
 * Web组件 [https://github.com/webcomponents](https://github.com/webcomponents)
 * Web开源项目 [https://github.com/bestofjs/bestofjs-webui](https://github.com/bestofjs/bestofjs-webui)
@@ -21,24 +73,41 @@
 * [https://github.com/jobbole/awesome-design-cn](https://github.com/jobbole/awesome-design-cn)
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
 * [https://github.com/mathjax](https://github.com/mathjax)
+* [https://github.com/DustinBrett/daedalOS](https://github.com/DustinBrett/daedalOS)
 * 前端知识点总结 [https://github.com/zhaiyy/Web-front-end-knowledge-summary](https://github.com/zhaiyy/Web-front-end-knowledge-summary)
 * [https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)
 * [https://github.com/axuebin/articles](https://github.com/axuebin/articles)
 * [https://github.com/LiangJunrong/document-library](https://github.com/LiangJunrong/document-library)
 * 前端面试 [https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
 * [https://edu.aliyun.com/roadmap/frontend](https://edu.aliyun.com/roadmap/frontend)
+* [https://github.com/CavsZhouyou/Front-End-Interview-Notebook](https://github.com/CavsZhouyou/Front-End-Interview-Notebook)
+* 网络如何运作 [https://github.com/vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)
 * [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
 * [Serverless——前端的3.0时代](https://zhuanlan.zhihu.com/p/84054729)
 
 
 + 前端精读周刊 [https://github.com/ascoders/weekly](https://github.com/ascoders/weekly)
++ [https://github.com/huangyangquang/Latest-technology-tracking](https://github.com/huangyangquang/Latest-technology-tracking)
 + [https://jsbin.com](https://jsbin.com)
 + [f2ex.cn 各种前端资源](http://f2ex.cn)
++ [Web 3.0 通识课](https://j08v3n7cqq.feishu.cn/docs/doccnu8PLq5zJcaZJUzTaLyEOPc)
 
 
 - 网站测试 [https://github.com/ycd/dstp](https://github.com/ycd/dstp)
 - web3.0 [https://github.com/ChainSafe/web3.js](https://github.com/ChainSafe/web3.js)
+- [https://github.com/Uniswap](https://github.com/Uniswap)
+- [https://github.com/4everland](https://github.com/4everland)
+- 点对点网络web3.0 [https://github.com/ipfs](https://github.com/ipfs)
+    - 检查可用站点 [https://github.com/ipfs/public-gateway-checker](https://github.com/ipfs/public-gateway-checker)
+    - [https://github.com/IOsetting/ipfs-gateway-selector](https://github.com/IOsetting/ipfs-gateway-selector)
+    - [https://github.com/protocol](https://github.com/protocol)
+    - [https://github.com/multiformats](https://github.com/multiformats)
+    - [https://github.com/libp2p/libp2p](https://github.com/libp2p/libp2p)
+- [https://github.com/web3j](https://github.com/web3j)
+- [https://github.com/ensdomains](https://github.com/ensdomains)
 - [https://github.com/ethereum](https://github.com/ethereum)
+    - [https://github.com/hydroprotocol/ethereum-jsonrpc-gateway](https://github.com/hydroprotocol/ethereum-jsonrpc-gateway)
+- Polygon [https://github.com/maticnetwork](https://github.com/maticnetwork)
 - 热加载 [https://github.com/livereload](https://github.com/livereload)
 
 
@@ -48,12 +117,14 @@
 <a href="https://www.jianshu.com/p/fbdf565afc48">JS 浏览器缓存</a>
 
 ![](/images/js浏览器缓存.png)
+
 </details>
 
 
 
 
-## 静态博客或文档
+
+## 文档博客站点
 
 + [https://github.com/topics/website](https://github.com/topics/website)
 + [https://github.com/topics/express](https://github.com/topics/express)
@@ -71,11 +142,12 @@
 + [不蒜子文章统计](http://busuanzi.ibruce.info)
     + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
 + 搜索 [https://github.com/algolia/docsearch](https://github.com/algolia/docsearch)
-    + [https://www.algolia.com/docsearch](https://www.algolia.com/docsearch)
+    + [https://docsearch.algolia.com](https://docsearch.algolia.com)
 + [https://sourcegraph.com/search](https://sourcegraph.com/search)
 + [https://github.com/ekalinin/sitemap.js](https://github.com/ekalinin/sitemap.js)
 + 网页加载进度 [https://github.com/CodeByZach/pace](https://github.com/CodeByZach/pace)
 + 天气 [https://weatherwidget.io](https://weatherwidget.io)
++ 运行代码 [https://github.com/rameshvarun/blog-cells](https://github.com/rameshvarun/blog-cells)
 
 
 - 静态站点生成器列表 [https://github.com/jamstack/jamstack.org](https://github.com/jamstack/jamstack.org)
@@ -88,28 +160,37 @@
     * [https://github.com/topics/vuepress-theme](https://github.com/topics/vuepress-theme)
     * [https://github.com/z3by/vuepress-tools](https://github.com/z3by/vuepress-tools)
     * [https://github.com/vuejs/vitepress](https://github.com/vuejs/vitepress)
+    * [https://www.vuepress.cn](https://www.vuepress.cn)
+    * [https://github.com/vuepress-theme-hope](https://github.com/vuepress-theme-hope)
 * 静态编译Jekyll [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
     * [http://jekyllcn.com](http://jekyllcn.com)
     * [https://www.jekyll.com.cn](https://www.jekyll.com.cn)
     * [https://github.com/mattvh/jekyllthemes](https://github.com/mattvh/jekyllthemes)
 * 静态编译Docsite [https://github.com/txd-team/docsite](https://github.com/txd-team/docsite)
-* [https://github.com/tangly1024/NotionNext](https://github.com/tangly1024/NotionNext)
-* 运行时驱动Docsify [https://github.com/docsifyjs/docsify](https://github.com/docsifyjs/docsify)
+* [https://github.com/11ty/eleventy](https://github.com/11ty/eleventy)
+    * [https://www.11ty.cn](https://www.11ty.cn)
+* 运行时驱动 [https://github.com/docsifyjs/docsify](https://github.com/docsifyjs/docsify)
     * [https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
-* 运行时驱动 [https://github.com/egoist/docute](https://github.com/egoist/docute)
+* [https://github.com/egoist/docute](https://github.com/egoist/docute)
+* [https://github.com/mx-space](https://github.com/mx-space)
 * 从仓库生成文档 [https://github.com/readthedocs](https://github.com/readthedocs)
 * [https://github.com/getgridea/gridea](https://github.com/getgridea/gridea)
 * [https://github.com/facebook/docusaurus](https://github.com/facebook/docusaurus)
+    * [https://www.docusaurus.cn](https://www.docusaurus.cn)
 * [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 * 简历 [https://github.com/xaoxuu/resume-docs](https://github.com/xaoxuu/resume-docs)
 * [https://github.com/AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume)
+* [https://github.com/i5heu/Faultier-CV](https://github.com/i5heu/Faultier-CV)
+* [https://github.com/RylanBot/resume-json-pdf](https://github.com/RylanBot/resume-json-pdf)
+* [https://github.com/BingyanStudio/LapisCV](https://github.com/BingyanStudio/LapisCV)
 * 百科 [https://github.com/Requarks/wiki](https://github.com/Requarks/wiki)
 * [https://github.com/phachon/mm-wiki](https://github.com/phachon/mm-wiki)
+* [https://github.com/tangly1024/NotionNext](https://github.com/tangly1024/NotionNext)
+* [https://github.com/toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
+
 
 
 **API接口文档管理**
-
-+ OpenAPI规范 [https://github.com/OAI](https://github.com/OAI)
 
 - [https://siguso.com](https://siguso.com)
 - [https://easydoc.net](https://easydoc.net)
@@ -164,6 +245,7 @@
     * [https://github.com/DesertsP/Valine-Admin](https://github.com/DesertsP/Valine-Admin)
     * [https://github.com/walinejs/waline](https://github.com/walinejs/waline)
 * [https://github.com/djyde/cusdis](https://github.com/djyde/cusdis)
+* [https://github.com/schn4ck/schnack](https://github.com/schn4ck/schnack)
 * 小部件 [https://github.com/widgetbot-io](https://github.com/widgetbot-io)
 * [https://chatra.com](https://chatra.com)
 * [https://crisp.chat](https://crisp.chat)
@@ -183,6 +265,7 @@
 * [https://github.com/aloud-comments](https://github.com/aloud-comments)
 * [https://github.com/MHuiG/ohhho](https://github.com/MHuiG/ohhho)
 * [https://github.com/imaegoo/twikoo](https://github.com/imaegoo/twikoo)
+* [https://github.com/DongHY1/comments](https://github.com/DongHY1/comments)
 
 
 - [第三方评论系统之我见](https://www.yunyoujun.cn/share/third-party-comment-system)
@@ -205,73 +288,6 @@
 * [https://gitter.im](https://gitter.im)
 * [https://github.com/ReplCustoms/ReplCustoms](https://github.com/ReplCustoms/ReplCustoms)
 
-
-
-
-## CloudFlare
-
-+ [https://github.com/topics/cloudflare](https://github.com/topics/cloudflare)
-+ [https://github.com/cloudflare](https://github.com/cloudflare)
-    + 静态部署 [https://pages.cloudflare.com](https://pages.cloudflare.com)
-        + 示例 [https://bajins-github-io.pages.dev](https://bajins-github-io.pages.dev)
-    + 注意：在自定义域中和在DNS中如果配置了`@`，会导致Workers自定义域名无法访问，只配置`www`即可
-    + [https://www.cloudflare.com/zh-cn/analytics](https://www.cloudflare.com/zh-cn/analytics)
-    + [https://www.cloudflare.com/zh-cn/web-analytics](https://www.cloudflare.com/zh-cn/web-analytics)
-    + [https://www.cloudflare.com/zh-cn/ssl](https://www.cloudflare.com/zh-cn/ssl)
-    + [https://www.cloudflare.com/zh-cn/cdn](https://www.cloudflare.com/zh-cn/cdn)
-
-- [https://github.com/BlueSkyXN/CFIP](https://github.com/BlueSkyXN/CFIP)
-- [https://github.com/yuantuo666/cfip](https://github.com/yuantuo666/cfip)
-- [https://github.com/XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)
-- [https://github.com/MortezaBashsiz/CFScanner](https://github.com/MortezaBashsiz/CFScanner)
-
-
-### Workers
-
-+ [https://workers.cloudflare.com](https://workers.cloudflare.com)
-+ [https://github.com/cloudflare/wrangler](https://github.com/cloudflare/wrangler)
-+ [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
-+ [https://github.com/topics/cloudflare-workers](https://github.com/topics/cloudflare-workers)
-
-- DNS：`AAAA 子域名 100::`或`CNAME 子域名 项目名.子域.workers.dev`不论workers.dev子域是否关闭都可使用
-- Cloudflare CNAME接入 [https://github.com/ZE3kr/Cloudflare-CNAME-Setup](https://github.com/ZE3kr/Cloudflare-CNAME-Setup)
-- [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
-- [用Cloudflare CDN 如何自定义节点（CF自选IP）/撸CloudFlare Pro](https://www.moeelf.com/archives/10.html)
-
-
-* [https://github.com/netnr/workers](https://github.com/netnr/workers)
-* [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
-* 动态博客系统 [https://github.com/kasuganosoras/cloudflare-worker-blog](https://github.com/kasuganosoras/cloudflare-worker-blog)
-* 个人导航网站 [https://github.com/sleepwood/CF-Worker-Dir](https://github.com/sleepwood/CF-Worker-Dir)
-* 一个极简风格的短网址转换 [https://github.com/Closty/duanwangzhi](https://github.com/Closty/duanwangzhi)
-* [基于 Telegraf 框架的 Telegram Bot](https://moe.best/tutorial/cfworker-telegraf-tgbot.html)
-* [使用CloudFlare Workers搭建网站状态监控](https://www.raycoder.me/p/cloudflare-workers-website-monitoring)
-
-
-**代理**
-
-+ [https://github.com/search?q=reverse-proxy+cloudflare-workers](https://github.com/search?q=reverse-proxy+cloudflare-workers)
-+ [https://github.com/search?q=proxy+cloudflare-workers](https://github.com/search?q=proxy+cloudflare-workers)
-+ [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
-
-- [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
-- [https://github.com/xiaoyang-liu-cs/booster.js](https://github.com/xiaoyang-liu-cs/booster.js)
-    - [https://github.com/yenpou/Workers-Proxy](https://github.com/yenpou/Workers-Proxy)
-- [https://github.com/netnr/workers](https://github.com/netnr/workers)
-- [https://github.com/ryanking13/cors](https://github.com/ryanking13/cors)
-- [https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy](https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy)
-
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=)
-
-
-
-### Warp
-
-+ [https://github.com/topics/warp](https://github.com/topics/warp)
-
-* [https://github.com/ViRb3/wgcf](https://github.com/ViRb3/wgcf)
-* [https://github.com/navaneethkm004/warp-plus](https://github.com/navaneethkm004/warp-plus)
-* [https://github.com/YG-tsj/Oracle-warp](https://github.com/YG-tsj/Oracle-warp)
 
 
 
@@ -321,6 +337,10 @@ archive.cloudera.com/cdh5/      cloudera.proxy.ustclug.org/cdh5/
 downloads.lede-project.org      lede.proxy.ustclug.org
 downloads.openwrt.org           openwrt.proxy.ustclug.org
 registry.npmjs.org              npmreg.proxy.ustclug.org
+registry.yarnpkg.com
+registry.nodejitsu.com
+skimdb.npmjs.com/registry
+registry.enpmjs.org
 www.npmjs.com                   npm.proxy.ustclug.org
 themes.googleusercontent.com    google-themes.proxy.ustclug.org
 themes.googleusercontent.com    themes.loli.net
@@ -438,13 +458,36 @@ document.getElementsByTagName("a");// 返回文档中指定标签的元素
 **解决跨域问题的几种方式**
 
 - `JSONP` 凡是拥有`src`属性的标签都不受同源策略限制, 缺点是只支持GET请求
-- `CORS` 需要浏览器和后端同时支持, 后端设置以下请求头就可以开启
+- [`CORS` 需要浏览器和后端同时支持, 后端设置以下请求头就可以开启](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers#cors)
     - `Access-Control-Allow-Origin` 如果值为`*`表示允许任何域名的访问
     - `Access-Control-Allow-Methods` 表明服务器允许客户端使用的请求方法
     - `Access-Control-Allow-Headers` 表明服务器允许请求中携带的头部字段
     - `Access-Control-Max-Age` 表明响应的有效时间。在有效时间内，浏览器无须为同一请求再次发起预检请求
     - `Access-Control-Expose-Headers` 服务器允许浏览器访问的头信息白名单
     - `Access-Control-Allow-Credentials` 指定了当浏览器的credentials设置为true时是否允许浏览器读取response的内容
+    ```conf
+    # OPTIONS预检命令，预检命令通过时才发送请求
+    # 检查请求的类型是不是预检命令
+    if ($request_method = 'OPTIONS') {
+        #   表示允许这个域跨域调用（客户端发送请求的域名和端口）
+        #   $http_origin动态获取请求客户端请求的域   不用*的原因是带cookie的请求不支持*号
+        add_header 'Access-Control-Allow-Origin' $http_origin;
+        # Om nom nom cookies
+        add_header 'Access-Control-Allow-Credentials' 'true';
+        # 指定允许跨域的方法，*代表所有
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, PUT, DELETE';
+        # Custom headers and headers various browsers *should* be OK with but aren't
+        #add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';
+        add_header 'Access-Control-Allow-Headers' $http_access_control_request_headers;
+        add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
+        # Tell client that this pre-flight info is valid for 20 days
+        # 预检命令的缓存，如果不缓存每次会发送两次请求
+        add_header 'Access-Control-Max-Age' 1728000;
+        #add_header 'Content-Type' 'text/plain charset=UTF-8';
+        #add_header 'Content-Length' 0;
+        return 204;
+    }
+    ```
 - `postMessage` 可以实现跨文本档、多窗口（iframe间通信最完美的办法）、跨域消息传递
 - `websocket` HTML5的一个持久化的协议，它实现了浏览器与服务器的全双工通信，也是跨域的一种解决方案
 - `Nginx` 反向代理（其他服务器应用也可），一般用于生产环境
@@ -454,8 +497,6 @@ document.getElementsByTagName("a");// 返回文档中指定标签的元素
     - [https://github.com/webpack/webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware)
     - [https://github.com/chimurai/http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware)
     - [https://github.com/http-party/node-http-proxy](https://github.com/http-party/node-http-proxy)
-    - [https://github.com/expressjs/express](https://github.com/expressjs/express)
-        - [https://expressjs.com/zh-cn/guide/writing-middleware.html](https://expressjs.com/zh-cn/guide/writing-middleware.html)
 
 
 * [浏览器同源政策及其规避方法](https://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html)

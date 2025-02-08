@@ -42,7 +42,6 @@
 - [java.lang.Record替代Lombok](https://www.liaoxuefeng.com/wiki/1252599548343744/1331429187256353)
 - [这四种对象属性拷贝方式，你都知道吗？](https://www.cnblogs.com/vandusty/p/12757992.html)
 - [领域模型转换那些事儿](https://zhuanlan.zhihu.com/p/86282401)
-- [Reactive programming 一种技术 各自表述](https://mercyblitz.github.io/2018/07/25/Reactive-Programming-%E4%B8%80%E7%A7%8D%E6%8A%80%E6%9C%AF-%E5%90%84%E8%87%AA%E8%A1%A8%E8%BF%B0)
 - [Java正则多次匹配和多次组匹配](https://www.cnblogs.com/ElEGenT/p/13158108.html)
 - [https://www.zhihu.com/people/rednaxelafx](https://www.zhihu.com/people/rednaxelafx)
 - [Java 正则表达式详解](https://segmentfault.com/a/1190000009162306)
@@ -61,6 +60,37 @@
 * 有状态就是有数据存储功能。有状态对象(Stateful Bean)，就是有实例变量的对象，可以保存数据，是非线程安全的。在不同方法调用间不保留任何状态。
 * 无状态就是一次操作，不能保存数据。无状态对象(Stateless Bean)，就是没有实例变量的对象 .不能保存数据，是不变类，是线程安全的。
 
+
+
+**Windows隐藏窗口后台运行jar包（推荐vbs可设置JVM参数）**
+
+* [hidden_run_jar.bat](/files/hidden_run_jar.bat)
+* [hidden_run_jar.vbs](/files/hidden_run_jar.vbs)
+
+
+
+## 代码块文档注释
+
+> 一定要用`<pre>{@code }</pre>`包裹代码块，或者进行HTML编码转义，否则将丢失格式
+
+- `{@code ... }` 用来包裹代码块，这样可以在JavaDoc中保留代码的格式，并且正确处理HTML标签和相关的特殊字符，如小于号`<`和大于号`>`。
+- `<pre>` 是预格式化文本的HTML标签，它告诉JavaDoc这里的文本应该按照预设格式显示，保留空白字符，如空格和换行符。
+
+```java
+/**
+ * <pre>
+ * List<Map<String, Object>> n = new ArrayList<>();
+ * Map<String, Object> map = new HashMap<>();
+ * {@code
+ * List<Map<String, Object>> n = new ArrayList<>();
+ * Map<String, Object> map = new HashMap<>();
+ * }
+ * List&lt;Map&lt;String, Object&gt;&gt; n = new ArrayList&lt;&gt;();
+ * Map&lt;String, Object&gt; map = new HashMap&lt;&gt;();
+ * </pre>
+ *
+ */
+```
 
 
 
@@ -428,6 +458,8 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 
 ## HTTP
 
+* [在 Java 中下载的文件会出现乱码是为什么？](https://www.zhihu.com/question/596302946)
+
 
 **常量**
 
@@ -479,6 +511,7 @@ Map<String, Object> params = new HashMap<>();
 params.put("key1", "value1");
 params.put("key2", "value2");
 
+// 方式一：使用setParameters
 List<NameValuePair> nvps = new ArrayList<NameValuePair>();
 // 通过map集成entrySet方法获取entity循环遍历，获取迭代器
 Iterator<Entry<String, Object>> iterator = params.entrySet().iterator();
@@ -488,21 +521,12 @@ while (iterator.hasNext()) {
 }
 // 由于GET请求的参数都是拼装在URL地址后方，所以我们要构建一个URL，带参数
 
-// 方式一：使用setParameters
 URIBuilder uriBuilder = new URIBuilder(url);
 // 封装请求参数
 uriBuilder.setParameters(nvps);
 uriBuilder.build();
 
-// 方式二：使用setParameter
-URIBuilder uriBuilder = new URIBuilder(url);
-// 封装请求参数
-for (String key : params.keySet()) {
-    uriBuilder.setParameter(key, params.get(key).toString());
-}
-uriBuilder.build();
-
-// 方式三：转换参数并拼接
+// 方式二：转换参数并拼接
 url += "?" + EntityUtils.toString(new UrlEncodedFormEntity(nvps, Consts.UTF_8));
 URIBuilder uriBuilder = new URIBuilder(url);
 uriBuilder.build();

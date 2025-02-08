@@ -1,32 +1,32 @@
 module.exports = [{
-    text: '更多资源',
+    text: '快捷链接',
     items: [{
-            // text: '',
+            text: '外部链接',
             items: [
                 {
-                    text: '动态编译博客',
-                    link: 'https://www.gotoxo.com'
-                },
-                {
-                    text: '博客备份',
-                    link: 'https://notes-vuepress.pages.dev'
-                },
-                {
                     text: '获取XShell',
-                    link: 'https://github.com/bajins/tool-gin'
+                    link: 'https://tool.bajins.com'
                 },
                 {
-                    text: 'GitHub',
+                    text: 'OCR图片识别',
+                    link: 'https://tr.bajins.com'
+                },
+                {
+                    text: '朋友圈不折叠',
+                    link: 'https://tool.bajins.com/wnf'
+                },
+                {
+                    text: 'GitHub反代',
                     link: 'https://g.bajins.eu.org'
                 },
                 {
-                    text: 'GitHub',
+                    text: 'GitHub反代',
                     link: 'https://g.woetu.eu.org'
                 },
             ]
         },
         {
-            // text: 'Other',
+            text: '内部链接',
             items: [{
                     text: '文件',
                     link: '/files'

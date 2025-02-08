@@ -10,8 +10,12 @@
 + [https://github.com/openjdk/jmc](https://github.com/openjdk/jmc)
 
 - [https://github.com/topics/diagnosis](https://github.com/topics/diagnosis)
-- [https://github.com/topics/trace](https://github.com/topics/trace)
 - [https://github.com/topics/agent](https://github.com/topics/agent)
+
+
+* [JVM问题笔记](https://blog.csdn.net/jwentao01/article/details/114947477)
+
+
 
 
 **其他命令**
@@ -27,21 +31,26 @@ java -cf bajins.war .
 # 获取当前JVM默认参数
 java -XX:+PrintFlagsFinal -version | grep MaxHeapSize
 
-# 找出占用CPU高（或执行时间长）的线程PID
-top -H -p $(pgrep java)
-top -Hp $(pgrep java)
-# TID等同PID
+# 通过进程ID(PID)找出占用CPU高（或执行时间长）的线程ID(TID)
+top -H -c -p $(pgrep java)
+top -Hpc $(pgrep java)
 ps -mp $(pgrep java) -o THREAD,tid,time | sort -rn
 
-# 打印堆栈异常信息，过滤转换为16进制的PID，-A 30显示后30行
-jstack PID | grep $(printf "%x\n" PID) -A 30
-jstack PID | grep -A 10 $(printf "%x\n" PID)
+# 打印堆栈异常信息，过滤转换为16进制的TID，-A 30显示后30行
+jstack -l PID | grep $(printf "%x\n" TID) -A 30
+jstack -l PID | grep -A 10 $(printf "%x\n" TID)
 
 # nid：对应的linux操作系统下的TID，就是前面转化的16进制数字
 # tid：这个应该是jvm的jmm内存规范中的唯一地址定位
 
-jmap -dump:live,format=b,file=/tmp/heapdump.hprof PID
-/usr/lib/jvm/jdk-YOUR-VERSION/bin/jcmd PID GC.heap_dump /tmp/heapdump.hprof
+# 获取线程堆栈信息
+jstack [-l ] <pid> | tee -a jstack.log
+# 获取JVM的堆栈信息
+jmap -dump:live,format=b,file=/home/heapdump.hprof PID
+jcmd PID GC.heap_dump /home/heapdump.hprof
+
+# 加载解析dump文件，默认7000端口 http://127.0.0.1:7000
+jhat heapdump.hprof
 ```
 
 
@@ -91,6 +100,7 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 
 ## 监控分析
 
+* [https://github.com/HanSolo/JDKMon](https://github.com/HanSolo/JDKMon)
 * Java诊断利器Arthas [https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
     * [https://arthas.aliyun.com/doc/quick-start.html](https://arthas.aliyun.com/doc/quick-start.html)
     * [https://github.com/dromara/cubic](https://github.com/dromara/cubic)
@@ -98,13 +108,14 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * [https://github.com/qunarcorp/bistoury](https://github.com/qunarcorp/bistoury)
 * [https://github.com/oldmanpushcart/greys-anatomy](https://github.com/oldmanpushcart/greys-anatomy)
 * [https://github.com/jvm-profiling-tools](https://github.com/jvm-profiling-tools)
+* JVM沙箱容器 [https://github.com/alibaba/jvm-sandbox](https://github.com/alibaba/jvm-sandbox)
 * 无侵入式的jvm监控 [https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
 * Java和Android堆转储分析器 [https://heaphero.io](https://heaphero.io)
 * GC 日志分析器 [https://gceasy.io](https://gceasy.io)
 * [https://github.com/microsoft/gctoolkit](https://github.com/microsoft/gctoolkit)
 * [https://github.com/chewiebug/GCViewer](https://github.com/chewiebug/GCViewer)
 * java程序跟踪工具 [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
-* 故障排除，监视和性能分析 [https://github.com/aragozin/jvm-tools](https://github.com/aragozin/jvm-tools)
+* 监视和性能分析 [https://github.com/aragozin/jvm-tools](https://github.com/aragozin/jvm-tools)
 * [https://github.com/ajermakovics/jvm-mon](https://github.com/ajermakovics/jvm-mon)
 * [https://github.com/saleson/fm-dynamic-compiler](https://github.com/saleson/fm-dynamic-compiler)
 * [https://github.com/gperftools/gperftools](https://github.com/gperftools/gperftools)
@@ -114,8 +125,21 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * 监控统计 [https://github.com/worstcase/gumshoe](https://github.com/worstcase/gumshoe)
 * [https://github.com/stevensouza/automon](https://github.com/stevensouza/automon)
 * [https://github.com/zrbcool/pepper-metrics](https://github.com/zrbcool/pepper-metrics)
+* [https://github.com/stagemonitor/stagemonitor](https://github.com/stagemonitor/stagemonitor)
+* [https://github.com/dropwizard/metrics](https://github.com/dropwizard/metrics)
 * 流分析 [https://github.com/wavefrontHQ/wavefront-proxy](https://github.com/wavefrontHQ/wavefront-proxy)
 * JProfiler [https://www.ej-technologies.com](https://www.ej-technologies.com)
+* [https://fastthread.io](https://fastthread.io)
+* 静态分析 [https://github.com/jspecify/jspecify](https://github.com/jspecify/jspecify)
+   * [https://jspecify.dev](https://jspecify.dev)
+* [http://github.com/google/error-prone](http://github.com/google/error-prone)
+* [https://github.com/typetools](https://github.com/typetools)
+* [https://github.com/eisop](https://github.com/eisop)
+   * [https://github.com/eisopux](https://github.com/eisopux)
+   * [https://github.com/opprop](https://github.com/opprop)
+* [https://github.com/facebook/infer](https://github.com/facebook/infer)
+* [https://github.com/uber/NullAway](https://github.com/uber/NullAway)
+* [https://github.com/openrewrite](https://github.com/openrewrite)
 
 
 
@@ -127,17 +151,46 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 + [https://github.com/topics/disassembler](https://github.com/topics/disassembler)
 
 
-* 在线反编译器 [http://www.javadecompilers.com](http://www.javadecompilers.com)
-* [https://github.com/java-decompiler](https://github.com/java-decompiler)
+* [https://github.com/Guardsquare](https://github.com/Guardsquare)
+* [https://github.com/apache/commons-bcel](https://github.com/apache/commons-bcel)
+* JD-Core [https://github.com/java-decompiler](https://github.com/java-decompiler)
     * [https://github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui)
     * [https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler](https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler)
-* [https://github.com/leibnitz27/cfr](https://github.com/leibnitz27/cfr)
-* [https://github.com/mstrobel/procyon](https://github.com/mstrobel/procyon)
-    * Gui for Procyon [https://github.com/deathmarine/Luyten](https://github.com/deathmarine/Luyten)
-* [https://github.com/fesh0r/fernflower](https://github.com/fesh0r/fernflower)
+* CFR [https://github.com/leibnitz27/cfr](https://github.com/leibnitz27/cfr)
+* Procyon [https://github.com/mstrobel/procyon](https://github.com/mstrobel/procyon)
+    * Gui [https://github.com/deathmarine/Luyten](https://github.com/deathmarine/Luyten)
+* Fernflower [https://github.com/fesh0r/fernflower](https://github.com/fesh0r/fernflower)
    * [https://github.com/MinecraftForge/ForgeFlower](https://github.com/MinecraftForge/ForgeFlower)
    * [http://the.bytecode.club/fernflower.jar](http://the.bytecode.club/fernflower.jar)
+   * [https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler](https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler)
+   * Quiltflower [https://github.com/Vineflower/vineflower](https://github.com/Vineflower/vineflower)
+* [https://github.com/Storyyeller/Krakatau](https://github.com/Storyyeller/Krakatau)
+* [https://sourceforge.net/projects/jode](https://sourceforge.net/projects/jode)
 * [https://github.com/MaxPixelStudios/MinecraftDecompiler](https://github.com/MaxPixelStudios/MinecraftDecompiler)
+* [https://github.com/bradsdavis/candle-decompiler](https://github.com/bradsdavis/candle-decompiler)
+* Cavaj Java Decompiler [https://sureshotsoftware.com/products/cavaj](https://sureshotsoftware.com/products/cavaj)
+* [https://github.com/mchr3k/jdeclipse-realign](https://github.com/mchr3k/jdeclipse-realign)
+* [https://sourceforge.net/projects/jadclipse](https://sourceforge.net/projects/jadclipse)
+* [https://sourceforge.net/projects/jbdec](https://sourceforge.net/projects/jbdec)
+* [https://sourceforge.net/projects/dedexer](https://sourceforge.net/projects/dedexer)
+* [https://varaneckas.com/jad](https://varaneckas.com/jad)
+* [http://www.kpdus.com/jad.html](http://www.kpdus.com/jad.html)
+* [https://sourceforge.net/projects/ejdc](https://sourceforge.net/projects/ejdc)
+* DJ Java Decompiler [http://www.neshkov.com](http://www.neshkov.com)
+* [https://github.com/vorburger/ScratchApplet](https://github.com/vorburger/ScratchApplet)
+* [https://sourceforge.net/projects/dcompiler](https://sourceforge.net/projects/dcompiler)
+* [https://sourceforge.net/projects/jadretro](https://sourceforge.net/projects/jadretro)
+* [https://sourceforge.net/projects/ideajad](https://sourceforge.net/projects/ideajad)
+* [https://sourceforge.net/projects/jad-align](https://sourceforge.net/projects/jad-align)
+* [https://sourceforge.net/projects/jdc-el](https://sourceforge.net/projects/jdc-el)
+* [https://sourceforge.net/projects/jdec](https://sourceforge.net/projects/jdec)
+* [https://sourceforge.net/projects/javad](https://sourceforge.net/projects/javad)
+* [https://sourceforge.net/projects/cupofjoe](https://sourceforge.net/projects/cupofjoe)
+* [https://sourceforge.net/projects/debyte](https://sourceforge.net/projects/debyte)
+* [https://sourceforge.net/projects/jrevpro](https://sourceforge.net/projects/jrevpro)
+   * [https://github.com/akkumar/jreversepro](https://github.com/akkumar/jreversepro)
+* [https://sourceforge.net/projects/jarg](https://sourceforge.net/projects/jarg)
+* [https://www.sothink.com/product/javadecompiler](https://www.sothink.com/product/javadecompiler)
 * Jar和APK逆向工程套件 [https://github.com/Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer)
 * dex2jar [https://github.com/pxb1988/dex2jar](https://github.com/pxb1988/dex2jar)
 * [https://github.com/horsicq/DIE-engine](https://github.com/horsicq/DIE-engine)
@@ -153,8 +206,16 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * 字节码查看器 [https://github.com/ingokegel/jclasslib](https://github.com/ingokegel/jclasslib)
 * [https://github.com/ClassViewer](https://github.com/ClassViewer)
 * [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
+* [https://github.com/phith0n/zkar](https://github.com/phith0n/zkar)
+* [https://github.com/jar-analyzer/jar-analyzer](https://github.com/jar-analyzer/jar-analyzer)
+* [https://github.com/BeichenDream/JDR](https://github.com/BeichenDream/JDR)
+* 混淆 [https://sourceforge.net/projects/javaguard](https://sourceforge.net/projects/javaguard)
+* [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
+* [http://www.e-t.com/jshrink.html](http://www.e-t.com/jshrink.html)
 
 
+
+- 在线反编译器 [http://www.javadecompilers.com](http://www.javadecompilers.com)
 - 反混淆 [https://github.com/java-deobfuscator/deobfuscator](https://github.com/java-deobfuscator/deobfuscator)
 - [jlink - 将一组模块及其依赖项组装并优化为自定义运行时映像](https://docs.oracle.com/en/java/javase/13/docs/specs/man/jlink.html)
 - [JDK14之jpackage命令](https://zhuanlan.zhihu.com/p/110087548)
@@ -170,6 +231,9 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 
 ![](/images/JDK-bin.png)
 
+
+* [https://github.com/jzillmann/jmh-visualizer](https://github.com/jzillmann/jmh-visualizer)
+* [https://github.com/HanSolo/jdktools](https://github.com/HanSolo/jdktools)
 
 
 ### 基本工具
@@ -268,6 +332,10 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 | jstat.exe     | 按照命令行的具体要求记录和收集一个JVM的性能数据                                      |
 | jstatd.exe    | JVM jstat 的守护进程                                                |
 | jmc.exe       | Java任务控制工具(Java Mission Control)，主要用于HotSpot JVM的生产时间监测、分析、诊断。从OracleJDK9开始，不再包含。 |
+
+
+* [Java线上CPU内存冲高问题排查步骤](https://blog.csdn.net/wx17343624830/article/details/129635988)
+* [java进程CPU占用高如何排查-案例二](https://blog.csdn.net/jwentao01/article/details/123982129)
 
 
 
@@ -475,6 +543,8 @@ jps [ -help ]
 
 
 ```bash
+# https://www.jianshu.com/p/d5ed70f875d9
+# https://www.cnblogs.com/qmfsun/p/5601734.html
 # 每2秒输出一次内存情况，连续输出100次
 jstat -gcutil <pid> 2000 100
 jstat -gcutil $(pgrep java) 2000 100
@@ -653,9 +723,6 @@ jcmd <pid> GC.heap_dump /home/heap.hprof
 | jabswitch.exe      | Java Access Bridge Switch的简称，用于控制Java访问桥的开/关。Java访问桥是一种技术，让Java应用程序实现Accessibility API，以供Microsoft Windows系统的辅助技术访问。 |
 | javafxpackager.exe | JavaFX打包工具                                                                                                           |
 | jrunscript.exe | 运行脚本 |
-
-
-
 
 
 

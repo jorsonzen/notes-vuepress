@@ -14,9 +14,11 @@
 * [https://github.com/pygame/pygame](https://github.com/pygame/pygame)
 * [https://github.com/PySimpleGUI](https://github.com/PySimpleGUI)
 * [https://github.com/hoffstadt/DearPyGui](https://github.com/hoffstadt/DearPyGui)
+* [https://github.com/PyQwt](https://github.com/PyQwt)
 * 跨平台 [https://github.com/kivy](https://github.com/kivy)
 * [https://github.com/beeware](https://github.com/beeware)
     * [https://github.com/pybee](https://github.com/pybee)
+* [https://github.com/flet-dev/flet](https://github.com/flet-dev/flet)
 * 命令行转GUI [https://github.com/chriskiehl/Gooey](https://github.com/chriskiehl/Gooey)
 
 
@@ -41,12 +43,16 @@
 * [https://github.com/PyQt5/PyQt](https://github.com/PyQt5/PyQt)
 * [https://github.com/PyQt5/QtDesigner](https://github.com/PyQt5/QtDesigner)
 
+
 + [https://github.com/ColinDuquesnoy/QDarkStyleSheet](https://github.com/ColinDuquesnoy/QDarkStyleSheet)
 + [https://github.com/mottosso/Qt.py](https://github.com/mottosso/Qt.py)
+
 
 - PyQt5快速开发与实战 [https://github.com/cxinping/PyQt5](https://github.com/cxinping/PyQt5)
 - PyQt5中文教程 [https://github.com/maicss/PyQt5-Chinese-tutorial](https://github.com/maicss/PyQt5-Chinese-tutorial)
 - [https://github.com/maicss/PyQt-Chinese-tutorial](https://github.com/maicss/PyQt-Chinese-tutorial)
+- Qt开发经验 [https://github.com/feiyangqingyun/qtkaifajingyan](https://github.com/feiyangqingyun/qtkaifajingyan)
+
 
 * [pyqt5 参考代码 github 参考项目](https://blog.csdn.net/wowocpp/article/details/105759105)
 
