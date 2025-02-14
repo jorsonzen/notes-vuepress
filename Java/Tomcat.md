@@ -7,17 +7,11 @@
 
 + [https://github.com/topics/tomcat](https://github.com/topics/tomcat)
 + [https://github.com/apache/tomcat](https://github.com/apache/tomcat)
-+ [https://github.com/Aresyi/HowTomcatWorks](https://github.com/Aresyi/HowTomcatWorks)
-+ [https://github.com/wildfly/wildfly](https://github.com/wildfly/wildfly)
-    + [https://github.com/thorntail/thorntail](https://github.com/thorntail/thorntail)
-+ [https://github.com/undertow-io/undertow](https://github.com/undertow-io/undertow)
-+ [https://github.com/eclipse/jetty.project](https://github.com/eclipse/jetty.project)
-+ [https://github.com/eclipse-ee4j/grizzly](https://github.com/eclipse-ee4j/grizzly)
-+ [https://github.com/eclipse-ee4j/glassfish](https://github.com/eclipse-ee4j/glassfish)
-    + [https://github.com/payara/Payara](https://github.com/payara/Payara)
+    + [https://tomcat.apache.org](https://tomcat.apache.org)
 
 
 * Tomcat集群Redis会话管理器 [https://github.com/ran-jit/tomcat-cluster-redis-session-manager](https://github.com/ran-jit/tomcat-cluster-redis-session-manager)
+* [https://github.com/magro/memcached-session-manager](https://github.com/magro/memcached-session-manager)
 * Tomcat监控 [https://github.com/psi-probe](https://github.com/psi-probe)
 
 
@@ -29,10 +23,24 @@
 - [Gzip无法压缩48k以上的资源？](https://blog.csdn.net/qq_29534483/article/details/80744027)
 
 
+> 因为Tomcat运行在JAVA虚拟机之上,适当调整运行JVM参数可以提升整体性能。
 
-* [java编译器编码和JVM编码问题？](https://www.zhihu.com/question/30977092)
-* Linux中，JVM默认编码为UTF-8，在`catalina.sh`配置`JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF-8"`
-* Windows中，JVM默认编码为GBK，在`catalina.bat`配置`set JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8`
+- Windows：修改`bin/catalina.bat`文件，文件中有注释说明，配置JVM参数：`set "JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8"`
+- Linux：修改`bin/catalina.sh`文件，文件中有注释说明，配置JVM参数：`JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF-8"`
+
+
+
+
+## 其他应用服务器
+
++ [https://github.com/Aresyi/HowTomcatWorks](https://github.com/Aresyi/HowTomcatWorks)
++ [https://github.com/wildfly/wildfly](https://github.com/wildfly/wildfly)
+    + [https://github.com/thorntail/thorntail](https://github.com/thorntail/thorntail)
++ [https://github.com/undertow-io/undertow](https://github.com/undertow-io/undertow)
++ [https://github.com/eclipse/jetty.project](https://github.com/eclipse/jetty.project)
++ [https://github.com/eclipse-ee4j/grizzly](https://github.com/eclipse-ee4j/grizzly)
++ [https://github.com/eclipse-ee4j/glassfish](https://github.com/eclipse-ee4j/glassfish)
+    + [https://github.com/payara/Payara](https://github.com/payara/Payara)
 
 
 
@@ -161,8 +169,12 @@ tomcat.util.http.parser.HttpParser.requestTargetAllow=|{}
 
 
 
+## 问题及解决方案
 
-## 403AccessDenied
+* [eclipse启动tomcat提示端口被占用 实际端口并没有被占用 重启也没用](https://www.cnblogs.com/zhaler/p/16232850.html)
+
+
+### 403AccessDenied
 
 > `tomcat8`以上管理页面提示`403 Access Denied`问题
 
@@ -201,6 +213,29 @@ vi webapps/host-manager/META-INF/context.xml
 ```
 
 
+
+### 启动时一直卡100%
+
+1. 有可能是mybatis的mapper XML多了（比如删除了dao，而没有删除xml）
+2. 还有可能是xml内的语法或元素错误（比如两个标签的id重复）
+3. 或者没有对用到的实体类进行扫描
+4. 检查xml中映射的实体类全限定路径（改了包名）
+
+
+* [eclipse+tomcat 启动已有工程时卡在starting100%状态的解决办法](https://www.dandelioncloud.cn/article/details/1510442490028216321)
+* [tomcat启动时卡在100%（preparing launch delegate...）](https://bbs.csdn.net/topics/392322747)
+
+
+### 请考虑增加缓存的最大空间
+
+* [https://tomcat.apache.org/tomcat-9.0-doc/config/resources.html#Attributes](https://tomcat.apache.org/tomcat-9.0-doc/config/resources.html#Attributes)
+
+- 编辑`tomcat\conf\context.xml`或`webapp\META-INF\context.xml`文件
+
+```xml
+<!-- cachingAllowed是否缓存静态资源 -->
+<Resources cachingAllowed="true" cacheMaxSize="102400" cacheObjectMaxSize="1024"/>
+```
 
 
 

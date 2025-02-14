@@ -10,13 +10,12 @@
 > `Shell`管理你与操作系统之间的交互：等待你输入，向操作系统解释你的输入，并且处理各种各样的操作系统的输出结果。
 
 + [https://github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
-+ 命令替代品 [https://github.com/ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix)
-+ [https://github.com/vastutsav/command-line-quick-reference](https://github.com/vastutsav/command-line-quick-reference)
-+ [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk)
++ 命令行沙盒 [https://github.com/binpash/try](https://github.com/binpash/try)
 
-* [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
 
+- [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
 - [Linux下Shell脚本字符串单引号、双引号、反引号、反斜杠的作用和区别](https://www.cnblogs.com/EasonJim/p/8018545.html)
+
 
 
 ## 运行程序
@@ -146,7 +145,6 @@ ls -l | awk "/postfix|dovecot/"
 * [https://github.com/search?q=cron](https://github.com/search?q=cron)
     * [https://github.com/topics/crontab](https://github.com/topics/crontab)
     * 定时任务 [https://github.com/ouqiang/gocron](https://github.com/ouqiang/gocron)
-    * [https://github.com/robfig/cron](https://github.com/robfig/cron)
     * [https://github.com/jasonlvhit/gocron](https://github.com/jasonlvhit/gocron)
     * [https://github.com/alseambusher/crontab-ui](https://github.com/alseambusher/crontab-ui)
     * [https://github.com/whyour/qinglong](https://github.com/whyour/qinglong)
@@ -348,6 +346,10 @@ find / -name 'path' -type d
 find . | xargs grep -ri 'content'
 # 查找内容只显示文件名称
 find . | xargs grep -ril 'content'
+
+# 查找文件并去除./
+find -maxdepth 1 -printf '%P\n'
+find -maxdepth 1 | cut -c3-
 ```
 
 ## 列出目录

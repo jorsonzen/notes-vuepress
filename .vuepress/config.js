@@ -97,8 +97,9 @@ module.exports = {
             //filter:"",
             count: "20",
         }],
-        // 全文搜索 https://github.com/bajins/vuepress-plugin-flexsearch-plus
-        ['flexsearch-plus'],
+        // 全文搜索
+        [require('./plugins/vuepress-plugin-flexsearch/index.js')],
+        // ['fulltext-search'],
         // https://github.com/znicholasbrown/vuepress-plugin-code-copy
         ["vuepress-plugin-code-copy", true],
         // https://github.com/ekoeryanto/vuepress-plugin-sitemap
@@ -113,41 +114,27 @@ module.exports = {
         // ['vuepress-plugin-right-anchor'], // 页面右侧添加定位导航栏
         // https://github.com/zq99299/vuepress-plugin
         // ['vuepress-plugin-baidu-tongji-analytics', { key: '1a6c542ce78046e639afb5b37f298a51' }],
-        ['vuepress-plugin-toolbar', {// https://zq99299.github.io/vuepress-plugin/vuepress-plugin-toolbar
+        // https://zq99299.github.io/vuepress-plugin/vuepress-plugin-toolbar
+        [require('./plugins/vuepress-plugin-toolbar/index.js'), {
             'pageNav': {
                 name: '导航'
             },
             opts: [
                 {
                     icon: '',
-                    name: 'GD',
-                    link: 'https://gd.bajins.com',
+                    name: '动态博客',
+                    link: 'https://www.gotoxo.com',
                     popover: {
-                        title: 'GoogleDrive',
-                        type: 'image',
-                        imageUrl: 'https://cdn.arstechnica.net/wp-content/uploads/2021/07/Google-Drive-800x420.jpg',
-                        more: {
-                            newWindow: true,
-                            link: 'https://gd.bajins.com',
-                            name: '了解更多'
-                        }
+                        type: 'html',
+                        title: '',
+                        html: '<iframe src="https://www.gotoxo.com"></iframe>'
                     }
                 },
                 {
                     icon: '',
-                    name: 'OD',
-                    link: 'https://od.bajins.com',
-                    popover: {
-                        title: 'OneDrive',
-                        type: 'image',
-                        imageUrl: 'https://p.sfx.ms/OneDriveLogoTile.png',
-                        more: {
-                            newWindow: true,
-                            link: 'https://od.bajins.com',
-                            name: '了解更多'
-                        }
-                    }
-                }
+                    name: '备份博客',
+                    link: 'https://notes-vuepress.pages.dev',
+                },
             ]
         }],
         // https://github.com/leoloso/vuepress-plugin-plausible-analytics

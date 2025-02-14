@@ -5,20 +5,26 @@
 
 ## Flag
 
-* [https://en.wikipedia.org/wiki/Shell_(computing)](https://en.wikipedia.org/wiki/Shell_(computing))
++ [https://en.wikipedia.org/wiki/Shell_(computing)](https://en.wikipedia.org/wiki/Shell_(computing))
++ [https://github.com/topics/shell](https://github.com/topics/shell)
++ [https://github.com/search?q=shell](https://github.com/search?q=shell)
+
 
 - 命令行参考大全（Linux、macOS、CMD、PowerShell、VB Script）[https://ss64.com](https://ss64.com)
 - [https://www.robvanderwoude.com](https://www.robvanderwoude.com)
 - [https://github.com/jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
 - [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
 - [https://www.shellscript.sh](https://www.shellscript.sh)
+- [https://math.ecnu.edu.cn/~jypan/Teaching/Linux](https://math.ecnu.edu.cn/~jypan/Teaching/Linux)
+- [https://github.com/qinjx/30min_guides](https://github.com/qinjx/30min_guides)
 - GUI [什么是X11-Forwarding](https://blog.csdn.net/weixin_41668084/article/details/113361765)
 - 命令行基准测试工具 [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
     - [https://github.com/chinanf-boy/hyperfine-zh](https://github.com/chinanf-boy/hyperfine-zh)
 
 
 
-**命令助手**
+
+## 命令行助手
 
 - 命令补全 [https://github.com/scop/bash-completion](https://github.com/scop/bash-completion)
 - [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
@@ -27,18 +33,65 @@
 - [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - [https://github.com/zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [https://github.com/spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)
 - [https://github.com/Bash-it/bash-it](https://github.com/Bash-it/bash-it)
 - [https://github.com/orhun/halp](https://github.com/orhun/halp)
 - [https://github.com/0dayCTF/reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)
+- [https://github.com/starship/starship](https://github.com/starship/starship)
+- [https://github.com/fish-shell/fish-shell](https://github.com/fish-shell/fish-shell)
 - 命令执行演示 [https://github.com/maaslalani/slides](https://github.com/maaslalani/slides)
 - [https://github.com/d0c-s4vage/lookatme](https://github.com/d0c-s4vage/lookatme)
-- [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 - [https://github.com/chubin](https://github.com/chubin)
 - AI加持 [https://github.com/emcf/engshell](https://github.com/emcf/engshell)
-
-
-* [https://github.com/google/zx](https://github.com/google/zx)
-
+- 历史导入SQLite [https://github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)
+- 历史查找 [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)
+- 录屏 [https://github.com/gvcgo/asciinema](https://github.com/gvcgo/asciinema)
+- 词典 [https://github.com/lengyijun/mdict-cli-rs](https://github.com/lengyijun/mdict-cli-rs)
+- HTTP [https://github.com/jpillora/chisel](https://github.com/jpillora/chisel)
+- [https://github.com/lavv17/lftp](https://github.com/lavv17/lftp)
+- 爬取网页 [https://github.com/philippta/flyscrape](https://github.com/philippta/flyscrape)
+- 历史记录 [https://github.com/ddworken/hishtory](https://github.com/ddworken/hishtory)
+- [https://github.com/YiNNx/cmd-wrapped](https://github.com/YiNNx/cmd-wrapped)
+- [https://github.com/cantino/mcfly](https://github.com/cantino/mcfly)
+- kill [https://github.com/jkfran/killport](https://github.com/jkfran/killport)
+- ack [https://github.com/ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
+- ACK [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
+- agrep [https://github.com/laurikari/tre](https://github.com/laurikari/tre)
+- 终端图像查看 [https://github.com/stefanhaustein/TerminalImageViewer](https://github.com/stefanhaustein/TerminalImageViewer)
+- 地图 [https://github.com/rastapasta/mapscii](https://github.com/rastapasta/mapscii)
+- 电子表格 [https://github.com/saulpw/visidata](https://github.com/saulpw/visidata)
+- 逆向工程 [https://github.com/radareorg/radare2](https://github.com/radareorg/radare2)
+- 查看日志文件 [https://github.com/bensadeh/tailspin](https://github.com/bensadeh/tailspin)
+- [https://github.com/Textualize/toolong](https://github.com/Textualize/toolong)
+- cat [https://github.com/swsnr/mdcat](https://github.com/swsnr/mdcat)
+- [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
+- 文件管理 [https://github.com/sxyazi/yazi](https://github.com/sxyazi/yazi)
+- 类ls [https://github.com/yellow-footed-honeyguide/facad](https://github.com/yellow-footed-honeyguide/facad)
+- SCP [https://github.com/lengyijun/smartscp](https://github.com/lengyijun/smartscp)
+- CP [https://github.com/tarka/xcp](https://github.com/tarka/xcp)
+- 加密 [https://github.com/candiddev/rot](https://github.com/candiddev/rot)
+- JSON [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
+    - [https://stedolan.github.io/jq](https://stedolan.github.io/jq)
+    - [https://github.com/alingse/jq-manual-cn](https://github.com/alingse/jq-manual-cn)
+- [https://github.com/simeji/jid](https://github.com/simeji/jid)
+    - [https://github.com/fiatjaf/jiq](https://github.com/fiatjaf/jiq)
+- [https://github.com/wader/fq](https://github.com/wader/fq)
+- [https://github.com/ynqa/jnv](https://github.com/ynqa/jnv)
+- [https://github.com/bjesus/pipet](https://github.com/bjesus/pipet)
+- HTML [https://github.com/ericchiang/pup](https://github.com/ericchiang/pup)
+- [https://github.com/dvcoolarun/web2pdf](https://github.com/dvcoolarun/web2pdf)
+- [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
+- Find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
+- 便捷运行 [https://github.com/casey/just](https://github.com/casey/just)
+- [https://github.com/google/zx](https://github.com/google/zx)
+- [https://github.com/ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix)
+- [https://github.com/vastutsav/command-line-quick-reference](https://github.com/vastutsav/command-line-quick-reference)
+- [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk)
+- [https://github.com/Equationzhao/g](https://github.com/Equationzhao/g)
+- [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
+- [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
+- 查询nginx日志 [https://github.com/facundoolano/ngtop](https://github.com/facundoolano/ngtop)
+- 连接数据库 [https://github.com/PeepDB-dev/peepdb](https://github.com/PeepDB-dev/peepdb)
 
 
 **`terminal`、`shell`、`tty`、`console` 之间的区别**
@@ -168,6 +221,7 @@
 * [https://github.com/topics/ssh-client](https://github.com/topics/ssh-client)
 * [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
 * [https://github.com/topics/ssh](https://github.com/topics/ssh)
+* [https://github.com/francoismichel/ssh3](https://github.com/francoismichel/ssh3)
 * [https://github.com/mskyaxl/wsl-terminal](https://github.com/mskyaxl/wsl-terminal)
 
 
@@ -184,6 +238,17 @@
     * [https://github.com/openssh-rust/openssh](https://github.com/openssh-rust/openssh)
     * [https://slproweb.com/products/Win32OpenSSL.html](https://slproweb.com/products/Win32OpenSSL.html)
 * [https://github.com/warpdotdev](https://github.com/warpdotdev)
+* [https://github.com/trzsz/trzsz](https://github.com/trzsz/trzsz)
+* [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
+* [https://github.com/deadbeefsociety/sshfs](https://github.com/deadbeefsociety/sshfs)
+* [https://github.com/neunenak/sshfs](https://github.com/neunenak/sshfs)
+* [https://github.com/yaronn/blessed-contrib](https://github.com/yaronn/blessed-contrib)
+* [https://github.com/gizak/termui](https://github.com/gizak/termui)
+* [https://github.com/nsf/termbox-go](https://github.com/nsf/termbox-go)
+* [https://github.com/gdamore/tcell](https://github.com/gdamore/tcell)
+* [https://github.com/fdehau/tui-rs](https://github.com/fdehau/tui-rs)
+* [https://github.com/ratatui-org](https://github.com/ratatui-org)
+* [https://github.com/shell360](https://github.com/shell360)
 
 
 - [https://www.termius.com](https://www.termius.com)
@@ -196,6 +261,8 @@
 * [https://github.com/billchurch/WebSSH2](https://github.com/billchurch/WebSSH2)
 * [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
 * [https://github.com/tsl0922/ttyd](https://github.com/tsl0922/ttyd)
+* [https://github.com/zyyzyykk/kkTerminal](https://github.com/zyyzyykk/kkTerminal)
+* 实时协作 [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
 
 
 **Android**
@@ -204,6 +271,7 @@
 
 * [https://github.com/topics/termux](https://github.com/topics/termux)
     * [https://github.com/termux](https://github.com/termux)
+    * [https://github.com/hanxinhao000/ZeroTermux](https://github.com/hanxinhao000/ZeroTermux)
 * [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
 * [https://www.juicessh.com](https://www.juicessh.com)
 * [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
@@ -217,14 +285,16 @@
 + [https://github.com/topics/kitty](https://github.com/topics/kitty)
 
 
-* [https://github.com/kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm)
-* [https://github.com/nxshell](https://github.com/nxshell)
-    * [https://sourceforge.net/projects/nxshell](https://sourceforge.net/projects/nxshell)
+* [https://github.com/wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
+* [https://github.com/TermoraDev/termora](https://github.com/TermoraDev/termora)
+* [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
+* [https://github.com/ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)
 * [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
     * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
     * [https://sourceforge.net/projects/sshwindows](https://sourceforge.net/projects/sshwindows)
 * [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
     * [https://docs.microsoft.com/zh-cn/windows/terminal](https://docs.microsoft.com/zh-cn/windows/terminal)
+* [https://github.com/felixse/FluentTerminal](https://github.com/felixse/FluentTerminal)
 * [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
 * [https://github.com/FarGroup/FarManager](https://github.com/FarGroup/FarManager)
 * [https://github.com/alacritty/alacritty](https://github.com/alacritty/alacritty)
@@ -233,6 +303,12 @@
 * [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
 * [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
 * [https://github.com/Eugeny/tabby](https://github.com/Eugeny/tabby)
+* [https://github.com/xpipe-io/xpipe](https://github.com/xpipe-io/xpipe)
+* [https://github.com/nxshell](https://github.com/nxshell)
+    * [https://sourceforge.net/projects/nxshell](https://sourceforge.net/projects/nxshell)
+* [https://github.com/kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm)
+    * [https://github.com/aoyiduo/woterm](https://github.com/aoyiduo/woterm)
+* FinalShell [https://www.hostbuf.com/t/988.html](https://www.hostbuf.com/t/988.html)
 * PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
     * [https://github.com/rhuijben/putty](https://github.com/rhuijben/putty)
     * [https://github.com/larryli/PuTTY](https://github.com/larryli/PuTTY)
@@ -250,6 +326,7 @@
     * [https://sourceforge.net/projects/winscp](https://sourceforge.net/projects/winscp)
     * [https://github.com/search?q=winscp](https://github.com/search?q=winscp)
 * Cygwin终端 [https://github.com/mintty/mintty](https://github.com/mintty/mintty)
+    * [https://github.com/rprichard/winpty](https://github.com/rprichard/winpty)
 * WSL终端 [https://github.com/mintty/wsltty](https://github.com/mintty/wsltty)
 * MacOS [https://github.com/gnachman/iTerm2](https://github.com/gnachman/iTerm2)
     * [https://sourceforge.net/projects/iterm](https://sourceforge.net/projects/iterm)

@@ -5,28 +5,25 @@
 
 ## Flag
 
-> 规定网页的布局
+> Cascading Style Sheets：规定网页的布局
 
 * [https://drafts.csswg.org/css-cascade](https://drafts.csswg.org/css-cascade)
 * [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
+* [https://github.com/chokcoco/iCSS](https://github.com/chokcoco/iCSS)
+* [https://github.com/Afif13](https://github.com/Afif13)
+    * [https://css-loaders.com](https://css-loaders.com)
+    * [https://css-generators.com](https://css-generators.com)
 * CSS3/CSS2/CSS 教程 [http://www.w3chtml.com/css3](http://www.w3chtml.com/css3)
+* [https://github.com/5t3ph/moderncss-dot-dev](https://github.com/5t3ph/moderncss-dot-dev)
+* [https://github.com/adrianhajdin/brainwave](https://github.com/adrianhajdin/brainwave)
 * HTML系列教程 [https://www.w3school.com.cn/h.asp](https://www.w3school.com.cn/h.asp)
 * [http://css.doyoe.com/](http://css.doyoe.com)
 * CSS/CSS3 中文参考文档手册 [http://css.cuishifeng.cn](http://css.cuishifeng.cn)
 * [https://github.com/adamschwartz/magic-of-css](https://github.com/adamschwartz/magic-of-css)
-
-
-
-- [https://github.com/sass](https://github.com/sass)
-    - Sass教程 Sass中文文档: [https://www.sass.hk/docs](https://www.sass.hk/docs)
-    - [SASS用法指南(阮一峰)](http://www.ruanyifeng.com/blog/2012/06/sass.html)
-- [https://github.com/less](https://github.com/less)
-    - [https://less.bootcss.com](https://less.bootcss.com)
-- CSS规约 [https://github.com/stylelint/stylelint](https://github.com/stylelint/stylelint)
-
-
-
+* [界面灵感类网站合集](https://uxchi.notion.site/881b4c0179a74935a3f607ad3521cdb5)
 * [现代 CSS 高阶技巧，完美的波浪进度条效果](https://segmentfault.com/a/1190000043081752)
+* 可折叠树 [https://iamkate.com/code/tree-views](https://iamkate.com/code/tree-views)
+* [CSS In 2023](https://juejin.cn/post/7232187022399586362)
 
 
 **各种隐藏HTML元素的区别**
@@ -119,7 +116,11 @@
 * [https://github.com/filamentgroup](https://github.com/filamentgroup)
 * [https://github.com/pure-css/pure](https://github.com/pure-css/pure)
     * [https://www.purecss.cn](https://www.purecss.cn)
-- [https://github.com/necolas/normalize.css](https://github.com/necolas/normalize.css)
+* [https://github.com/wintermute-cell/magick.css](https://github.com/wintermute-cell/magick.css)
+* [https://github.com/louismerlin/concrete.css](https://github.com/louismerlin/concrete.css)
+* [https://github.com/milligram/milligram](https://github.com/milligram/milligram)
+* [https://github.com/dhg/Skeleton](https://github.com/dhg/Skeleton)
+* [https://github.com/necolas/normalize.css](https://github.com/necolas/normalize.css)
 * [https://github.com/picturepan2/spectre](https://github.com/picturepan2/spectre)
 * [https://github.com/semantic-org/semantic-ui](https://github.com/semantic-org/semantic-ui)
 * [https://github.com/Dogfalo/materialize](https://github.com/Dogfalo/materialize)
@@ -128,49 +129,87 @@
     * [https://lqzhgood.github.io/bulma-docs-cn](https://lqzhgood.github.io/bulma-docs-cn)
 * [https://github.com/Chalarangelo/mini.css](https://github.com/Chalarangelo/mini.css)
 * [https://github.com/olton/Metro-UI-CSS](https://github.com/olton/Metro-UI-CSS)
-* [https://github.com/storybookjs/storybook](https://github.com/storybookjs/storybook)
 * [https://github.com/saadeghi/daisyui](https://github.com/saadeghi/daisyui)
 * [https://github.com/antfu/unocss](https://github.com/antfu/unocss)
 * [https://github.com/windicss/windicss](https://github.com/windicss/windicss)
 * [https://github.com/tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)
     * [https://www.tailwindcss.cn](https://www.tailwindcss.cn)
+    * [https://github.com/mdbootstrap/Tailwind-Elements](https://github.com/mdbootstrap/Tailwind-Elements)
+    * [https://github.com/sonofmagic/weapp-tailwindcss](https://github.com/sonofmagic/weapp-tailwindcss)
+* [https://github.com/sailboatui/sailboatui](https://github.com/sailboatui/sailboatui)
+* [https://github.com/dufu1991/stdf](https://github.com/dufu1991/stdf)
 * [https://github.com/FullHuman/purgecss](https://github.com/FullHuman/purgecss)
     * [https://www.purgecss.cn](https://www.purgecss.cn)
+* [https://github.com/codazoda/neatcss](https://github.com/codazoda/neatcss)
 * [https://github.com/tw-in-js/twind](https://github.com/tw-in-js/twind)
 * [https://github.com/BlazeSoftware](https://github.com/BlazeSoftware)
 * [https://github.com/postcss/postcss](https://github.com/postcss/postcss)
+    * [https://www.postcss.com.cn](https://www.postcss.com.cn)
+* [https://github.com/unocss/unocss](https://github.com/unocss/unocss)
 * [https://github.com/ansible-semaphore/semaphore](https://github.com/ansible-semaphore/semaphore)
 * [https://www.telerik.com/kendo-ui](https://www.telerik.com/kendo-ui)
 * [https://github.com/shadcn/ui](https://github.com/shadcn/ui)
-* 图标 [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
+* [https://github.com/shadcn-ui/ui](https://github.com/shadcn-ui/ui)
+    * [https://ui.shadcn.com/charts](https://ui.shadcn.com/charts)
+* [https://github.com/magicuidesign/magicui](https://github.com/magicuidesign/magicui)
+* [https://github.com/radix-ui](https://github.com/radix-ui)
+* [https://github.com/shoelace-style/shoelace](https://github.com/shoelace-style/shoelace)
+* 解析 [https://github.com/csstree/csstree](https://github.com/csstree/csstree)
+* 矢量图标 [https://github.com/FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
+* [https://www.iconfont.cn](https://www.iconfont.cn)
+* [https://www.iconbolt.com](https://www.iconbolt.com)
+* [https://icomoon.io](https://icomoon.io)
+* [https://www.flaticon.com/authors/freepik](https://www.flaticon.com/authors/freepik)
+* [https://glyphicons.com](https://glyphicons.com)
+* [https://iconbuddy.app](https://iconbuddy.app)
+* [https://useanimations.com](https://useanimations.com)
+* [https://github.com/primer/octicons](https://github.com/primer/octicons)
+* [https://yesicon.app](https://yesicon.app)
+    * [https://github.com/rotick/yesicon-forum](https://github.com/rotick/yesicon-forum)
+* [https://github.com/simple-icons](https://github.com/simple-icons)
+* [https://github.com/pheralb/svgl](https://github.com/pheralb/svgl)
+* [https://iconce.com](https://iconce.com)
+* [https://github.com/KanjiVG/kanjivg](https://github.com/KanjiVG/kanjivg)
+* [https://github.com/lucide-icons/lucide](https://github.com/lucide-icons/lucide)
+* [https://shipfa.st/tools/logo-fast](https://shipfa.st/tools/logo-fast)
+* [https://www.svgviewer.dev](https://www.svgviewer.dev)
+* [https://github.com/hugeicons/hugeicons-react](https://github.com/hugeicons/hugeicons-react)
+* [https://github.com/pqoqubbw/icons](https://github.com/pqoqubbw/icons)
 
 
 - [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)
-
-
-**字体**
-
-- [https://github.com/google/fonts](https://github.com/google/fonts)
-    - [https://developers.google.cn/fonts](https://developers.google.cn/fonts)
-- [https://pub.flutter-io.cn/packages/google_fonts](https://pub.flutter-io.cn/packages/google_fonts)
-- [http://www.googlefonts.net](http://www.googlefonts.net)
-
+- [https://github.com/sass](https://github.com/sass)
+    - [https://www.sass.hk/docs](https://www.sass.hk/docs)
+    - [SASS用法指南(阮一峰)](http://www.ruanyifeng.com/blog/2012/06/sass.html)
+- [https://github.com/less](https://github.com/less)
+    - [https://less.bootcss.com](https://less.bootcss.com)
+- [https://github.com/cssnano/cssnano](https://github.com/cssnano/cssnano)
+    - [https://www.cssnano.cn](https://www.cssnano.cn)
+- CSS规约 [https://github.com/stylelint/stylelint](https://github.com/stylelint/stylelint)
+- [https://github.com/ubershmekel/cssbed](https://github.com/ubershmekel/cssbed)
 
 
 
 ## CSS3新单位和计算
 
-* [https://www.w3.org/TR/css3-values/#length-value](https://www.w3.org/TR/css3-values/#length-value)
+* [https://www.w3.org/TR/css3-values/#lengths](https://www.w3.org/TR/css3-values/#lengths)
 * [https://developer.mozilla.org/zh-CN/docs/Web/CSS/length](https://developer.mozilla.org/zh-CN/docs/Web/CSS/length)
+* [https://www.raresportan.com/css-units](https://www.raresportan.com/css-units)
 
 | 单位 	| 说明                                                                          	|
 |------	|-------------------------------------------------------------------------------	|
+| px   	| 一像素（pixel） 	|
+| cm   	| 一厘米。`1cm = 96px / 2.54` 	|
+| mm   	| 一毫米。`1mm = 1/10 * 1cm` 	|
+| in   	| 一英寸。`1in = 2.54cm = 96px`	|
+| pc   	| 一磅（point），72 分之一英寸。`1pc = 12pt = 1/6 * 1in` 	|
+| pt   	| 一磅（point），72 分之一英寸。`1pt = 1/12 * 1pc = 1/72 * 1in`	|
+| ch   	| 数字 0 的宽度                                                                 	|
 | em   	| 相对于应用在当前元素的字体尺寸。一般浏览器字体大小默认为16px，则2em == 32px； 	|
 | ex   	| 依赖于英文字母小 x 的高度                                                     	|
-| ch   	| 数字 0 的宽度                                                                 	|
 | rem  	| 根元素（html）的 font-size                                                    	|
-| vw   	| viewpoint width，视窗宽度，1vw=视窗宽度的1%                                   	|
 | vh   	| viewpoint height，视窗高度，1vh=视窗高度的1%                                  	|
+| vw   	| viewpoint width，视窗宽度，1vw=视窗宽度的1%                                   	|
 | vmin 	| vw和vh中较小的那个。                                                          	|
 | vmax 	| vw和vh中较大的那个。                                                          	|
 
@@ -407,7 +446,7 @@
     - `inherit` 规定应该从父元素继承`white-space`属性的值
 
 
-- `word-wrap: normal|break-word;` 标明是否允许浏览器在单词内进行断句，防止当一个字符串太长而找不到它的自然断句点时产生溢出现象。 
+- `overflow-wrap: normal|break-word;` 标明是否允许浏览器在单词内进行断句，防止当一个字符串太长而找不到它的自然断句点时产生溢出现象。 
     - `normal` 只在允许的断字点换行(浏览器保持默认处理) 
     - `break-word` 在长单词或URL地址内部进行换行 
 

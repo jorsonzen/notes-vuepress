@@ -11,12 +11,11 @@
 * [https://sourceware.org](https://sourceware.org)
 
 
-- 实用工具 [https://docs.microsoft.com/zh-cn/sysinternals](https://docs.microsoft.com/zh-cn/sysinternals)
-- [https://github.com/Sysinternals](https://github.com/Sysinternals)
-- [https://github.com/OpenPGP/openpgp.org](https://github.com/OpenPGP/openpgp.org)
-- GPG密钥 [https://www.gpg4win.org](https://www.gpg4win.org)
+
+
 - 多个shell软件包镜像 [https://github.com/mirror](https://github.com/mirror)
 - [https://github.com/svn2github](https://github.com/svn2github)
+- [https://winlibs.com](https://winlibs.com)
 - 沙箱 [https://github.com/sandboxie-plus](https://github.com/sandboxie-plus)
 
 
@@ -68,6 +67,8 @@
     * [https://github.com/microsoft/WSL/issues/4177](https://github.com/microsoft/WSL/issues/4177)
 * [https://github.com/shayne/go-wsl2-host](https://github.com/shayne/go-wsl2-host)
 * [https://github.com/microsoft/WSL/issues/4210#issuecomment-648570493](https://github.com/microsoft/WSL/issues/4210#issuecomment-648570493)
+* [https://github.com/MustardChef/WSABuilds](https://github.com/MustardChef/WSABuilds)
+* [https://github.com/LSPosed/MagiskOnWSALocal](https://github.com/LSPosed/MagiskOnWSALocal)
 
 
 - [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)

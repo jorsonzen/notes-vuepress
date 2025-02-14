@@ -7,17 +7,28 @@
 
 + [https://github.com/topics/front-end](https://github.com/topics/front-end)
 + [https://github.com/topics/component](https://github.com/topics/component)
-+ [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
-+ [前端开发中用到的npm工具](https://segmentfault.com/a/1190000021865006)
 + [https://github.com/component](https://github.com/component)
 + [https://github.com/mobxjs](https://github.com/mobxjs)
 + [https://github.com/CreateJS](https://github.com/CreateJS)
 + [https://github.com/kangax](https://github.com/kangax)
 + [https://github.com/alyssaxuu](https://github.com/alyssaxuu)
 + [https://github.com/tomayac](https://github.com/tomayac)
-+ [https://github.com/fengyuanchen](https://github.com/fengyuanchen)
 + [https://github.com/helpers](https://github.com/helpers)
-+  [https://github.com/DevExpress](https://github.com/DevExpress)
++ [https://github.com/DevExpress](https://github.com/DevExpress)
++ [https://github.com/XboxYan](https://github.com/XboxYan)
++ [https://github.com/yued-fe](https://github.com/yued-fe)
++ [https://github.com/ibm-js](https://github.com/ibm-js)
++ [https://github.com/denysdovhan](https://github.com/denysdovhan)
++ [https://github.com/blueimp](https://github.com/blueimp)
++ [https://github.com/sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript)
++ [https://github.com/developit](https://github.com/developit)
++ [https://github.com/request](https://github.com/request)
+
+
+* [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
+* [前端开发中用到的npm工具](https://segmentfault.com/a/1190000021865006)
+* [https://www.yuque.com/zaotalk/team/st](https://www.yuque.com/zaotalk/team/st)
+
 
 
 - 转换编译器 [https://github.com/babel](https://github.com/babel)
@@ -26,6 +37,11 @@
 - 使浏览器支持require [https://github.com/browserify](https://github.com/browserify)
 - [https://github.com/babel/babelify](https://github.com/babel/babelify)
 - 标准库 [https://github.com/zloirock/core-js](https://github.com/zloirock/core-js)
+- [https://github.com/engine262/engine262](https://github.com/engine262/engine262)
+- [https://github.com/metaes/metaes](https://github.com/metaes/metaes)
+- [https://github.com/Siubaak/sval](https://github.com/Siubaak/sval)
+- [https://github.com/NeilFraser/JS-Interpreter](https://github.com/NeilFraser/JS-Interpreter)
+- [https://github.com/standard-things/esm](https://github.com/standard-things/esm)
 
 
 * [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)
@@ -42,9 +58,16 @@
 * 绑定按键 [https://github.com/jamiebuilds/tinykeys](https://github.com/jamiebuilds/tinykeys)
 * 语法高亮 [https://github.com/PrismJS](https://github.com/PrismJS)
 * [https://github.com/shikijs/shiki](https://github.com/shikijs/shiki)
-* [https://github.com/validatorjs/validator.js](https://github.com/validatorjs/validator.js)
 * [https://github.com/zTree/zTree_v3](https://github.com/zTree/zTree_v3)
-* 国际化 [https://github.com/i18next/i18next](https://github.com/i18next/i18next)
+* [https://github.com/highlightjs/highlight.js](https://github.com/highlightjs/highlight.js)
+* [https://github.com/shikijs/shiki](https://github.com/shikijs/shiki)
+* 验证 [https://github.com/validatorjs/validator.js](https://github.com/validatorjs/validator.js)
+* [https://github.com/jquense/yup](https://github.com/jquense/yup)
+* 国际化 [https://github.com/rxaviers/javascript-globalization](https://github.com/rxaviers/javascript-globalization)
+* [https://github.com/messageformat/messageformat](https://github.com/messageformat/messageformat)
+* [https://github.com/formatjs/formatjs](https://github.com/formatjs/formatjs)
+* [https://github.com/i18next/i18next](https://github.com/i18next/i18next)
+* [https://github.com/iLib-js](https://github.com/iLib-js)
 * 模拟数据生成 [https://github.com/nuysoft/Mock](https://github.com/nuysoft/Mock)
 * [https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
 * [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
@@ -64,6 +87,13 @@
 * 清理HTML并防止XSS攻击 [https://github.com/cure53/DOMPurify](https://github.com/cure53/DOMPurify)
 * 识别手写 [https://github.com/jadeocr/jadeocr](https://github.com/jadeocr/jadeocr)
 * 全文搜索 [https://github.com/nextapps-de/flexsearch](https://github.com/nextapps-de/flexsearch)
+* [https://github.com/lucaong/minisearch](https://github.com/lucaong/minisearch)
+* [https://github.com/mister-hope/slimsearch](https://github.com/mister-hope/slimsearch)
+* [https://github.com/typesense/typesense](https://github.com/typesense/typesense)
+* [https://github.com/MihaiValentin/lunr-languages](https://github.com/MihaiValentin/lunr-languages)
+* [https://github.com/cjinhuo/text-search-engine](https://github.com/cjinhuo/text-search-engine)
+* 自动建议 [https://github.com/knadh/floatype.js](https://github.com/knadh/floatype.js)
+* [https://github.com/TarekRaafat/autoComplete.js](https://github.com/TarekRaafat/autoComplete.js)
 * 类型检查 [https://github.com/facebook/flow](https://github.com/facebook/flow)
 * 树视图/树网格插件 [https://github.com/mar10/fancytree](https://github.com/mar10/fancytree)
 * 交互式地图 [https://github.com/openlayers/openlayers](https://github.com/openlayers/openlayers)
@@ -71,44 +101,44 @@
 * [https://github.com/openstreetmap](https://github.com/openstreetmap)
 * book阅读 [https://github.com/johnfactotum/foliate](https://github.com/johnfactotum/foliate)
 * 并发 [https://github.com/rxaviers/async-pool](https://github.com/rxaviers/async-pool)
+* [https://github.com/caolan/async](https://github.com/caolan/async)
 * 控制导入行为 [https://github.com/WICG/import-maps](https://github.com/WICG/import-maps)
+* [https://github.com/humanwhocodes/module-importer](https://github.com/humanwhocodes/module-importer)
 * 进度 [https://github.com/search?q=progress](https://github.com/search?q=progress)
+* 代码格式化 [https://github.com/prettier/prettier](https://github.com/prettier/prettier)
+    * [https://www.prettier.cn](https://www.prettier.cn)
+* [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
+* [https://github.com/brodybits/prettierx](https://github.com/brodybits/prettierx)
+* ESLint [ https://github.com/eslint]( https://github.com/eslint)
+    * [https://github.com/eslint-stylistic](https://github.com/eslint-stylistic)
+    * [https://github.com/eslint-community](https://github.com/eslint-community)
+* [https://github.com/oxc-project/oxc](https://github.com/oxc-project/oxc)
+* [https://github.com/biomejs/biome](https://github.com/biomejs/biome)
+* [https://github.com/humanwhocodes/config-array](https://github.com/humanwhocodes/config-array)
+* 测试 [https://github.com/jestjs](https://github.com/jestjs)
+    * [https://www.jestjs.cn](https://www.jestjs.cn)
+* 状态管理 [https://github.com/statelyai/xstate](https://github.com/statelyai/xstate)
+* iFrame宽高自适应 [https://github.com/davidjbradshaw/iframe-resizer](https://github.com/davidjbradshaw/iframe-resizer)
+* 运行C/C++代码 [https://github.com/luoxuhai/clang.js](https://github.com/luoxuhai/clang.js)
+* 汉字拼音 [https://github.com/hotoo/pinyin](https://github.com/hotoo/pinyin)
+* 甘特图 [https://github.com/frappe/gantt](https://github.com/frappe/gantt)
+* 电子签名 [https://github.com/OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign)
+* 响应式电子邮件 [https://github.com/mjmlio/mjml](https://github.com/mjmlio/mjml)
+* 路由 [https://github.com/kwhitley/itty-router](https://github.com/kwhitley/itty-router)
+* 不可变对象 [https://github.com/tnfe/limu](https://github.com/tnfe/limu)
+* [https://github.com/unadlib/mutative](https://github.com/unadlib/mutative)
+* 火焰图 [https://github.com/jlfwong/speedscope](https://github.com/jlfwong/speedscope)
+* [https://github.com/lahmatiy/cpupro](https://github.com/lahmatiy/cpupro)
+* 动态背景图 [https://github.com/winterx/color4bg.js](https://github.com/winterx/color4bg.js)
+* 数学公式 [https://github.com/arnog/mathlive](https://github.com/arnog/mathlive)
+* 页面切换效果 [https://github.com/barbajs/barba](https://github.com/barbajs/barba)
+* 获取两个数组差异 [https://github.com/DoneDeal0/superdiff](https://github.com/DoneDeal0/superdiff)
 
 
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
 - [https://github.com/HTMLElements](https://github.com/HTMLElements)
-
-
-
-* Next.js [https://www.nextjs.cn](https://www.nextjs.cn)
-* Docusaurus [https://www.docusaurus.cn](https://www.docusaurus.cn)
-* Blitz [https://www.blitzjs.cn](https://www.blitzjs.cn)
-* Gatsby [https://www.gatsbyjs.cn](https://www.gatsbyjs.cn)
-* Recoil [https://www.recoiljs.cn](https://www.recoiljs.cn)
-* Redux [https://www.reduxjs.cn](https://www.reduxjs.cn)
-* MDX [https://www.mdxjs.cn](https://www.mdxjs.cn)
-* Markdown [https://www.markdown.xyz](https://www.markdown.xyz)
-* Vue.js [https://vuejs.bootcss.com](https://vuejs.bootcss.com)
-* VuePress [https://www.vuepress.cn](https://www.vuepress.cn)
-* Nuxt.js [https://www.nuxtjs.cn](https://www.nuxtjs.cn)
-* Gridsome [https://www.gridsome.cn](https://www.gridsome.cn)
-* Preact [https://www.preactjs.com.cn](https://www.preactjs.com.cn)
-* Sapper [https://www.sapperjs.com](https://www.sapperjs.com)
-* Webpack [https://www.webpackjs.com](https://www.webpackjs.com)
-* Rollup.js [https://www.rollupjs.com](https://www.rollupjs.com)
-* Parcel [https://www.parceljs.cn](https://www.parceljs.cn)
-* NPM [https://www.npmjs.cn](https://www.npmjs.cn)
-* Yarn [https://www.yarnpkg.com.cn](https://www.yarnpkg.com.cn)
-* Gulp [https://www.gulpjs.com.cn](https://www.gulpjs.com.cn)
-* jQuery [https://www.jquery123.com](https://www.jquery123.com)
-* SASS [https://www.sasscss.com](https://www.sasscss.com)
-* TailwindCSS [https://www.tailwindcss.cn](https://www.tailwindcss.cn)
-* PurgeCSS [https://www.purgecss.cn](https://www.purgecss.cn)
-* cssnano [https://www.cssnano.cn](https://www.cssnano.cn)
-* PostCSS [https://www.postcss.com.cn](https://www.postcss.com.cn)
-* Jest [https://www.jestjs.cn](https://www.jestjs.cn)
-* Deno [https://www.denojs.cn](https://www.denojs.cn)
+- 第三方认证 [https://github.com/openauthjs/openauth](https://github.com/openauthjs/openauth)
 
 
 
@@ -126,6 +156,7 @@
     * [https://github.com/t4t5/sweetalert](https://github.com/t4t5/sweetalert)
 * 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
 * alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
+* 提示引导 [https://github.com/kamranahmedse/driver.js](https://github.com/kamranahmedse/driver.js)
 
 
 
@@ -135,6 +166,8 @@
 + [https://github.com/topics/localstorage](https://github.com/topics/localstorage)
 + [https://github.com/topics/indexeddb](https://github.com/topics/indexeddb)
 
+
+* [https://github.com/amark/gun](https://github.com/amark/gun)
 * [https://github.com/ustbhuangyi/storage](https://github.com/ustbhuangyi/storage)
 * [https://github.com/jaywcjlove/store.js](https://github.com/jaywcjlove/store.js)
 * [https://github.com/localForage/localForage](https://github.com/localForage/localForage)
@@ -142,6 +175,7 @@
         * [https://localforage.docschina.org](https://localforage.docschina.org)
 * [https://github.com/typicode/lowdb](https://github.com/typicode/lowdb)
 * [https://github.com/marcuswestin/store.js](https://github.com/marcuswestin/store.js)
+* [https://github.com/KID-joker/stokado](https://github.com/KID-joker/stokado)
 * [https://github.com/adiwajshing/keyed-db](https://github.com/adiwajshing/keyed-db)
 * [https://github.com/gruns/ImmortalDB](https://github.com/gruns/ImmortalDB)
 * [https://github.com/dfahlander/Dexie.js](https://github.com/dfahlander/Dexie.js)
@@ -150,6 +184,10 @@
 * [https://github.com/jakearchibald/idb-keyval](https://github.com/jakearchibald/idb-keyval)
 * [https://github.com/ujjwalguptaofficial/JsStore](https://github.com/ujjwalguptaofficial/JsStore)
 * [https://github.com/google/lovefield](https://github.com/google/lovefield)
+* [https://github.com/dexie/Dexie.js](https://github.com/dexie/Dexie.js)
+* [https://github.com/pamelafox/lscache](https://github.com/pamelafox/lscache)
+* [https://github.com/pubkey/rxdb](https://github.com/pubkey/rxdb)
+* [https://github.com/aspen-cloud/triplit](https://github.com/aspen-cloud/triplit)
 
 
 
@@ -166,7 +204,11 @@
 - [https://github.com/quilljs/quill](https://github.com/quilljs/quill)
 - [https://github.com/alibaba/GGEditor](https://github.com/alibaba/GGEditor)
 - [https://github.com/facebook/lexical](https://github.com/facebook/lexical)
-- [https://github.com/AykutSarac/jsonvisio.com](https://github.com/AykutSarac/jsonvisio.com)
+- [https://github.com/Hufe921/canvas-editor](https://github.com/Hufe921/canvas-editor)
+- [https://github.com/Alex-D/Trumbowyg](https://github.com/Alex-D/Trumbowyg)
+- [https://github.com/mdx-js/mdx](https://github.com/mdx-js/mdx)
+    - [https://www.mdxjs.cn](https://www.mdxjs.cn)
+- [https://github.com/JiHong88/suneditor](https://github.com/JiHong88/suneditor)
 
 
 
@@ -175,20 +217,27 @@
 + [https://github.com/topics/workers](https://github.com/topics/workers)
 + [https://github.com/topics/web-worker](https://github.com/topics/web-worker)
 
+
+* [https://github.com/emmetio](https://github.com/emmetio)
 * [http://github.com/mootools](http://github.com/mootools)
+* [https://github.com/sdkcarlos](https://github.com/sdkcarlos)
+* [https://github.com/jrainlau](https://github.com/jrainlau)
 * [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
 * [https://github.com/lodash/lodash](https://github.com/lodash/lodash)
+* [https://github.com/toss/es-toolkit](https://github.com/toss/es-toolkit)
 * [https://github.com/jashkenas](https://github.com/jashkenas)
     * [https://github.com/jashkenas/underscore](https://github.com/jashkenas/underscore)
     * [https://underscorejs.net](https://underscorejs.net)
 * [https://github.com/ramda/ramda](https://github.com/ramda/ramda)
 * [https://github.com/proYang/outils](https://github.com/proYang/outils)
 * [https://github.com/jsuites/jsuites](https://github.com/jsuites/jsuites)
+* [https://github.com/o0101/-](https://github.com/o0101/-)
+* [https://github.com/kennyfrc/cami.js](https://github.com/kennyfrc/cami.js)
 * 工具库 [https://github.com/tnfe/bbo](https://github.com/tnfe/bbo)
-* 代码格式化 [https://github.com/prettier/prettier](https://github.com/prettier/prettier)
-* [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
-* [https://github.com/brodybits/prettierx](https://github.com/brodybits/prettierx)
+* [https://github.com/blitz-js](https://github.com/blitz-js)
+    * [https://www.blitzjs.cn](https://www.blitzjs.cn)
 * 转换HTML/XML [https://github.com/posthtml/posthtml](https://github.com/posthtml/posthtml)
+* [https://github.com/cheeriojs/cheerio](https://github.com/cheeriojs/cheerio)
 * 幻灯片 [https://github.com/webslides/webslides](https://github.com/webslides/webslides)
 * [https://github.com/gnab/remark](https://github.com/gnab/remark)
 * 正则表达式 [https://github.com/slevithan/XRegExp](https://github.com/slevithan/XRegExp)
@@ -196,18 +245,42 @@
 * HTML复选框 [https://github.com/bryanbraun/checkboxland](https://github.com/bryanbraun/checkboxland)
 * 加密 [https://github.com/travist/jsencrypt](https://github.com/travist/jsencrypt)
 * [https://github.com/dmarman/sha256algorithm](https://github.com/dmarman/sha256algorithm)
+* [https://github.com/digitalbazaar/forge](https://github.com/digitalbazaar/forge)
 * 数据库可视化 [https://github.com/lana-k/sqliteviz](https://github.com/lana-k/sqliteviz)
+* JSON增强 [https://github.com/blitz-js/superjson](https://github.com/blitz-js/superjson)
 * JSON校验 [https://github.com/ozkxr/match-json](https://github.com/ozkxr/match-json)
+* 二维码 [https://github.com/ciaochaos/qrbtf](https://github.com/ciaochaos/qrbtf)
+* [https://github.com/mumuy/widget-qrcode](https://github.com/mumuy/widget-qrcode)
+* 随机数 [https://github.com/ChrisCavs/aimless.js](https://github.com/ChrisCavs/aimless.js)
+* Promise [https://github.com/petkaantonov/bluebird](https://github.com/petkaantonov/bluebird)
+* 矩阵计算 [https://github.com/mateogianolio/vectorious](https://github.com/mateogianolio/vectorious)
+* 日历 [https://github.com/schedule-x/schedule-x](https://github.com/schedule-x/schedule-x)
+* 字符串解析和格式化 [https://github.com/ljharb/qs](https://github.com/ljharb/qs)
+* 日志 [https://github.com/winstonjs/winston](https://github.com/winstonjs/winston)
+* 主线程上运行 [https://github.com/astoilkov/main-thread-scheduling](https://github.com/astoilkov/main-thread-scheduling)
+* 埋点 [https://github.com/M-cheng-web/web-tracing](https://github.com/M-cheng-web/web-tracing)
+* 校验 [https://github.com/yiminghe/async-validator](https://github.com/yiminghe/async-validator)
+* 提取颜色 [https://github.com/ppzreboot/k-colors.js](https://github.com/ppzreboot/k-colors.js)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)
 - [https://github.com/topics/bigdecimal](https://github.com/topics/bigdecimal)
+- [https://github.com/topics/math](https://github.com/topics/math)
+- [https://github.com/topics/units](https://github.com/topics/units)
+- [https://github.com/topics/matrices](https://github.com/topics/matrices)
+- [https://github.com/topics/complex-numbers](https://github.com/topics/complex-numbers)
+- [https://github.com/topics/expression-evaluator](https://github.com/topics/expression-evaluator)
+- [https://github.com/topics/bignumbers](https://github.com/topics/bignumbers)
 - [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
 - [https://github.com/MikeMcl](https://github.com/MikeMcl)
+    - [https://github.com/MikeMcl/decimal.js](https://github.com/MikeMcl/decimal.js)
+    - [https://github.com/MikeMcl/bignumber.js](https://github.com/MikeMcl/bignumber.js)
+    - [https://github.com/MikeMcl/big.js](https://github.com/MikeMcl/big.js)
 - [https://github.com/BenjaminVanRyseghem/numbro](https://github.com/BenjaminVanRyseghem/numbro)
 - [https://github.com/gastonmesseri/numerable](https://github.com/gastonmesseri/numerable)
 - [https://github.com/adamwdraper/Numeral-js](https://github.com/adamwdraper/Numeral-js)
 - [https://github.com/entronad/number-display](https://github.com/entronad/number-display)
+
 
 * mock [https://github.com/chancejs/chancejs](https://github.com/chancejs/chancejs)
 * [https://github.com/TommyLemon/APIAuto](https://github.com/TommyLemon/APIAuto)
@@ -231,6 +304,7 @@
 * [https://github.com/hustcc/timeago.js](https://github.com/hustcc/timeago.js)
 * [https://github.com/flatpickr](https://github.com/flatpickr)
 * [https://github.com/fullcalendar/fullcalendar](https://github.com/fullcalendar/fullcalendar)
+* [https://github.com/uxsolutions/bootstrap-datepicker](https://github.com/uxsolutions/bootstrap-datepicker)
 
 
 **HTTP**
@@ -242,6 +316,7 @@
 * [https://github.com/axios/axios](https://github.com/axios/axios)
 * [https://github.com/umijs/umi-request](https://github.com/umijs/umi-request)
 * [https://github.com/seanmonstar/reqwest](https://github.com/seanmonstar/reqwest)
+* [https://github.com/ladjs/superagent](https://github.com/ladjs/superagent)
 * 在html元素绑定请求 [https://github.com/bigskysoftware/intercooler-js](https://github.com/bigskysoftware/intercooler-js)
 * [https://github.com/bigskysoftware/htmx](https://github.com/bigskysoftware/htmx)
 * [https://github.com/js-cookie](https://github.com/js-cookie)
@@ -267,27 +342,7 @@
 
 
 
-**文档**
-
-* excel [https://github.com/exceljs/exceljs](https://github.com/exceljs/exceljs)
-* [https://github.com/dtjohnson/xlsx-populate](https://github.com/dtjohnson/xlsx-populate)
-    * [前端生成导出Excel](https://lushunjian.gitee.io/2020/08/08/qian-duan-sheng-cheng-dao-chu-excel)
-    * [https://www.npmjs.com/package/xlsx-populate#style-reference](https://www.npmjs.com/package/xlsx-populate#style-reference)
-* [https://github.com/SheetJS](https://github.com/SheetJS)
-    * [https://github.com/protobi/js-xlsx](https://github.com/protobi/js-xlsx)
-    * [https://github.com/Ctrl-Ling/XLSX-Style-Utils](https://github.com/Ctrl-Ling/XLSX-Style-Utils)
-    * [https://github.com/skyrocks/x-xlsx-style](https://github.com/skyrocks/x-xlsx-style)
-    * [https://github.com/duhaohao/xlsx-styleable](https://github.com/duhaohao/xlsx-styleable)
-* [https://github.com/d-band/better-xlsx](https://github.com/d-band/better-xlsx)
-* [https://github.com/dream-num/Luckysheet](https://github.com/dream-num/Luckysheet)
-* [https://github.com/dream-num/Luckyexcel](https://github.com/dream-num/Luckyexcel)
-* [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
-* TableExport [https://github.com/clarketm/TableExport](https://github.com/clarketm/TableExport)
-* tableExport.jquery.plugin [https://github.com/hhurz/tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
-* excellentexport [https://github.com/jmaister/excellentexport](https://github.com/jmaister/excellentexport)
-* [https://github.com/jspreadsheet](https://github.com/jspreadsheet)
-* docx-preview [https://github.com/VolodymyrBaydalka/docxjs](https://github.com/VolodymyrBaydalka/docxjs)
-
+**文件**
 
 - 压缩或编码解码库 [https://github.com/photopea](https://github.com/photopea)
 - 压缩 [https://github.com/photopea](https://github.com/nodeca/pako)
@@ -313,6 +368,10 @@
 * [https://github.com/baukh789/GridManager](https://github.com/baukh789/GridManager)
 * [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
 * [https://github.com/future-architect/cheetah-grid](https://github.com/future-architect/cheetah-grid)
+* [https://github.com/alibaba/x-render](https://github.com/alibaba/x-render)
+* [https://github.com/TonyGermaneri/canvas-datagrid](https://github.com/TonyGermaneri/canvas-datagrid)
+* [https://github.com/VisActor](https://github.com/VisActor)
+* 交互式 [https://github.com/olifolkerd/tabulator](https://github.com/olifolkerd/tabulator)
 
 
 **拖动/拖拽/拖放**
@@ -333,13 +392,15 @@
 
 * 图片懒加载 [https://github.com/tuupola/lazyload](https://github.com/tuupola/lazyload)
 * Metro风兼瀑布流布局 [https://github.com/desandro/masonry](https://github.com/desandro/masonry)
-* 图片查看 [https://github.com/fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs)
+* 图片查看 [https://github.com/fengyuanchen](https://github.com/fengyuanchen)
 * [https://github.com/dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
+* [https://github.com/openseadragon/openseadragon](https://github.com/openseadragon/openseadragon)
 * 响应式导航 [https://github.com/VPenkov/okayNav](https://github.com/VPenkov/okayNav)
 * 图像缩放 [https://github.com/kingdido999/zooming](https://github.com/kingdido999/zooming)
 * 图像中提取颜色 [https://github.com/briangonzalez/rgbaster.js](https://github.com/briangonzalez/rgbaster.js)
 * SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
 * 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
+* [https://github.com/impress/impress.js](https://github.com/impress/impress.js)
 
 
 
@@ -348,6 +409,7 @@
 + [https://github.com/topics/diagram](https://github.com/topics/diagram)
 + [https://github.com/topics/flowchart](https://github.com/topics/flowchart)
 
+
 * 图表库 [https://github.com/NorthwoodsSoftware/GoJS](https://github.com/NorthwoodsSoftware/GoJS)
 * [https://github.com/jsplumb](https://github.com/jsplumb)
 * [https://github.com/antvis](https://github.com/antvis)
@@ -355,18 +417,25 @@
 * [https://github.com/fex-team](https://github.com/fex-team)
 * [https://github.com/highcharts](https://github.com/highcharts)
 * [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
+    * [https://github.com/apache/echarts-handbook](https://github.com/apache/echarts-handbook)
+* [https://github.com/novus/nvd3](https://github.com/novus/nvd3)
+* [https://github.com/plotly/plotly.js](https://github.com/plotly/plotly.js)
+* [https://github.com/bernii/gauge.js](https://github.com/bernii/gauge.js)
+* [https://github.com/timqian/chart.xkcd](https://github.com/timqian/chart.xkcd)
 * [https://github.com/imgcook/imove](https://github.com/imgcook/imove)
 * [https://github.com/bpmn-io](https://github.com/bpmn-io)
-* [https://github.com/dagrejs](https://github.com/dagrejs)
-* [https://github.com/jgrap](https://github.com/jgraph)
+* ~~[https://github.com/jgraph/mxgraph](https://github.com/jgraph/mxgraph)~~
     * [https://github.com/jinzhanye/pokemon-diagram](https://github.com/jinzhanye/pokemon-diagram)
     * [mxGraph 入门实例教程](https://segmentfault.com/a/1190000018510996)
+    * [https://github.com/maxGraph/maxGraph](https://github.com/maxGraph/maxGraph)
+* [https://github.com/dagrejs](https://github.com/dagrejs)
 * [https://github.com/cytoscape](https://github.com/cytoscape)
 * [https://github.com/d3](https://github.com/d3)
 * [https://github.com/freegroup/draw2d](https://github.com/freegroup/draw2d)
 * [https://github.com/projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams)
 * [https://github.com/auto-workflow/AWorkflow](https://github.com/auto-workflow/AWorkflow)
 * [https://github.com/mermaidjs/mermaid-live-editor](https://github.com/mermaidjs/mermaid-live-editor)
+* [https://github.com/observablehq/plot](https://github.com/observablehq/plot)
 * 实体建模 [https://github.com/jscad](https://github.com/jscad)
     * [https://github.com/uetchy/cadmio](https://github.com/uetchy/cadmio)
     * [https://github.com/gilboonet](https://github.com/gilboonet)
@@ -375,10 +444,15 @@
 * [https://www.jointjs.com](https://www.jointjs.com)
     * [https://resources.jointjs.com/tutorials/joint/tutorials/ports.html](https://resources.jointjs.com/tutorials/joint/tutorials/ports.html)
 * [https://github.com/jwilber/roughViz](https://github.com/jwilber/roughViz)
+* [https://github.com/didi/LogicFlow](https://github.com/didi/LogicFlow)
+* [https://github.com/jagenjo/litegraph.js](https://github.com/jagenjo/litegraph.js)
 
 
+- 思维导图 [https://github.com/hizzgdev/jsmind](https://github.com/hizzgdev/jsmind)
+- [https://github.com/ishubin/schemio](https://github.com/ishubin/schemio)
 - 虚拟白板 [https://github.com/excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
 - 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
+- 抠图 [https://github.com/imgly/background-removal-js](https://github.com/imgly/background-removal-js)
 
 
 
@@ -390,11 +464,14 @@
 * [https://github.com/juliangarnier/anime](https://github.com/juliangarnier/anime)
 * [https://github.com/greensock/GSAP](https://github.com/greensock/GSAP)
 * 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
+* [https://github.com/kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer)
+* [https://github.com/galacean](https://github.com/galacean)
 * 3D地球和2D地图 [https://github.com/CesiumGS/cesium](https://github.com/CesiumGS/cesium)
 * 2D渲染器 [https://github.com/pixijs/pixijs](https://github.com/pixijs/pixijs)
 * [https://github.com/erincatto/box2d](https://github.com/erincatto/box2d)
 * [https://github.com/KilledByAPixel/LittleJS](https://github.com/KilledByAPixel/LittleJS)
-* [https://github.com/kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer)
+* [https://github.com/le5le-com](https://github.com/le5le-com)
+* [https://github.com/leaferjs](https://github.com/leaferjs)
 * 用于缩放图像 [https://github.com/francoischalifour/medium-zoom](https://github.com/francoischalifour/medium-zoom)
 * [https://github.com/pa7/heatmap.js](https://github.com/pa7/heatmap.js)
 * [https://github.com/konvajs/konva](https://github.com/konvajs/konva)
@@ -408,6 +485,7 @@
 * [https://github.com/fabricjs](https://github.com/fabricjs)
 * [https://github.com/paperjs](https://github.com/paperjs)
 * [https://github.com/apexcharts](https://github.com/apexcharts)
+* [https://github.com/clientIO/joint](https://github.com/clientIO/joint)
 * 图标字体自定义 [https://github.com/uuware/icons-font-customization](https://github.com/uuware/icons-font-customization)
 * [https://github.com/07akioni/xicons](https://github.com/07akioni/xicons)
 * [https://github.com/IanLunn/Hover](https://github.com/IanLunn/Hover)
@@ -423,7 +501,6 @@
 * [https://github.com/d3/d3](https://github.com/d3/d3)
     * [https://github.com/xswei/d3js_doc](https://github.com/xswei/d3js_doc)
     * [https://github.com/mauriciopoppe/function-plot](https://github.com/mauriciopoppe/function-plot)
-    * [https://github.com/novus/nvd3](https://github.com/novus/nvd3)
     * [https://github.com/gwtd3/gwt-d3](https://github.com/gwtd3/gwt-d3)
 * 动画引擎 [https://github.com/julianshapiro/velocity](https://github.com/julianshapiro/velocity)
 * [https://github.com/toji/gl-matrix](https://github.com/toji/gl-matrix)
@@ -433,6 +510,7 @@
 * [https://github.com/kitware/vtk-js](https://github.com/kitware/vtk-js)
 * [https://github.com/scottcgi/MojoJS-Animation](https://github.com/scottcgi/MojoJS-Animation)
 * [https://github.com/drawcall/Proton](https://github.com/drawcall/Proton)
+* [https://github.com/dromara/newcar](https://github.com/dromara/newcar)
 
 
 
@@ -441,6 +519,9 @@
 + [https://github.com/topics/html5-video](https://github.com/topics/html5-video)
 + [https://github.com/topics/video-player](https://github.com/topics/video-player)
 
+* [https://github.com/videojs](https://github.com/videojs)
+* [https://github.com/shaka-project](https://github.com/shaka-project)
+* [https://github.com/canalplus/rx-player](https://github.com/canalplus/rx-player)
 * [https://github.com/MoePlayer](https://github.com/MoePlayer)
 * [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
 * [https://github.com/Chimeejs/chimee](https://github.com/Chimeejs/chimee)
@@ -454,6 +535,8 @@
 * [https://github.com/kalkih/mini-media-player](https://github.com/kalkih/mini-media-player)
 * [https://github.com/jwplayer/jwplayer](https://github.com/jwplayer/jwplayer)
 * [https://github.com/phoboslab/jsmpeg](https://github.com/phoboslab/jsmpeg)
+* [https://github.com/wangrongding/tiny-player](https://github.com/wangrongding/tiny-player)
+* [https://github.com/codeacme17/echo-ui](https://github.com/codeacme17/echo-ui)
 
 
 **反爬虫**

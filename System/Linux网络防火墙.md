@@ -5,20 +5,12 @@
 
 ## Flag
 
-- `nethogs`: 按进程查看流量占用
-- `ethtool`: 诊断工具
-- `tcpdump`: 抓包工具
-- 监控总体带宽使用：`nload`、`bmon`、`slurm`、`bwm-ng`、`cbm`、`speedometer`、`netload`
-- 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
-- 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
-- `ntopng`
-- perf、sar、ksar、mpstat、uptime、vmstat、pidstat、time、cpustat、munin、glances、atop、nmon、pcp-gui、nfsstat、netstat、iostat
-- [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop)
-- 视图监视器 [https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet](https://github.com/paradoxxxzero/gnome-shell-system-monitor-applet)
-- [https://github.com/aristocratos](https://github.com/aristocratos)
-
-
-
+* 网络测试 [https://github.com/Microsoft/ntttcp-for-linux](https://github.com/Microsoft/ntttcp-for-linux)
+* [https://github.com/mellanox/sockperf](https://github.com/mellanox/sockperf)
+* [https://iperf.fr](https://iperf.fr)
+    * [https://sourceforge.net/projects/iperf](https://sourceforge.net/projects/iperf)
+    * [https://sourceforge.net/projects/iperf2](https://sourceforge.net/projects/iperf2)
+    * [https://github.com/esnet/iperf](https://github.com/esnet/iperf)
 * [局域网怎么实现内外网隔离？](https://www.zhihu.com/question/489849459)
 
 
@@ -206,11 +198,35 @@ firewall-cmd --query-panic
 ## 路由跟踪
 
 - 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
-- DNS扫描 [https://github.com/pwnesia/dnstake](https://github.com/pwnesia/dnstake)
-- [https://github.com/zartbot/ztrace](https://github.com/zartbot/ztrace)
+- [https://github.com/ihmily/ip-info-api](https://github.com/ihmily/ip-info-api)
+- [https://github.com/jason5ng32/MyIP](https://github.com/jason5ng32/MyIP)
+- [https://ip.guide](https://ip.guide)
+- [https://github.com/hackclub/how-did-i-get-here](https://github.com/hackclub/how-did-i-get-here)
+    - [https://github.com/hackclub/ktr](https://github.com/hackclub/ktr)
+- [https://github.com/lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region)
+    - [https://gitee.com/lionsoul/ip2region](https://gitee.com/lionsoul/ip2region)
+- [https://ifconfig.me](https://ifconfig.me)
+    - [https://github.com/pmarques/ifconfig.me](https://github.com/pmarques/ifconfig.me)
+- [https://github.com/georgyo/ifconfig.io](https://github.com/georgyo/ifconfig.io)
+- [https://github.com/missdeer/ifconfig](https://github.com/missdeer/ifconfig)
+- [https://github.com/ipinfo](https://github.com/ipinfo)
+- [https://github.com/pronto/ifconfig.pro](https://github.com/pronto/ifconfig.pro)
+- [https://github.com/ngoduykhanh/ifconfig.top](https://github.com/ngoduykhanh/ifconfig.top)
+- [https://github.com/ftao/python-ifcfg](https://github.com/ftao/python-ifcfg)
+- [https://github.com/sanketsudake/ifconfig-parser](https://github.com/sanketsudake/ifconfig-parser)
+- [https://www.browserscan.net](https://www.browserscan.net)
+- [https://www.ipip.net](https://www.ipip.net)
+    - [https://www.myip.la](https://www.myip.la)
+- [https://cloud.magiclen.org/cn/myip](https://cloud.magiclen.org/cn/myip)
+- [https://dns.fish](https://dns.fish)
+- [https://ipquery.io](https://ipquery.io)
+- 可用性检查 [https://github.com/funilrys/PyFunceble](https://github.com/funilrys/PyFunceble)
+- [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
+
 
 **`ping`、`tcptraceroute`、`traceroute`、`mtr`**
 
+* [https://github.com/fujiapple852/trippy](https://github.com/fujiapple852/trippy)
 * [https://www.cnblogs.com/xzkzzz/p/7413177.html](https://www.cnblogs.com/xzkzzz/p/7413177.html)
 * [https://www.jianshu.com/p/802010d54849](https://www.jianshu.com/p/802010d54849)
 * [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)
@@ -218,6 +234,8 @@ firewall-cmd --query-panic
 * [Netcat详解](https://www.cnblogs.com/dalianpai/p/12505678.html)
 * [http://www.dest-unreach.org/socat](http://www.dest-unreach.org/socat)
 * [https://github.com/vi/websocat](https://github.com/vi/websocat)
+* [https://github.com/pouriyajamshidi/tcping](https://github.com/pouriyajamshidi/tcping)
+* [https://github.com/hanshuaikang/Nping](https://github.com/hanshuaikang/Nping)
 
 > 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
 

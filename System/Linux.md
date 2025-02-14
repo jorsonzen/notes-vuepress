@@ -23,17 +23,25 @@
 + [http://www.linux-commands-examples.com](http://www.linux-commands-examples.com)
 + [https://github.com/abarrak/linux-sysops-handbook](https://github.com/abarrak/linux-sysops-handbook)
 + [https://github.com/leezhenghui/leezhenghui.github.io](https://github.com/leezhenghui/leezhenghui.github.io)
++ [https://github.com/linux-kernel-labs-zh](https://github.com/linux-kernel-labs-zh)
 + BPF [https://github.com/DavadDi/bpf_study](https://github.com/DavadDi/bpf_study)
     + [最神奇的Linux技术 BPF入门](https://zhuanlan.zhihu.com/p/469860384)
 + [https://github.com/nevermosby/linux-bpf-learning](https://github.com/nevermosby/linux-bpf-learning)
     * [bpf简介](https://blog.csdn.net/sinat_38816924/article/details/115471891)
++ [https://github.com/elastic/otel-profiling-agent](https://github.com/elastic/otel-profiling-agent)
++ [https://github.com/eunomia-bpf/bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial)
++ [https://github.com/libbpf/libbpf-bootstrap](https://github.com/libbpf/libbpf-bootstrap)
++ [https://github.com/aya-rs/aya](https://github.com/aya-rs/aya)
++ [https://github.com/Sherlock-Holo/lycoris](https://github.com/Sherlock-Holo/lycoris)
 
 
+* [VIM键盘图形备忘单](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 * [vi命令（vi编辑器）](http://c.biancheng.net/vi)
 * [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)
 * [Vim 从小白到入门](https://wsgzao.github.io/post/vim)
 * [https://vimjc.com/archives](https://vimjc.com/archives)
 * [ubuntu版本系统升级](https://blog.csdn.net/qq_40907977/article/details/106407373)
+* [Linux 用户权限](https://blog.csdn.net/qq_40887651/article/details/121533765)
 
 
 
@@ -43,14 +51,20 @@
 - [流行的 Linux 发行版包管理器命令的对应关系](https://wiki.archlinux.org/index.php/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Rosetta_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 - [Linux包管理器及包安装工具基础知识](https://blog.csdn.net/u013430110/article/details/107329350)
 
+
 * 软件包管理器 [https://github.com/NixOS/nix](https://github.com/NixOS/nix)
+    * [https://github.com/ryan4yin/nixos-and-flakes-book](https://github.com/ryan4yin/nixos-and-flakes-book)
+* [https://github.com/rpm-software-management/rpm](https://github.com/rpm-software-management/rpm)
 * [https://github.com/joyent/pkgsrc](https://github.com/joyent/pkgsrc)
+* [https://github.com/TritonDataCenter/pkgsrc](https://github.com/TritonDataCenter/pkgsrc)
+    * [https://github.com/NetBSDfr](https://github.com/NetBSDfr)
 * [https://github.com/Homebrew/brew](https://github.com/Homebrew/brew)
 * [https://github.com/AppImage](https://github.com/AppImage)
 * [https://github.com/flatpak/flatpak](https://github.com/flatpak/flatpak)
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
-* snap应用商店 [https://snapcraft.io](https://snapcraft.io)
+    * snap应用商店 [https://snapcraft.io](https://snapcraft.io)
     * [https://docs.snapcraft.io/core/install](https://docs.snapcraft.io/core/install)
+    * [https://github.com/popey/unsnap](https://github.com/popey/unsnap)
 * 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
 * [https://github.com/makedeb](https://github.com/makedeb)
 * [https://mpr.hunterwittenborn.com](https://mpr.hunterwittenborn.com)
@@ -61,6 +75,7 @@
     * [https://github.com/tchx84/Flatseal](https://github.com/tchx84/Flatseal)
 * [https://github.com/openSUSE](https://github.com/openSUSE)
 * [https://github.com/calamares](https://github.com/calamares)
+* 打包 [https://gitlab.com/engmark/nix-start](https://gitlab.com/engmark/nix-start)
 
 
 - mac [https://github.com/macports](https://github.com/macports)
@@ -91,13 +106,21 @@
 - [https://sourceforge.net/projects/xampp](https://sourceforge.net/projects/xampp)
     - [https://www.apachefriends.org](https://www.apachefriends.org)
 - [https://sourceforge.net/projects/wampserver](https://sourceforge.net/projects/wampserver)
+- [https://www.appserv.org](https://www.appserv.org)
+- [https://github.com/adhocore/docker-lemp](https://github.com/adhocore/docker-lemp)
+- [https://github.com/joglomedia/LEMPer](https://github.com/joglomedia/LEMPer)
+- [https://github.com/cytopia/devilbox](https://github.com/cytopia/devilbox)
 - 基础软件包 [https://github.com/coreutils](https://github.com/coreutils)
 - [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
 - [https://busybox.net](https://busybox.net)
     - [https://github.com/meefik/busybox](https://github.com/meefik/busybox)
     - [https://busybox.jrummyapps.com](https://busybox.jrummyapps.com)
+    - [https://github.com/sabotage-linux](https://github.com/sabotage-linux)
 - [https://landley.net/toybox](https://landley.net/toybox)
     - [https://github.com/landley/toybox](https://github.com/landley/toybox)
+    - [https://github.com/glaucuslinux/glaucus](https://github.com/glaucuslinux/glaucus)
+- [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
+- [https://github.com/anatol/booster](https://github.com/anatol/booster)
 
 
 * [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
@@ -106,8 +129,6 @@
 * 替换服务器的固件 [https://github.com/linuxboot/linuxboot](https://github.com/linuxboot/linuxboot)
 
 
-- [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat)
-- 替代find [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
 - Linux开源软件 [https://github.com/freedesktop](https://github.com/freedesktop)
     - [https://gitlab.freedesktop.org](https://gitlab.freedesktop.org)
     - [https://www.freedesktop.org](https://www.freedesktop.org)
@@ -118,6 +139,13 @@
 - [https://sourceforge.net/projects/pkgconfiglite](https://sourceforge.net/projects/pkgconfiglite)
 - [https://sourceforge.net/projects/lcms](https://sourceforge.net/projects/lcms)
 - [https://github.com/Xfennec/progress](https://github.com/Xfennec/progress)
+- [https://github.com/iputils/iputils](https://github.com/iputils/iputils)
+- [https://github.com/kjn/lbzip2](https://github.com/kjn/lbzip2)
+- [https://github.com/illiliti/libudev-zero](https://github.com/illiliti/libudev-zero)
+- [https://github.com/red-data-tools/YouPlot](https://github.com/red-data-tools/YouPlot)
+- 系统日志管理 [https://github.com/hat-open/hat-syslog](https://github.com/hat-open/hat-syslog)
+- 安全防护 [https://github.com/fail2ban/fail2ban](https://github.com/fail2ban/fail2ban)
+- 文件管理 [https://github.com/MHNightCat/superfile](https://github.com/MHNightCat/superfile)
 
 
 
@@ -136,9 +164,15 @@
 - [http://www.trinitydesktop.org](http://www.trinitydesktop.org)
 - [https://github.com/swaywm](https://github.com/swaywm)
 - [https://www.deepin.org/zh/dde](https://www.deepin.org/zh/dde)
+- [https://sourceforge.net/projects/enlightenment](https://sourceforge.net/projects/enlightenment)
+- [https://github.com/end-4/dots-hyprland](https://github.com/end-4/dots-hyprland)
+- [https://github.com/i3/i3.github.io](https://github.com/i3/i3.github.io)
 
-- 图标 [https://github.com/PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+
+* 图标 [https://github.com/PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 * Linux桌面壁纸 [https://github.com/pgc062020/DailyDesktopWallpaperPlus](https://github.com/pgc062020/DailyDesktopWallpaperPlus)
+* 视频编辑器 [https://openhub.net/p/pitivi](https://openhub.net/p/pitivi)
+* 文件管理 [https://github.com/MidnightCommander/mc](https://github.com/MidnightCommander/mc)
 
 
 
@@ -267,6 +301,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 - [https://github.com/systemd/systemd](https://github.com/systemd/systemd)
     - [Systemd简介systemctl](https://www.jianshu.com/p/d8f79010dc04)
+    - [https://github.com/isd-project/isd](https://github.com/isd-project/isd)
 - [https://github.com/OpenRC/openrc](https://github.com/OpenRC/openrc)
 - [https://savannah.nongnu.org/projects/sysvinit](https://savannah.nongnu.org/projects/sysvinit)
 - [https://github.com/Yelp/dumb-init](https://github.com/Yelp/dumb-init)
@@ -322,7 +357,15 @@ autorestart=true
 
 * [https://github.com/search?q=tmux](https://github.com/search?q=tmux)
 * [https://github.com/tmux/tmux](https://github.com/tmux/tmux)
+    * [https://sourceforge.net/projects/tmux.mirror](https://sourceforge.net/projects/tmux.mirror)
     * [can't create socket: Permission denied](https://github.com/tmux/tmux/issues/1215)
+    * [https://github.com/catppuccin/tmux](https://github.com/catppuccin/tmux)
+    * [https://galaxy4.net/repo](https://galaxy4.net/repo)
+    * [https://rpmfind.net/linux/rpm2html](https://rpmfind.net/linux/rpm2html)
+    * [https://pkgs.org](https://pkgs.org)
+    * [https://dl.fedoraproject.org](https://dl.fedoraproject.org)
+    * [https://src.fedoraproject.org/rpms/tmux](https://src.fedoraproject.org/rpms/tmux)
+    * [https://vault.centos.org](https://vault.centos.org)
 * [https://github.com/gpakosz/.tmux](https://github.com/gpakosz/.tmux)
 * [https://github.com/tmux-plugins](https://github.com/tmux-plugins)
 * [http://www.ruanyifeng.com/blog/2019/10/tmux.html](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
@@ -398,6 +441,7 @@ tmux new -s 会话名 -d "命令"
 > `GNU Screen`可以看作是窗口管理器的命令行界面版本。它提供了统一的管理多个会话的界面和相应的功能。 
 
 * [http://www.gnu.org/software/screen](http://www.gnu.org/software/screen)
+* [https://invisible-island.net/ncurses/announce.html](https://invisible-island.net/ncurses/announce.html)
 
 
 **命令**
@@ -510,6 +554,16 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 ## 传输文件
 
 
+* webrtc [https://github.com/tl-open-source/tl-rtc-file](https://github.com/tl-open-source/tl-rtc-file)
+* 文件监控 [https://github.com/topics/inotify](https://github.com/topics/inotify)
+* [https://github.com/inotify-tools/inotify-tools](https://github.com/inotify-tools/inotify-tools)
+* [https://github.com/seb-m/pyinotify](https://github.com/seb-m/pyinotify)
+* [https://github.com/gorakhargosh/watchdog](https://github.com/gorakhargosh/watchdog)
+* [https://github.com/lsyncd/lsyncd](https://github.com/lsyncd/lsyncd)
+* [https://github.com/emcrisostomo/fswatch](https://github.com/emcrisostomo/fswatch)
+* [https://github.com/eradman/entr](https://github.com/eradman/entr)
+
+
 > 首先进入需要搭建web服务器的目录，然后在输入下面的命令，端口号默认`8000`
 
 ```bash
@@ -575,34 +629,37 @@ scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 > 它的操作方式和scp和相似，但是比scp强大很多。使用双冒号分割主机名和文件路径时，是使用rsync服务器
 
 + [https://github.com/topics/rsync](https://github.com/topics/rsync)
++ [https://github.com/RsyncProject/rsync](https://github.com/RsyncProject/rsync)
 
-* [https://rsync.samba.org](https://rsync.samba.org)
+
+* [https://github.com/WayneD/rsync](https://github.com/WayneD/rsync)
+    * [https://rsync.samba.org](https://rsync.samba.org)
 * [https://github.com/probonopd/zsync-curl](https://github.com/probonopd/zsync-curl)
 * [http://zsync.moria.org.uk](http://zsync.moria.org.uk)
 * [rsync 用法教程](https://www.ruanyifeng.com/blog/2020/08/rsync.html)
+* [rsync 参数说明及使用参数笔记好文摘抄](https://www.cnblogs.com/koushuige/p/9162920.html)
 
 
 ```bash
+# -P 由两个参数组成：--partial 恢复某些原因而中断的传输，--progress 显示传输进度。
 # 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
-rsync -e 'ssh -p 22' /home/work/source.txt work@192.168.0.10:/home/work/
+rsync -avP -e 'ssh -p 22' /home/work/source.txt work@192.168.0.10:/home/work/
 
 # 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
-rsync work@192.168.0.10:/home/work/source.txt /home/work/
+rsync -avP work@192.168.0.10:/home/work/source.txt /home/work/
 
 # 把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
-rsync work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
+rsync -avP work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
 
-# 拷贝文件夹，加-r参数
-rsync -r /home/work/sourcedir work@192.168.0.10:/home/work/
+# -r拷贝文件夹  当前服务器 -> 远程服务器
+rsync -avP -r /home/work/sourcedir work@192.168.0.10:/home/work/
+rsync -avP --progress -e ssh root@IP:/path/ /path/
 
 # 使用主机名
-rsync -r /home/work/sourcedir work@www.myhost.com:/home/work/
-
-# 显示详情，加-v参数
-rsync -r -v /home/work/sourcedir work@www.myhost.com:/home/work/
+rsync -avP -r /home/work/sourcedir work@www.myhost.com:/home/work/
 
 # 排除子目录，注意：--exclude后面的路径不能为绝对路径，必须为相对路径才可以，否则匹配不上，就不会被排除掉。
-rsync -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.com:/home/work/
+rsync -avP -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.com:/home/work/
 ```
 
 

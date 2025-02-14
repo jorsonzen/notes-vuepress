@@ -5,6 +5,9 @@
 
 ## Flag
 
+> Maven, Ivy, Grape, Gradle, Buildr, SBT, Leiningen, ant
+
+
 + [https://github.com/kordamp/gm](https://github.com/kordamp/gm)
 + [https://github.com/gradle/gradle](https://github.com/gradle/gradle)
     + [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
@@ -12,11 +15,16 @@
     + 创建支持包重定位 [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
     + [https://github.com/Omico/Gradm](https://github.com/Omico/Gradm)
     + [https://github.com/gdubw/gng](https://github.com/gdubw/gng)
+    + [https://github.com/gmazzo/gradle-buildconfig-plugin](https://github.com/gmazzo/gradle-buildconfig-plugin)
+    + [https://github.com/autonomousapps/dependency-analysis-gradle-plugin](https://github.com/autonomousapps/dependency-analysis-gradle-plugin)
+    + [https://github.com/michel-kraemer/gradle-download-task](https://github.com/michel-kraemer/gradle-download-task)
+    + [https://github.com/gradle-nexus](https://github.com/gradle-nexus)
+    + [https://github.com/gradlex-org](https://github.com/gradlex-org)
 + [https://github.com/package-url](https://github.com/package-url)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
-+ [https://github.com/camunda](https://github.com/camunda)
 + [https://github.com/jbangdev](https://github.com/jbangdev)
 + [https://github.com/sormuras/bach](https://github.com/sormuras/bach)
++ [https://redmine.z2-environment.net](https://redmine.z2-environment.net)
 + 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
 + [https://github.com/sakerbuild/saker.java.compiler](https://github.com/sakerbuild/saker.java.compiler)
 + 动态编译 [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
@@ -25,7 +33,7 @@
 + [https://github.com/eclipse/eclipse.jdt.core](https://github.com/eclipse/eclipse.jdt.core)
 + [https://www.jetbrains.com/help/idea/java-compiler.html](https://www.jetbrains.com/help/idea/java-compiler.html)
 + [https://github.com/alwans/code-diff](https://github.com/alwans/code-diff)
-+ 混淆工具 [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
++ [https://github.com/policeman-tools/forbidden-apis](https://github.com/policeman-tools/forbidden-apis)
 + 消除NullPointerException [https://github.com/uber/NullAway](https://github.com/uber/NullAway)
 + 静态类型检查 [https://github.com/google/error-prone](https://github.com/google/error-prone)
 + [https://github.com/TouK/sputnik](https://github.com/TouK/sputnik)
@@ -36,11 +44,14 @@
 + [https://github.com/souffle-lang/souffle](https://github.com/souffle-lang/souffle)
 + [https://github.com/spotbugs](https://github.com/spotbugs)
     + [https://github.com/mebigfatguy/fb-contrib](https://github.com/mebigfatguy/fb-contrib)
-+ [https://github.com/findbugsproject/findbugs](https://github.com/findbugsproject/findbugs)
-    + [https://sourceforge.net/projects/findbugs](https://sourceforge.net/projects/findbugs)
-    + [https://github.com/KengoTODA/findbugs-slf4j](https://github.com/KengoTODA/findbugs-slf4j)
+    + ~~[https://github.com/findbugsproject/findbugs](https://github.com/findbugsproject/findbugs)~~
+        + [https://sourceforge.net/projects/findbugs](https://sourceforge.net/projects/findbugs)
+        + [https://github.com/KengoTODA/findbugs-slf4j](https://github.com/KengoTODA/findbugs-slf4j)
 + [https://github.com/pascal-lab/Tai-e](https://github.com/pascal-lab/Tai-e)
++ [https://github.com/find-sec-bugs/find-sec-bugs](https://github.com/find-sec-bugs/find-sec-bugs)
++ [https://github.com/jimbethancourt/RefactorFirst](https://github.com/jimbethancourt/RefactorFirst)
 + JAR文件分析 [https://github.com/kordamp/jarviz](https://github.com/kordamp/jarviz)
++ 持续交付事件的通用规范 [https://github.com/cdevents](https://github.com/cdevents)
 
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
@@ -229,6 +240,7 @@
 
 
 * [http://mvnrepository.com](http://mvnrepository.com)
+* [https://central.sonatype.com](https://central.sonatype.com)
 * [https://search.maven.org](https://search.maven.org)
 * [https://www.mvncenter.com](https://www.mvncenter.com)
 * [https://nexus.pentaho.org](https://nexus.pentaho.org)
@@ -236,6 +248,10 @@
 * JFrog Bintray [https://github.com/bintray](https://github.com/bintray)
     * [https://bintray.com](https://bintray.com)
 * [https://packages.aliyun.com](https://packages.aliyun.com)
+* [https://www.codeyyy.com](https://www.codeyyy.com)
+
+
+- 命令行搜索 [https://github.com/mthmulders/mcs](https://github.com/mthmulders/mcs)
 
 
 
@@ -249,11 +265,17 @@
 + [https://github.com/takari/maven-wrapper](https://github.com/takari/maven-wrapper)
 + [https://github.com/mathieucarbou/license-maven-plugin](https://github.com/mathieucarbou/license-maven-plugin)
 + [https://github.com/pentaho/maven-parent-poms](https://github.com/pentaho/maven-parent-poms)
++ [https://github.com/mojohaus/build-helper-maven-plugin](https://github.com/mojohaus/build-helper-maven-plugin)
++ [https://github.com/maven-download-plugin](https://github.com/maven-download-plugin)
 + 构建自动清理 [https://github.com/castor-software/depclean](https://github.com/castor-software/depclean)
 + 模块化 [https://github.com/moditect/layrry](https://github.com/moditect/layrry)
++ [https://github.com/sormuras/modules](https://github.com/sormuras/modules)
 + 检测旧版API [https://github.com/gaul/modernizer-maven-plugin](https://github.com/gaul/modernizer-maven-plugin)
 + [https://github.com/mojohaus/build-helper-maven-plugin](https://github.com/mojohaus/build-helper-maven-plugin)
 + 排序 [https://github.com/Ekryd/sortpom](https://github.com/Ekryd/sortpom)
++ 格式化 [https://github.com/revelc/formatter-maven-plugin](https://github.com/revelc/formatter-maven-plugin)
++ [https://github.com/maveniverse/mima](https://github.com/maveniverse/mima)
++ 集成Rust [https://github.com/questdb/rust-maven-plugin](https://github.com/questdb/rust-maven-plugin)
 
 
 
@@ -331,7 +353,7 @@
 * 运行检查: `mvn verify`
 * 清理maven项目: `mvn clean`
 * 生成eclipse项目: `mvn eclipse:eclipse`
-* 清理eclipse配置: `mvn eclipse:clean`
+* 清理eclipse配置: `mvn eclipse:clean` 删除`.settings`、`.project`、`.classpath`、`.factorypath`
 * 生成idea项目: `mvn idea:idea`
 * 安装项目到本地仓库: `mvn install`
 * 发布项目到远程仓库: `mvn:deploy`
@@ -339,7 +361,6 @@
 * 显示maven依赖树: `mvn dependency:tree`
 * 显示maven依赖列表: `mvn dependency:list`
 * 下载依赖包的源码: `mvn dependency:sources`
-* 安装本地jar到本地仓库: `mvn install:install-file -DgroupId=packageName -DartifactId=projectName -Dversion=version -Dpackaging=jar -Dfile=path`
 
 
 **web项目相关命令**
@@ -353,6 +374,63 @@
 - 重新部署: `mvn tomcat:redeploy`
 - 部署展开的war文件: `mvn war:exploded tomcat:exploded`
 
+
+#### 使用本地jar包
+
+**将jar包安装到本地Maven仓库中**
+
+`mvn install:install-file -Dfile=C:\Users\xx\Desktop\test-1.0-SNAPSHOT.jar -DgroupId=com.bajins -DartifactId=test -Dversion=1.0 -Dpackaging=jar`
+
+- `-Dfile`：指定要安装的文件的路径。
+- `-DgroupId`：指定项目的groupId。
+- `-DartifactId`：指定项目的artifactId。
+- `-Dversion`：指定项目的版本号。
+- `-Dpackaging`：指定项目的打包类型。
+
+
++ Eclipse -> `File` -> `Import` -> `Maven` -> `Install or deply an artifact to a Maven reposeitory` -> `Next` -> `Install artifact`
++ Eclipse -> 项目右键 -> `Maven` -> `Update Project`
+
+
+
+**引用本地jar包，非引用本地Maven仓库**
+
+```xml
+<dependency>
+    <groupId>com.xxx</groupId>
+    <artifactId>xxx-sdk</artifactId>
+    <version>${xxxSDK.version}</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/xxxSDK.jar</systemPath>
+</dependency>
+
+<plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+    <!-- 加以下配置 打包时包括引用的本地jar -->
+    <configuration>
+        <includeSystemScope>true</includeSystemScope>
+    </configuration>
+</plugin>
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+        <configuration>
+            <webResources>
+                <resource>
+                    <!-- 拷贝指定文件夹下的文件到指定目录 -->
+                    <directory>${project.basedir}/lib</directory>
+                    <targetPath>WEB-INF/lib</targetPath>
+                    <filtering>false</filtering>
+                    <includes>
+                        <include>**/*.jar</include>
+                    </includes>
+                </resource>
+            </webResources>
+        </configuration>
+    <version>2.1.1</version>
+</plugin>
+```
 
 
 
@@ -376,6 +454,4 @@
     * jboss [http://repository.jboss.com/maven2](http://repository.jboss.com/maven2)
     * jitpack [https://jitpack.io](https://jitpack.io)
     * jcenter [http://jcenter.bintray.com](http://jcenter.bintray.com)
-
-
 

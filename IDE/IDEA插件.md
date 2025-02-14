@@ -5,33 +5,88 @@
 
 ## Flag
 
-* [实用IDEA工具](https://blog.csdn.net/weixin_37645838/article/details/85953193)
-
-
+- [https://www.jetbrains.com/legal/docs/terms/jetbrains-ai/service-providers](https://www.jetbrains.com/legal/docs/terms/jetbrains-ai/service-providers)
+- [https://licheng1013.github.io/util/idea.html](https://licheng1013.github.io/util/idea.html)
 - Eclipse代码格式化风格 [https://github.com/krasa/EclipseCodeFormatter](https://github.com/krasa/EclipseCodeFormatter)
 - 主题 [http://soft-hub.cn](http://soft-hub.cn)
 
 
 * [https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
+* [https://github.com/search?q=jetbra](https://github.com/search?q=jetbra)
 * [https://zhile.io/archives](https://zhile.io/archives)
     * `jetbrains-agent`(v3.2.0为2020.1.4及以下版本)/`FineAgent`/`plugin-fineagent`/`BetterIntelliJ`
     * `jetbrains-eval-reset`（[IDE Eval Reset](https://gitee.com/pengzhile/ide-eval-resetter)）v2.3.5为2021.2.4(2021.2.3起需要登录)及以下版本重置试用插件
         * [https://repo.idechajian.com](https://repo.idechajian.com)
         * [https://plugins.zhile.io](https://plugins.zhile.io)
-    * [https://github.com/ja-netfilter](https://github.com/ja-netfilter) 2021.3(2022.1起弃用`mymap`插件)
+    * [https://github.com/ja-netfilter](https://github.com/ja-netfilter) 2021.3(2022.1起弃用`mymap`插件)-2023.1.4可用
         * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter)
+        * [https://github.com/libin9iOak/ja-netfilter-all](https://github.com/libin9iOak/ja-netfilter-all)
         * [https://jetbra.in/s](https://jetbra.in/s)
-        * [https://ffff.ga](https://ffff.ga)
+            * [https://github.com/jonssonyan/3.jetbra.in](https://github.com/jonssonyan/3.jetbra.in)
+        * [https://jetbrains.zhang-wt.com](https://jetbrains.zhang-wt.com)
         * [https://github.com/sinlmao/plugin-fineagent](https://github.com/sinlmao/plugin-fineagent)
+        * [https://github.com/googleweb/power-rule-plugin](https://github.com/googleweb/power-rule-plugin)
+        * [https://github.com/MoonWX/RainbowBracketsCrack](https://github.com/MoonWX/RainbowBracketsCrack)
+        * [https://github.com/Nasller/LicenseServer](https://github.com/Nasller/LicenseServer)
+        * [https://notabug.org/Nasller/LicenseServer](https://notabug.org/Nasller/LicenseServer)
+        * [https://github.com/H1d3r/Ja-LicenseServer](https://github.com/H1d3r/Ja-LicenseServer)
+        * [https://github.com/starxg/MyBatisCodeHelperProCrack](https://github.com/starxg/MyBatisCodeHelperProCrack)
+        * [https://github.com/zrongdong/ja-netfilter](https://github.com/zrongdong/ja-netfilter) 2021.3-最新版本可用
+        * [https://github.com/noviceli/jetbra](https://github.com/noviceli/jetbra)
+            * [https://github.com/novitechie/jetbra](https://github.com/novitechie/jetbra)
+            * [https://github.com/iot/jetbra](https://github.com/iot/jetbra)
+            * [https://github.com/novice88](https://github.com/novice88)
+                * [https://linux.do/u/novice.li/activity/topics](https://linux.do/u/novice.li/activity/topics)
+                * [https://jetbra.noviceli.win](https://jetbra.noviceli.win)
+                * [https://jetbra.novitechie.com](https://jetbra.novitechie.com)
+                * [https://jbls.ide-soft.com](https://jbls.ide-soft.com)
+                * [https://greasyfork.org/zh-CN/scripts/480799-jetbra](https://greasyfork.org/zh-CN/scripts/480799-jetbra)
+            * [https://gitea.998043.xyz/novice/plugin-privacy](https://gitea.998043.xyz/novice/plugin-privacy)
+            * [https://github.com/iofeqkurrc42/jetbra-server-go](https://github.com/iofeqkurrc42/jetbra-server-go)
+        * [https://github.com/LemonZuo/license](https://github.com/LemonZuo/license)
+        * [https://github.com/nannanStrawberry314/license](https://github.com/nannanStrawberry314/license)
+            * [https://github.com/AnkioTomas/license](https://github.com/AnkioTomas/license)
+            * [https://jetbrains.ankio.net/license](https://jetbrains.ankio.net/license)
+        * [https://notabug.org/wmymz/jls](https://notabug.org/wmymz/jls)
+        * [https://github.com/mqj0712/plugin-sg-valid](https://github.com/mqj0712/plugin-sg-valid)
+        * [https://github.com/Luxcis/Jetbrains-Helper-Go](https://github.com/Luxcis/Jetbrains-Helper-Go)
+    * [https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power](https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power)
+* [https://github.com/tikkid/JetbrainKiller](https://github.com/tikkid/JetbrainKiller/tree/92cc01f9baab488cc3d510793da7731b1f8e17a4) 最新免登录试用插件
+    * [https://github.com/eltociear/JetbrainKiller](https://github.com/eltociear/JetbrainKiller)
+    * [https://github.com/KoolieAid/JetbrainKiller](https://github.com/KoolieAid/JetbrainKiller)
+* [https://github.com/ilanyu/ReverseProxy](https://github.com/ilanyu/ReverseProxy)
 * [利用授权服务器(License Server)激活Jetbrains全家桶](https://51.ruyo.net/17780.html)
     * [https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth](https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth)
 * [如何批量挖掘Jetbrains系列产品激活服务器](https://t.me/s/Ru05hui/123)
-    * [https://fofa.info](https://fofa.info)
+    * [https://fofa.info](https://fofa.info/result?qbase64=TG9jYXRpb246IGh0dHBzOi8vYWNjb3VudC5qZXRicmFpbnMuY29tL2Zscy1hdXRo&page=1&page_size=20)
 * [如何找Jetbrains激活服务器](https://hostloc.com/thread-999341-1-1.html)
     * [https://search.censys.io](https://search.censys.io)
+* [记录 Rainbow Brackets 插件破解](https://reajason.com/writing/rainbowbracketscracked)
+* [https://blog.novitechie.com](https://blog.novitechie.com)
+* [https://intxzt.github.io](https://intxzt.github.io)
+* [https://github.com/lianshufeng/Jrebel](https://github.com/lianshufeng/Jrebel)
+    * [https://jrebel.idoudou.me](https://jrebel.idoudou.me)
+    * [https://jrebel.com.cn](https://jrebel.com.cn)
+* [https://github.com/JAgentSphere/bytebuddy-agent-demo](https://github.com/JAgentSphere/bytebuddy-agent-demo)
+
 
 
 > `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`
+
+
+- [https://github.com/zielu/GitToolBox](https://github.com/zielu/GitToolBox)
+- [https://github.com/kookob/toolset](https://github.com/kookob/toolset)
+- [https://github.com/big-mouth-cn/talkx-idea-plugin](https://github.com/big-mouth-cn/talkx-idea-plugin)
+- [https://github.com/findtheflow/Feedback](https://github.com/findtheflow/Feedback)
+- ChatGPT [https://gitlab.com/wangsen_job/idea-plugin-iframe](https://gitlab.com/wangsen_job/idea-plugin-iframe)
+- 翻译 [https://github.com/starcwang/easy_javadoc](https://github.com/starcwang/easy_javadoc)
+- [https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper](https://github.com/tuchg/ChinesePinyin-CodeCompletionHelper)
+- [https://github.com/a18792721831/studyplugin](https://github.com/a18792721831/studyplugin)
+- [https://github.com/AntonShuvaev/intellij-datagraph](https://github.com/AntonShuvaev/intellij-datagraph)
+- 测试 [https://github.com/dromara/fast-request](https://github.com/dromara/fast-request)
+- 缩略图 [https://github.com/Nasller/CodeGlancePro](https://github.com/Nasller/CodeGlancePro)
+- 调试辅助 [https://github.com/igoriakovlev/JumpToLine](https://github.com/igoriakovlev/JumpToLine)
+- 序列图 [https://github.com/Vanco/SequencePlugin](https://github.com/Vanco/SequencePlugin)
 
 
 ## Free Mybatis plugin
@@ -49,10 +104,11 @@
 * [https://github.com/kana112233/mybatis-plus-plugin](https://github.com/kana112233/mybatis-plus-plugin)
 
 
-## MyBatisCodeHelper-Pro
+## MyBatisCodeHelper
 
 * [https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-](https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-)
 * [https://github.com/gejun123456/MyBatisCodeHelper-Pro](https://github.com/gejun123456/MyBatisCodeHelper-Pro)
+* [https://github.com/mbtsp/mybatisSmartCodeHelp](https://github.com/mbtsp/mybatisSmartCodeHelp)
 * [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
 
 
@@ -302,9 +358,10 @@
 
 ## FindBugs-IDEA
 
-* [https://plugins.jetbrains.com/plugin/3847-findbugs-idea](https://plugins.jetbrains.com/plugin/3847-findbugs-idea)
-* [https://github.com/andrepdo/findbugs-idea](https://github.com/andrepdo/findbugs-idea)
+* [https://plugins.jetbrains.com/plugin/14014-spotbugs](https://plugins.jetbrains.com/plugin/14014-spotbugs)
+* ~~[https://github.com/andrepdo/findbugs-idea](https://github.com/andrepdo/findbugs-idea)~~
     * [https://andrepdo.github.io/findbugs-idea](https://andrepdo.github.io/findbugs-idea)
+* [https://github.com/XenoAmess/p3c](https://github.com/XenoAmess/p3c)
 
 > 检测代码中可能的bug及不规范的位置，检测的模式相比p3c更多，写完代码后检测下 避免低级bug，强烈建议用一下，一不小心就发现很多老代码的bug
 
@@ -347,6 +404,12 @@
 > [支持热更新 mybatis mapper.xml](https://wangji.blog.csdn.net/article/details/116615427)
 
 
+## HotSecondsIDEA
+
+> 热部署
+
+* [https://github.com/thanple/HotSecondsIDEA](https://github.com/thanple/HotSecondsIDEA)
+
 
 ## VisualVM Launcher
 
@@ -361,7 +424,7 @@
 
 ## Rainbow Brackets
 
-* [https://plugins.jetbrains.com/plugin/10080-rainbow-brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
+* 彩虹括号 [https://github.com/izhangzhihao/intellij-rainbow-brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets)
 
 > 彩虹颜色的括号，看着很舒服 敲代码效率变高
 

@@ -5,196 +5,25 @@
 
 ## Flag
 
-* [130 余个相见恨晚的超实用网站](https://blog.csdn.net/qq_43901693/article/details/100606828)
-* 开源项目刊栏: [https://github.com/521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
-* [https://github.oldjpg.com](https://github.oldjpg.com)
-* [https://octoverse.github.com/#top-languages](https://octoverse.github.com/#top-languages)
-* [https://sourceforge.net](https://sourceforge.net)
-
-
-
++ 书签管理器 [https://github.com/linkwarden/linkwarden](https://github.com/linkwarden/linkwarden)
++ [https://github.com/omnivore-app/omnivore](https://github.com/omnivore-app/omnivore)
++ Web归档 [https://github.com/webrecorder](https://github.com/webrecorder)
++ [https://github.com/dginev/ar5iv](https://github.com/dginev/ar5iv)
++ [https://github.com/dosyago/DownloadNet](https://github.com/dosyago/DownloadNet)
++ URL分类 [https://github.com/CH563/gtps-url](https://github.com/CH563/gtps-url)
 + 隐私 [https://github.com/pluja/awesome-privacy](https://github.com/pluja/awesome-privacy)
 + [https://github.com/bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
-+ IT技术知识开源图谱 [https://gitcode.net/dev-roadmap](https://gitcode.net/dev-roadmap)
 
 
-**开源组织**
-
-* 免费学习编码 [https://github.com/freeCodeCamp](https://github.com/freeCodeCamp)
-* [https://github.com/apache](https://github.com/apache)
-    * [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
-* [https://github.com/google](https://github.com/google)
-    * [https://github.com/googleapis](https://github.com/googleapis)
-* [https://github.com/Netflix](https://github.com/Netflix)
-* [https://github.com/alibaba](https://github.com/alibaba)
-    * [https://tech.taobao.org/open-source](https://tech.taobao.org/open-source)
-* [https://github.com/alipay](https://github.com/alipay)
-* [https://github.com/tencent](https://github.com/tencent)
-* [https://github.com/bytedance](https://github.com/bytedance)
-* [https://github.com/huawei](https://github.com/huawei)
-* [https://github.com/ctripcorp](https://github.com/ctripcorp)
-* [https://github.com/vipshop](https://github.com/vipshop)
-* [https://github.com/mdn](https://github.com/mdn)
-    * [https://developer.mozilla.org](https://developer.mozilla.org)
-    * [https://github.com/openwebdocs](https://github.com/openwebdocs)
-* [https://github.com/Qihoo360](https://github.com/Qihoo360)
-* [https://github.com/IBM](https://github.com/IBM)
-    * [https://www.ibm.com/opensource/open-projects](https://www.ibm.com/opensource/open-projects)
-* [https://github.com/uber](https://github.com/uber)
-* [https://github.com/oracle](https://github.com/oracle)
-    * [https://oss.oracle.com](https://oss.oracle.com)
-    * [https://developer.oracle.com/open-source.html](https://developer.oracle.com/open-source.html)
-* [https://github.com/square](https://github.com/square)
-* [https://github.com/aws-samples](https://github.com/aws-samples)
-    * [https://github.com/awsdocs](https://github.com/awsdocs)
-* [https://github.com/hashicorp](https://github.com/hashicorp)
-* [https://tanzu.vmware.com/cn/open-source](https://tanzu.vmware.com/cn/open-source)
-* [https://opensource.samsung.com](https://opensource.samsung.com)
-* [https://github.com/amzn](https://github.com/amzn)
-* [https://github.com/openstack](https://github.com/openstack)
-* [https://opensource.adobe.com](https://opensource.adobe.com)
-    * [https://github.com/adobe](https://github.com/adobe)
-    * [https://www.adobe.io/open](https://www.adobe.io/open)
-* [https://github.com/redhatofficial](https://github.com/redhatofficial)
-    * [https://redhatofficial.github.io](https://redhatofficial.github.io)
-
-
-- [https://github.com/TogetherOS](https://github.com/TogetherOS)
-- [https://github.com/lets-blade](https://github.com/lets-blade)
-- 各种非常棒的学习项目 [https://github.com/jobbole](https://github.com/jobbole)
-- [https://github.com/doocs](https://github.com/doocs)
-- [https://github.com/apachecn](https://github.com/apachecn)
-- [https://github.com/need-to-know](https://github.com/need-to-know)
-- [https://github.com/DevotionZhu](https://github.com/DevotionZhu)
-- [https://github.com/huihoo](https://github.com/huihoo)
-
-
-
-**基金会**
-
-* [https://www.linuxfoundation.org/projects](https://www.linuxfoundation.org/projects)
-    * [https://github.com/cncf](https://github.com/cncf)
-    * [https://www.cncf.io/projects](https://www.cncf.io/projects)
-    * [https://www.cncf.io/sandbox-projects](https://www.cncf.io/sandbox-projects)
-    * [https://devstats.cncf.io](https://devstats.cncf.io)
-* [https://www.fsf.org/resources](https://www.fsf.org/resources)
-* [https://projects.ow2.org](https://projects.ow2.org)
-* [https://www.openstack.org/software](https://www.openstack.org/software)
-* OpenInfra Foundation [https://openinfra.dev/projects](https://openinfra.dev/projects)
-* [https://github.com/yahoo](https://github.com/yahoo)
-* [https://github.com/adobe](https://github.com/adobe)
-* [https://github.com/eclipse](https://github.com/eclipse)
-    * [https://projects.eclipse.org](https://projects.eclipse.org)
-* OpenJS基金会 [https://github.com/openjs-foundation](https://github.com/openjs-foundation)
-    * [https://openjsf.org/projects](https://openjsf.org/projects)
-* [https://sfconservancy.org/projects/current](https://sfconservancy.org/projects/current)
-* [https://github.com/openeuler-mirror](https://github.com/openeuler-mirror)
-* [https://lfaidata.foundation/projects](https://lfaidata.foundation/projects)
-* [https://github.com/girlscript/winter-of-contributing](https://github.com/girlscript/winter-of-contributing)
-* [https://github.com/hardenedlinux](https://github.com/hardenedlinux)
-    * [https://gitlab.com/hardenedlinux](https://gitlab.com/hardenedlinux)
-    * [https://github.com/NalaGinrut](https://github.com/NalaGinrut)
-    * [https://gitlab.com/NalaGinrut](https://gitlab.com/NalaGinrut)
-
-
-
-
-**开源个人**
-
-* [https://github.com/wangdoc](https://github.com/wangdoc)
-    * [https://wangdoc.com](https://wangdoc.com)
-* [https://github.com/tj](https://github.com/tj)
-* [https://github.com/qinxuewu](https://github.com/qinxuewu)
-* [https://github.com/judasn](https://github.com/judasn)
-* [https://github.com/TiantianUpup](https://github.com/TiantianUpup)
-* [https://github.com/cicadasmile](https://github.com/cicadasmile)
-* [https://github.com/brianway](https://github.com/brianway)
-* [https://github.com/Blankj](https://github.com/Blankj)
-* [https://github.com/ityouknow](https://github.com/ityouknow)
-* [https://github.com/eugenp](https://github.com/eugenp)
-    * [https://www.baeldung.com](https://www.baeldung.com)
-* [https://github.com/lltx](https://github.com/lltx)
-* [https://github.com/Ovilia](https://github.com/Ovilia)
-* [https://github.com/halfrost](https://github.com/halfrost)
-* [https://github.com/changkun](https://github.com/changkun)
-* [https://github.com/chinanf-boy](https://github.com/chinanf-boy)
-* [https://github.com/waylau](https://github.com/waylau)
-    * [Archive | waylau.com](https://waylau.com/archive)
-    * [Books | waylau.com](https://waylau.com/books)
-    * [https://legacy.gitbook.com/@waylau](https://legacy.gitbook.com/@waylau)
-
-
-- [https://github.com/hoochanlon](https://github.com/hoochanlon)
-- [https://github.com/easychen](https://github.com/easychen)
-
-
-
-**很棒的项目**
-
-+ [https://github.com/topics/snippets](https://github.com/topics/snippets)
-+ [https://github.com/search?q=awesome](https://github.com/search?q=awesome)
-+ [https://github.com/topics/awesome](https://github.com/topics/awesome)
-+ [https://github.com/topics/awesome-list](https://github.com/topics/awesome-list)
-
-
-* [https://awesomeopensource.com](https://awesomeopensource.com)
-* [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome)
-* [https://github.com/icopy-site/awesome-cn](https://github.com/icopy-site/awesome-cn)
-* [思维导图](https://github.com/search?o=desc&q=%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE&s=updated&type=Repositories)
-* [https://github.com/polaris1119/awesome-cheatsheets-cn](https://github.com/polaris1119/awesome-cheatsheets-cn)
-* 学习主题清单 [https://github.com/jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
-* [https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
-* [https://github.com/yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
-* [https://github.com/practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)
-* 学习开发路线图 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
-* [https://github.com/SmartKeyerror/Psyduck](https://github.com/SmartKeyerror/Psyduck)
-* [https://github.com/microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
-* 开发人员设计资源 [https://github.com/bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
-* 程序员技能图谱 [https://github.com/TeamStuQ/skill-map](https://github.com/TeamStuQ/skill-map)
-* [https://github.com/codecrafters-io](https://github.com/codecrafters-io)
-* [https://github.com/girliemac/a-picture-is-worth-a-1000-words](https://github.com/girliemac/a-picture-is-worth-a-1000-words)
-* [https://github.com/trigaten/Learn_Prompting](https://github.com/trigaten/Learn_Prompting)
-* Linux应用程序 [https://github.com/luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software)
-* 九十九个问题 [https://github.com/shekhargulati/99-problems](https://github.com/shekhargulati/99-problems)
-* [https://github.com/JosephZhu1983/java-common-mistakes](https://github.com/JosephZhu1983/java-common-mistakes)
-* [https://github.com/danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
-* 视频讲座 [https://github.com/Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
-* 面试题 [https://github.com/0voice/campus_recruitmen_questions](https://github.com/0voice/campus_recruitmen_questions)
-* 反问面试官 [https://github.com/viraptor/reverse-interview](https://github.com/viraptor/reverse-interview)
-* [https://github.com/vvmdx/Sec-Interview-4-2023](https://github.com/vvmdx/Sec-Interview-4-2023)
-* 开源替代方案 [https://opensource.com/tags/alternatives](https://opensource.com/tags/alternatives)
-
-
-
-- 免费服务工具列表 [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
-- [https://github.com/trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
-- [https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo)
-- [https://github.com/sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
-- [https://github.com/ttys3](https://github.com/ttys3)
-- [https://github.com/lmmentel/awesome-time-series](https://github.com/lmmentel/awesome-time-series)
-- 预览项目HTML [https://github.com/htmlpreview/htmlpreview.github.com](https://github.com/htmlpreview/htmlpreview.github.com)
-
-
-
-* Mac文档查询工具 [https://github.com/Kapeli](https://github.com/Kapeli)
-    * [https://kapeli.com/dash](https://kapeli.com/dash)
-    * [https://github.com/wuudjac/godocdash](https://github.com/wuudjac/godocdash)
-    * [https://github.com/technosophos/dashing](https://github.com/technosophos/dashing)
-    * [https://github.com/Robzz/cargo-docset](https://github.com/Robzz/cargo-docset)
-    * [https://github.com/theasta/jsdoc-dash-template](https://github.com/theasta/jsdoc-dash-template)
-* Windows和Linux文档查询工具 [https://github.com/zealdocs/zeal](https://github.com/zealdocs/zeal)
-* [https://velocity.silverlakesoftware.com](https://velocity.silverlakesoftware.com)
-* 代码浏览器 [https://github.com/KDAB/codebrowser](https://github.com/KDAB/codebrowser)
-    * [https://blog.weghos.com](https://blog.weghos.com)
-* Java考试系统 [https://github.com/lsgwr/spring-boot-online-exam](https://github.com/lsgwr/spring-boot-online-exam)
-* Python考试系统 [https://github.com/xingxingzaixian/django-drf-online-exam](https://github.com/xingxingzaixian/django-drf-online-exam)
-
+- [130 余个相见恨晚的超实用网站](https://blog.csdn.net/qq_43901693/article/details/100606828)
+- [https://dmucd.github.io/archives](https://dmucd.github.io/archives)
+- 2023年终总结 [https://github.com/saveweb/review-2023](https://github.com/saveweb/review-2023)
+- [Huberman Lab Podcast 全系列笔记](https://zhuanlan.zhihu.com/p/676445568)
+- [https://github.com/zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
+- HackerNews每日AI摘要 [https://www.supertechfans.com/cn](https://www.supertechfans.com/cn)
 
 
 ## 学习
-
-+ [https://github.com/topics/leetcode](https://github.com/topics/leetcode)
-+ [https://github.com/yifeikong/reverse-interview-zh](https://github.com/yifeikong/reverse-interview-zh)
 
 * TED（最优质的演讲） [https://www.ted.com](https://www.ted.com)
 * 谷粉学术 [https://gfsoso.99lb.net/scholar.html](https://gfsoso.99lb.net/scholar.html)
@@ -216,6 +45,18 @@
 * [https://flaviocopes.com](https://flaviocopes.com)
 * [https://topbook.cc](https://topbook.cc)
     * [https://www.zhihu.com/org/topbook](https://www.zhihu.com/org/topbook)
+* 翻译视频 [https://crashcourse.club](https://crashcourse.club)
+* [设计师口袋心理学](https://iason.notion.site/6719c7650fd1406c92287f556520fbc3)
+* [认知偏差知识手册](https://s75w5y7vut.feishu.cn/docs/doccn3BatnScBJe7wD7K3S5poFf)
+* [认知偏差](https://colossal-riddle-1431.glideapp.io)
+* [https://github.com/debitCrossBlockchain/renzhengfei](https://github.com/debitCrossBlockchain/renzhengfei)
+* [https://github.com/fenwii/huaweimind](https://github.com/fenwii/huaweimind)
+* 学英语 [https://github.com/xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english)
+* [https://github.com/byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips)
+* [https://www.languagereactor.com](https://www.languagereactor.com)
+* [https://youglish.com](https://youglish.com)
+
+
 
 
 **CSDN取消屏蔽**
@@ -283,6 +124,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 在线看剧 [http://dy.27234.cn](http://dy.27234.cn)
 * 大数据导航 [http://hao.199it.com](http://hao.199it.com)
 * 多功能图片网站 [https://www.logosc.cn/so](https://www.logosc.cn/so)
+* [https://shots.so](https://shots.so)
 * 牛牛TV [http://www.ziliao6.com/tv](http://www.ziliao6.com/tv)
 * VideoFk解析视频 [http://www.videofk.com](http://www.videofk.com)
 * 蓝调网站 [http://lcoc.top/vip2.3](http://lcoc.top/vip2.3)
@@ -291,11 +133,20 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 
 - [免费下载音乐的网站在哪里?](https://www.zhihu.com/question/356168043)
 - 无损音乐吧 [https://www.dtshot.com](https://www.dtshot.com)
+- [https://soundcloud.com](https://soundcloud.com)
 - 超高无损音乐网 [https://www.sq688.com](https://www.sq688.com)
 - 无损音乐免费下载 [http://www.51ape.com](http://www.51ape.com)
 - [http://tool.liumingye.cn/music](http://tool.liumingye.cn/music)
-
-
+- 音频学习 [https://www.eartrainx.com](https://www.eartrainx.com)
+- 全球实时视频 [https://www.earthcam.com](https://www.earthcam.com)
+- [https://www.skylinewebcams.com](https://www.skylinewebcams.com)
+- [https://www.citywalks.live](https://www.citywalks.live)
+- 三维太空可视化 [https://eyes.nasa.gov](https://eyes.nasa.gov)
+- 元素周期表 [https://github.com/baotlake/periodic-table-pro](https://github.com/baotlake/periodic-table-pro)
+- 白噪音 [https://ambiph.one](https://ambiph.one)
+- [https://soundbox.fun](https://soundbox.fun)
+- [https://www.ppbzy.com](https://www.ppbzy.com)
+- 视频编辑 [https://pikimov.com](https://pikimov.com)
 
 
 
@@ -304,7 +155,6 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 码力全开（产品/设计师/独立开发者的资源库） [https://www.maliquankai.com/designnav](https://www.maliquankai.com/designnav)
 * 免费音频素材 [https://icons8.cn/music](https://icons8.cn/music)
 * 新CG儿（视频素材模板，无水印+免费下载） [https://www.newcger.com](https://www.newcger.com)
-* Iconfont（阿里巴巴矢量图标库） [https://www.iconfont.cn](https://www.iconfont.cn)
 * 小图标下载 [https://www.easyicon.net](https://www.easyicon.net)
 * [https://github.com/Templarian/MaterialDesign](https://github.com/Templarian/MaterialDesign)
 * Flight Icon [https://www.flighticon.co](https://www.flighticon.co)
@@ -312,6 +162,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * doyoudosh（平面设计） [http://www.doyoudo.com](http://www.doyoudo.com)
 * 企业宣传视频在线制作 [https://duomu.tv](https://duomu.tv)
 * MAKE海报设计官网 [http://maka.im](http://maka.im)
+* [https://www.behance.net](https://www.behance.net)
 * 一键海报神器 [https://www.logosc.cn/photo/?utm\_source=hao.logosc.cn&utm\_medium=referral](https://www.logosc.cn/photo/?utm\_source=hao.logosc.cn&utm\_medium=referral)
 * 字由（字体设计） [http://www.hellofont.cn](http://www.hellofont.cn)
 * 查字体网站 [https://fonts.safe.360.cn](https://fonts.safe.360.cn)
@@ -319,6 +170,17 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 在线视频剪辑 [https://bilibili.clipchamp.com/editor](https://bilibili.clipchamp.com/editor)
 * 图标生成 [https://realfavicongenerator.net](https://realfavicongenerator.net)
 * [https://github.com/faviator/faviator](https://github.com/faviator/faviator)
+* [https://scrnshts.club](https://scrnshts.club)
+* [https://appmotion.design](https://appmotion.design)
+* [https://www.meiye.art](https://www.meiye.art)
+* [https://uxbaike.com](https://uxbaike.com)
+* [https://mjcn.club](https://mjcn.club)
+* [https://www.logocook.shop/editor](https://www.logocook.shop/editor)
+* 灵感设计 [https://refto.one](https://refto.one)
+* [https://github.com/gantFDT/icraft](https://github.com/gantFDT/icraft)
+    * 3D架构图 [https://icraft.gantcloud.com](https://icraft.gantcloud.com)
+* DIY项目 [https://makeityourself.org](https://makeityourself.org)
+* [王慧文清华产品课](https://nanqiang.feishu.cn/wiki/wikcncDyFTq1agB5UaEZnUGZD4g)
 
 
 ## 文档
@@ -340,6 +202,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 第一PPT（模板下载） [http://www.1ppt.com/xiazai](http://www.1ppt.com/xiazai)
 * 三顿PPT导航 [http://sandunppt.com](http://sandunppt.com)
 * [Excel函数表](https://support.office.com/zh-cn/article/excel-%E5%87%BD%E6%95%B0%EF%BC%88%E6%8C%89%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89-b3944572-255d-4efb-bb96-c6d90033e188)
+* 字帖生成 [https://paper.z2h.cn](https://paper.z2h.cn)
 
 
 
@@ -361,3 +224,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * [https://imagecompressor.com/zh](https://imagecompressor.com/zh)
 * [https://tinyPNG.com](https://tinyPNG.com)
 * [https://picwish.cn](https://picwish.cn)
+* [https://www.huismessager.com](https://www.huismessager.com)
+* 共享卡片 [https://share.aitimi.cn](https://share.aitimi.cn)
+* 名片设计 [https://yft.design](https://yft.design)
+* 图像压缩 [https://compressjpg.io](https://compressjpg.io)

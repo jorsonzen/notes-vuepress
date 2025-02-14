@@ -44,6 +44,7 @@
 * [https://github.com/microsoft/winget-cli](https://github.com/microsoft/winget-cli)
     * [https://github.com/microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs)
     * [https://docs.microsoft.com/zh-cn/windows/package-manager/winget](https://docs.microsoft.com/zh-cn/windows/package-manager/winget)
+    * [https://github.com/marticliment/WingetUI](https://github.com/marticliment/WingetUI)
 * [https://github.com/oneget/oneget](https://github.com/oneget/oneget)
     * [https://www.nuget.org](https://www.nuget.org)
     * [https://www.powershellgallery.com](https://www.powershellgallery.com)
@@ -52,6 +53,7 @@
 * [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
     * [https://github.com/ScoopInstaller](https://github.com/ScoopInstaller)
     * [https://github.com/lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras)
+    * [https://github.com/bjansen/scoop-apps](https://github.com/bjansen/scoop-apps)
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
 * [https://github.com/appget](https://github.com/appget)
 
@@ -175,6 +177,17 @@ Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXMan
 ```
 
 
+- 排除Windows Defender检查
+
+```powershell
+$exclusions=@("C:\Users\claer\Desktop\desktop-wallpaper-rust.exe"); `
+$existingExclusions=[Collections.Generic.HashSet[String]](Get-MpPreference).ExclusionProcess; `
+if($existingExclusions -eq $null) { $existingExclusions = New-Object Collections.Generic.HashSet[String] }; `
+$exclusionsToAdd=[Linq.Enumerable]::ToArray([Linq.Enumerable]::Where($exclusions,[Func[object,bool]]{param($ex)!$existingExclusions.Contains($ex)})); `
+if($exclusionsToAdd.Length -gt 0){ Add-MpPreference -ExclusionProcess $exclusionsToAdd }
+```
+
+
 
 ## 随机字符串
 
@@ -273,6 +286,101 @@ $null = $window.Show();
 Start-Sleep -Seconds 10;
 $window.Close();
 ```
+
+**单行输入框**
+
+```powershell
+# 首先，加载 System.Windows.Forms 程序集
+Add-Type -AssemblyName System.Windows.Forms
+
+# 创建输入框
+$InputBox = New-Object System.Windows.Forms.Form
+$InputBox.StartPosition = 'CenterScreen'
+$InputBox.Size = New-Object System.Drawing.Size(300,200)
+$InputBox.Topmost = $True
+
+# 创建文本框并设置属性
+$TextBox = New-Object System.Windows.Forms.TextBox
+$TextBox.Location = New-Object System.Drawing.Point(10,10)
+$TextBox.Size = New-Object System.Drawing.Size(260,20)
+$InputBox.Controls.Add($TextBox)
+
+# 创建确定按钮并设置属性
+$OKButton = New-Object System.Windows.Forms.Button
+$OKButton.Location = New-Object System.Drawing.Point(75,50)
+$OKButton.Size = New-Object System.Drawing.Size(75,25)
+$OKButton.Text = "OK"
+$OKButton.DialogResult = [System.Windows.Forms.DialogResult]::OK
+$InputBox.Controls.Add($OKButton)
+$InputBox.AcceptButton = $OKButton
+
+# 显示输入框并等待用户操作
+$Show = $InputBox.ShowDialog()
+
+# 检查用户是否点击了确定按钮
+if ($Show -eq [System.Windows.Forms.DialogResult]::OK)
+{
+    # 用户数据在这里
+    $UserInput = $TextBox.Text
+    $InputBox.Close()
+    Write-Host "You entered: $UserInput"
+}
+else
+{
+    $InputBox.Close()
+}
+```
+
+**多行输入框**
+
+```powershell
+# 引入 System.Windows.Forms 组件
+Add-Type -AssemblyName System.Windows.Forms
+
+# 创建一个新的表单（窗体）
+$form = New-Object System.Windows.Forms.Form
+$form.Text = 'Multi-line Input Box'
+$form.Size = New-Object System.Drawing.Size(300,200)
+$form.StartPosition = 'CenterScreen'
+
+# 创建一个 Label，用来展示信息
+$label = New-Object System.Windows.Forms.Label
+$label.Location = New-Object System.Drawing.Point(10,10)
+$label.Size = New-Object System.Drawing.Size(280,20)
+$label.Text = 'Please enter your text:'
+$form.Controls.Add($label)
+
+# 创建一个 TextBox，用户可以在其中输入文字
+$textbox = New-Object System.Windows.Forms.TextBox
+$textbox.Location = New-Object System.Drawing.Point(10,40)
+$textbox.Size = New-Object System.Drawing.Size(260,100)
+$textbox.AcceptsReturn = $true
+$textbox.Multiline = $true
+$form.Controls.Add($textbox)
+
+# 创建一个 OK 按钮来提交输入内容
+$okButton = New-Object System.Windows.Forms.Button
+$okButton.Location = New-Object System.Drawing.Point(10,150)
+$okButton.Size = New-Object System.Drawing.Size(75,23)
+$okButton.Text = 'OK'
+$okButton.DialogResult = [System.Windows.Forms.DialogResult]::OK
+$form.AcceptButton = $okButton
+$form.Controls.Add($okButton)
+
+# 展示表单
+$form.Topmost = $true
+$result = $form.ShowDialog()
+
+# 按下 OK 按钮后获取 TextBox 中的内容
+if ($result -eq [System.Windows.Forms.DialogResult]::OK)
+{
+    $input = $textbox.Text
+    $form.Close()
+    Write-Host "You entered: $input"
+}
+```
+
+
 
 ### 获取所有COM组件
 

@@ -11,20 +11,27 @@
     + [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
 
 
+* [https://github.com/nodeschool](https://github.com/nodeschool)
+* [https://github.com/workshopper](https://github.com/workshopper)
+* [http://www.npmdoc.org](http://www.npmdoc.org)
 * [https://github.com/goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
 * [NodeJs小册](https://nodejs.fasionchan.com/zh_CN/latest/index.html)
 * [https://developer.ibm.com/zh/technologies/node-js](https://developer.ibm.com/zh/technologies/node-js)
 * [https://github.com/alsotang/node-lessons](https://github.com/alsotang/node-lessons)
 * [https://github.com/cnodejs](https://github.com/cnodejs)
 * [https://github.com/amplication](https://github.com/amplication)
+* [https://github.com/i5ting/asynchronous-flow-control](https://github.com/i5ting/asynchronous-flow-control)
+* 基准测试 [https://github.com/RafaelGSS/nodejs-bench-operations](https://github.com/RafaelGSS/nodejs-bench-operations)
+* 实时协作 [https://github.com/partykit/partykit](https://github.com/partykit/partykit)
 
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，
 > 所以真正的参数从下标`2`开始`process.argv.splice(2)`
 
 
-* 纯JavaScript实现 [https://github.com/jsdom/jsdom](https://github.com/jsdom/jsdom)
+* Web标准实现 [https://github.com/jsdom/jsdom](https://github.com/jsdom/jsdom)
 * [https://github.com/stylus](https://github.com/stylus)
+* 自动重启Node [https://github.com/remy/nodemon](https://github.com/remy/nodemon)
 * [2023年最受欢迎的node.js框架](https://stackdiary.com/node-js-frameworks)
 
 
@@ -43,20 +50,25 @@
 - [https://github.com/snowpackjs/snowpack](https://github.com/snowpackjs/snowpack)
 - [https://github.com/rollup/rollup](https://github.com/rollup/rollup)
     - [https://www.rollupjs.com](https://www.rollupjs.com)
+    - [https://github.com/rolldown-rs/rolldown](https://github.com/rolldown-rs/rolldown)
 - [https://github.com/TurboPack](https://github.com/TurboPack)
 - [https://github.com/vitejs/vite](https://github.com/vitejs/vite)
 - [https://github.com/evanw/esbuild](https://github.com/evanw/esbuild)
 - [https://github.com/web-infra-dev](https://github.com/web-infra-dev)
+- [https://github.com/bower/bower](https://github.com/bower/bower)
+- [https://github.com/gulpjs/gulp](https://github.com/gulpjs/gulp)
+    - [https://www.gulpjs.com.cn](https://www.gulpjs.com.cn)
 - 2009年，npm
 - 2012年，grunt
 - 2012年，bower
 - 2013年，yeoman [https://github.com/yeoman](https://github.com/yeoman)
-- 2014年，gulp
+- 2014年，gulp 
 - 2015年，fis3
 - 2017年，webpack3
 
 * [https://github.com/wuhao000/aegis-tools](https://github.com/wuhao000/aegis-tools)
 * [https://github.com/fuchengwei/deploy-cli-service](https://github.com/fuchengwei/deploy-cli-service)
+* [https://github.com/Tencent/hel](https://github.com/Tencent/hel)
 
 
 
@@ -64,14 +76,21 @@
 
 + [https://github.com/parro-it/awesome-micro-npm-packages](https://github.com/parro-it/awesome-micro-npm-packages)
 + [https://github.com/TanninOne](https://github.com/TanninOne)
++ [https://github.com/dylang](https://github.com/dylang)
++ [https://github.com/isaacs](https://github.com/isaacs)
++ [https://github.com/nodeca](https://github.com/nodeca)
++ [https://github.com/dominictarr](https://github.com/dominictarr)
++ [https://github.com/kentcdodds](https://github.com/kentcdodds)
++ [https://github.com/unjs](https://github.com/unjs)
 
 
+* [https://github.com/eggjs/egg](https://github.com/eggjs/egg)
 * glob [https://github.com/micromatch/extglob](https://github.com/micromatch/extglob)
-* [https://github.com/isaacs/minimatch](https://github.com/isaacs/minimatch)
 * [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)
 * [https://github.com/reworkcss](https://github.com/reworkcss)
 * [https://github.com/visionmedia](https://github.com/visionmedia)
 * CMS [https://github.com/strapi/strapi](https://github.com/strapi/strapi)
+    * [https://www.strapi.cn](https://www.strapi.cn)
 * ORM [https://github.com/prisma/prisma](https://github.com/prisma/prisma)
 * [https://github.com/jugglingdb](https://github.com/jugglingdb)
 * [https://github.com/dresende/node-orm2](https://github.com/dresende/node-orm2)
@@ -79,27 +98,59 @@
 * [https://github.com/vincit/objection.js](https://github.com/vincit/objection.js)
 * [https://github.com/bookshelf/bookshelf](https://github.com/bookshelf/bookshelf)
 * [https://github.com/balderdashy/waterline](https://github.com/balderdashy/waterline)
+* [https://github.com/sutandojs/sutando](https://github.com/sutandojs/sutando)
+* [https://github.com/jaynath-d/node-jdbc-driver](https://github.com/jaynath-d/node-jdbc-driver)
 * SQL查询 [https://github.com/knex/knex](https://github.com/knex/knex)
+* [https://github.com/TryGhost/node-sqlite3](https://github.com/TryGhost/node-sqlite3)
+* [https://github.com/sql-js/sql.js](https://github.com/sql-js/sql.js)
+* SQLite REST API [https://github.com/thevahidal/soul](https://github.com/thevahidal/soul)
 * 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
+* [https://github.com/solzimer/nsyslog-parser](https://github.com/solzimer/nsyslog-parser)
 * 日志 [https://github.com/trentm/node-bunyan](https://github.com/trentm/node-bunyan)
 * [https://github.com/pillarjs/send](https://github.com/pillarjs/send)
+* [https://github.com/pinojs/pino](https://github.com/pinojs/pino)
+* [https://github.com/debug-js/debug](https://github.com/debug-js/debug)
 * 断言 [https://github.com/chaijs](https://github.com/chaijs)
 * Expect交互 [https://github.com/facebook/jest](https://github.com/facebook/jest)
 * [https://github.com/sinonjs](https://github.com/sinonjs)
 * 命令行 [https://github.com/tj/commander.js](https://github.com/tj/commander.js)
 * [https://github.com/SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
 * [https://github.com/oclif/oclif](https://github.com/oclif/oclif)
+* [https://github.com/yargs/yargs](https://github.com/yargs/yargs)
+* [https://github.com/shelljs/shelljs](https://github.com/shelljs/shelljs)
 * USB [https://github.com/schakko/node-usb](https://github.com/schakko/node-usb)
 * [https://github.com/node-usb](https://github.com/node-usb)
 * 字体管理 [https://github.com/foliojs/font-manager](https://github.com/foliojs/font-manager)
 * 访问头文件 [https://github.com/charto/nbind](https://github.com/charto/nbind)
 * 正则表达式 [https://github.com/CJex/regulex](https://github.com/CJex/regulex)
 * 特性开关 [https://github.com/Unleash/unleash](https://github.com/Unleash/unleash)
-* Excel [https://github.com/optilude/xlsx-template](https://github.com/optilude/xlsx-template)
 * 分布式ID [https://github.com/cloudyan/snowflake](https://github.com/cloudyan/snowflake)
 * REST [https://github.com/restify](https://github.com/restify)
 * [https://github.com/senchalabs/connect](https://github.com/senchalabs/connect)
 * 压缩解压文件 [https://github.com/quentinrossetti/node-7z](https://github.com/quentinrossetti/node-7z)
+* WEB框架 [https://github.com/marblejs/marble](https://github.com/marblejs/marble)
+* [https://github.com/nestjs/nest](https://github.com/nestjs/nest)
+* [https://github.com/fastify/fastify](https://github.com/fastify/fastify)
+* [https://github.com/koajs/koa](https://github.com/koajs/koa)
+    * [https://github.com/demopark/koa-docs-Zh-CN](https://github.com/demopark/koa-docs-Zh-CN)
+* [https://github.com/expressjs/express](https://github.com/expressjs/express)
+    * [https://expressjs.com/zh-cn/guide/writing-middleware.html](https://expressjs.com/zh-cn/guide/writing-middleware.html)
+* 键值存储 [https://github.com/jaredwray/keyv](https://github.com/jaredwray/keyv)
+* [https://github.com/microlinkhq/keyvhq](https://github.com/microlinkhq/keyvhq)
+* [https://github.com/sindresorhus/quick-lru](https://github.com/sindresorhus/quick-lru)
+* 图片压缩 [https://gitlab.com/ramiel/caravaggio](https://gitlab.com/ramiel/caravaggio)
+* [https://github.com/lovell/sharp](https://github.com/lovell/sharp)
+* C交互接口 [https://github.com/Koromix/koffi](https://github.com/Koromix/koffi)
+* 游戏框架 [https://github.com/greenheartgames/greenworks](https://github.com/greenheartgames/greenworks)
+* [https://github.com/ceifa/steamworks.js](https://github.com/ceifa/steamworks.js)
+* 检测文字语言 [https://github.com/komodojp/tinyld](https://github.com/komodojp/tinyld)
+* 表单验证 [https://github.com/vinejs/vine](https://github.com/vinejs/vine)
+* 代理HLS视频流 [https://github.com/warren-bank/HLS-Proxy](https://github.com/warren-bank/HLS-Proxy)
+* 文件操作 [https://github.com/jprichardson/node-fs-extra](https://github.com/jprichardson/node-fs-extra)
+* 文件监视 [https://github.com/paulmillr/chokidar](https://github.com/paulmillr/chokidar)
+* 环境变量加载 [https://github.com/motdotla/dotenv](https://github.com/motdotla/dotenv)
+
+
 
 
 
@@ -119,7 +170,6 @@
 * [https://github.com/nodenv/nodenv](https://github.com/nodenv/nodenv)
 * [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
 * [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
-* [https://github.com/asdf-vm/asdf](https://github.com/asdf-vm/asdf)
 * [https://github.com/jdxcode/rtx](https://github.com/jdxcode/rtx)
 
 
@@ -153,9 +203,13 @@ nvm install <最新的版本号>
 
 * [https://github.com/Unitech/pm2](https://github.com/Unitech/pm2)
 * [https://github.com/npm](https://github.com/npm)
+    * [https://www.npmjs.cn](https://www.npmjs.cn)
 * [https://github.com/yarnpkg](https://github.com/yarnpkg)
+    * [https://www.yarnpkg.com.cn](https://www.yarnpkg.com.cn)
 * [https://github.com/pnpm/pnpm](https://github.com/pnpm/pnpm)
 
+
+- [https://github.com/xthezealot/npmprune](https://github.com/xthezealot/npmprune)
 - [https://github.com/antfu/ni](https://github.com/antfu/ni)
 
 
@@ -195,7 +249,7 @@ npm config get registry
 npm config set registry https://registry.npmjs.org
 
 # 设置淘宝镜像仓库地址
-npm config set registry https://registry.npm.taobao.org
+npm config set registry https://registry.npmmirror.com
 
 # 查看代理地址
 npm config get proxy
@@ -376,6 +430,9 @@ request({
 
 ## 爬虫
 
++ [https://github.com/search?q=pup](https://github.com/search?q=pup)
+
+
 * [https://github.com/webdriverio](https://github.com/webdriverio)
 * [https://github.com/puppeteer](https://github.com/puppeteer)
     * [https://github.com/adieuadieu/serverless-chrome](https://github.com/adieuadieu/serverless-chrome)
@@ -390,15 +447,20 @@ request({
 * [https://github.com/aerokube](https://github.com/aerokube)
 * [https://github.com/getgauge/taiko](https://github.com/getgauge/taiko)
 * [https://github.com/milankinen/cuic](https://github.com/milankinen/cuic)
-* 基于webkit的JavaScript API [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
+* [https://github.com/CheshireCaat/bas-remote-node](https://github.com/CheshireCaat/bas-remote-node)
+* 基于webkit [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
     * [PhantomJS -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/phantomjs.html)
+    * [https://github.com/tapir-dream/berserkJS](https://github.com/tapir-dream/berserkJS)
+    * [https://github.com/JeffreyZhao/wind](https://github.com/JeffreyZhao/wind)
+    * [https://github.com/casperjs/casperjs](https://github.com/casperjs/casperjs)
 * [https://github.com/krisselden/chrome-debugging-client](https://github.com/krisselden/chrome-debugging-client)
 * [https://github.com/cyrus-and/chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface)
 * [https://github.com/TracerBench/chrome-debugging-client](https://github.com/TracerBench/chrome-debugging-client)
-* [https://github.com/laurentj/slimerjs](https://github.com/laurentj/slimerjs)
+* 基于Gecko [https://github.com/laurentj/slimerjs](https://github.com/laurentj/slimerjs)
 * [https://github.com/vitest-dev/vitest](https://github.com/vitest-dev/vitest)
 
 
+- [https://github.com/NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider)
 - [https://github.com/inu1255/soulsign-chrome](https://github.com/inu1255/soulsign-chrome)
 
 
@@ -440,6 +502,7 @@ request({
 **框架**
 
 * [https://github.com/dcloudio/uni-app](https://github.com/dcloudio/uni-app)
+    * [https://github.com/novlan1/press-ui](https://github.com/novlan1/press-ui)
 * [https://github.com/NervJS/taro](https://github.com/NervJS/taro)
     * [https://taro.aotu.io](https://taro.aotu.io)
 * [https://github.com/tinajs/tina](https://github.com/tinajs/tina)
@@ -458,6 +521,7 @@ request({
 * [手持弹幕微信小程序版](https://github.com/redblue9771/minibarrage)
 * [https://github.com/super456/weapp_expressTime](https://github.com/super456/weapp_expressTime)
 * [https://github.com/ecomfe/echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin)
+* 照片修复 [https://github.com/shifu-group/inpaint_wechat](https://github.com/shifu-group/inpaint_wechat)
 
 
 

@@ -28,6 +28,8 @@
 * [xvfb可以将屏幕的图像输出给放到虚拟内存中](https://blog.csdn.net/wkb342814892/article/details/81591394)
 * [https://github.com/scrapy/scrapy](https://github.com/scrapy/scrapy)
 * [https://github.com/mouday/spider-admin-pro](https://github.com/mouday/spider-admin-pro)
+* [https://github.com/BuilderIO/gpt-crawler](https://github.com/BuilderIO/gpt-crawler)
+* AI辅助 [https://github.com/coder-hxl/x-crawl](https://github.com/coder-hxl/x-crawl)
 
 
 **[xpath和css选择器](/Web/README.md#xpath和css选择器)**
@@ -55,16 +57,9 @@
 
 * 搜索社交账户 [https://github.com/sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
 * [https://github.com/DropsDevopsOrg/ECommerceCrawlers](https://github.com/DropsDevopsOrg/ECommerceCrawlers)
-* [https://github.com/wnma3mz/wechat_articles_spider](https://github.com/wnma3mz/wechat_articles_spider)
-* [https://github.com/wwg88888888/WeChatExt](https://github.com/wwg88888888/WeChatExt)
-* [https://github.com/KongKong20/WeChatPCHook](https://github.com/KongKong20/WeChatPCHook)
-* [https://github.com/LeLe86/vWeChatCrawl](https://github.com/LeLe86/vWeChatCrawl)
-* [WeChatDownload，批量微信公众号文章下载小工具](https://i.ijrou.com/p/story/WeChatDownload.html)
-* [调试PC端微信内置浏览器](https://mp.weixin.qq.com/s/WZR4HXwM1PEz4nEeMCejWQ)
-* [调试PC端微信内置浏览器](http://jioho.gitee.io/blog/%E5%B7%A5%E5%85%B7/%E8%B0%83%E8%AF%95PC%E7%AB%AF%E5%BE%AE%E4%BF%A1%E5%86%85%E7%BD%AE%E6%B5%8F%E8%A7%88%E5%99%A8.html)
-* ["调戏" 微信PC端浏览器内置浏览器](https://juejin.cn/post/6844904082314887182)
-* [https://github.com/small-step/mikasa-wechat](https://github.com/small-step/mikasa-wechat)
-* [https://github.com/cixingguangming55555/wechat-bot](https://github.com/cixingguangming55555/wechat-bot)
+* [https://github.com/smallfawn/QLScriptPublic](https://github.com/smallfawn/QLScriptPublic)
+* [https://github.com/tinygeeker/tinyspiders](https://github.com/tinygeeker/tinyspiders)
+* [https://github.com/Moli-X/Resources](https://github.com/Moli-X/Resources)
 * 预苗秒杀 [https://github.com/lyrric/seckill](https://github.com/lyrric/seckill)
 
 

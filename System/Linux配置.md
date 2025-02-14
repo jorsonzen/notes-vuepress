@@ -1,12 +1,12 @@
 # Linux配置
 
-
 [[toc]]
-
 
 
 # Flag
 
+* 广告拦截 [https://github.com/pi-hole/pi-hole](https://github.com/pi-hole/pi-hole)
+* [在 Linux 上安装字体：综合指南](https://linuxiac.com/how-to-install-fonts-on-linux)
 
 
 ```bash
